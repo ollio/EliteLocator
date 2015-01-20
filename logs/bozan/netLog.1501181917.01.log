@@ -1,0 +1,1797 @@
+15-01-18-19:17 Mitteleuropäische Zeit  (18:17 GMT) - part 1
+{19:17:41} GetPortMapping(59670) failed with code 714 (NoSuchEntryInArray)
+{19:17:41} AddPortMapping(59670, 59670, 192.168.100.10) failed with code 403 (UnknownError)
+{19:17:41} failed to initialise upnp
+{19:17:41} New machine:0.0.0.0:0 x 0 Name Unknown
+{19:17:42} New machine:192.168.100.10:61436 x 0 Name Unknown
+{19:17:42} Start Log for this machine: 192.168.100.10:61436 - 
+{19:18:16} Turn State: Resolving
+{19:18:16} Turn State: Resolved
+{19:18:16} Turn State: Allocating
+{19:18:17} STUN server address is 54.228.114.174:3478
+{19:18:17} peer: STUN mapped address is 24.134.52.95:59448
+{19:18:17} Turn State: Ready
+{19:18:17} TURN relay address is 54.228.114.174:12169
+{19:18:18} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{19:18:24} ConnectToServerActivity: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3139352e3230332e323034</ip><port>19364</port></server></servers><rescueservers><server><ip>35342e3232382e31312e3636</ip><port>19364</port></server></rescueservers></data>
+{19:18:24} New machine:54.195.203.204:19364 x 0 Name Unknown
+{19:18:24} New Primary Server: 54.195.203.204:19364
+{19:18:24} New machine:54.228.11.66:19364 x 0 Name Unknown
+{19:18:24} New Rescue Server: 54.228.11.66:19364
+{19:18:24} Now using address 24.134.52.95:61436 for this machine after STUN reply
+{19:18:24} Sync Established
+{19:18:24} Register fingerprint 58235242 for 54.195.203.204:19364 x 9 EDServer#377
+{19:18:24} Connected: 54.195.203.204:19364 x 9 EDServer#377
+{19:18:25} Established MTU=1500
+{19:18:25} IJoinSession:MyTalk: 0x000000024bd2ff0b: 24.134.52.95:61436 x 7 (192.168.100.10:61436) Name Unknown
+{19:18:25} IJoinSession:Server (unspecified): 0x000004e702ee8c9a: 24.134.52.95:61436 x 10 (192.168.100.10:61436) Name Unknown
+{19:18:25} CANCEL:54.195.203.204:19364 x 11 EDServer#377|SESRQSession 0x000004e702ee8c9a { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e702ee8c9a,0x000004e707c6c000)|
+{19:18:25}  JoinSession:Server (unspecified): 0x000004e702ee8c9a: 54.195.203.204:19364 x 10 EDServer#377
+{19:18:26} Sync Established
+{19:18:26} Register fingerprint 58df67de for 54.228.11.66:19364 x 8 EDServer#327
+{19:18:26} Connected: 54.228.11.66:19364 x 8 EDServer#327
+{19:18:33} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.00
+{19:18:33} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.00
+{19:18:33} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3234362e36362e323338</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{19:18:33} EnterLocation: Using UDP server address 54.246.66.238:19364 from webserver
+{19:18:33} New machine:54.246.66.238:19364 x 0 Name Unknown
+{19:18:33} Sync Established
+{19:18:33} Register fingerprint 854f6c4a for 54.246.66.238:19364 x 10 EDServer#363
+{19:18:33} Connected: 54.246.66.238:19364 x 10 EDServer#363
+{19:18:33} Established MTU=1500
+{19:18:34} IJoinSession:Server (unspecified): 0x000004e6ff30413f: 24.134.52.95:61436 x 79 (192.168.100.10:61436) Name Unknown
+{19:18:34} CANCEL:54.246.66.238:19364 x 11 EDServer#363|SESRQSession 0x000004e6ff30413f { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:18:34}  JoinSession:Server (unspecified): 0x000004e6ff30413f: 54.246.66.238:19364 x 10 EDServer#363
+{19:18:34} New Primary Server: 54.246.66.238:19364
+{19:18:34} EnterLocation: Activity=EstablishServers&note=complete&Start=0.00&Duration=1.03
+{19:18:34} EnterLocation: Activity=WaitForEDServer&note=complete&Start=1.04&Duration=0.00
+{19:18:34} System:5(Oluf) Body:60 Pos:(212.243,977.15,-11.4384) 
+{19:18:34} New machine:82.45.236.81:49250 x 0 Name Unknown
+{19:18:34} New machine:46.164.241.21:56027 x 0 Name Unknown
+{19:18:34} vvv------------ ISLAND 0x00000001 CLAIMED ------------vvv
+{19:18:34} 82.45.236.81:49250 x 2 Name Unknown
+{19:18:34} 46.164.241.21:56027 x 2 Name Unknown
+{19:18:34} ^^^------------ island 0x00000001 claimed ------------^^^
+{19:18:34} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6f5ac482d: with 2 players, health=91.976532, friendscore=0, recentplayers=0
+FindBestIsland complete, 0x000004e6f5ac482d best health=92.0
+
+{19:18:34} IJoinSession:Island: 0x000004e6f5ac482d: 24.134.52.95:61436 x 84 (192.168.100.10:61436) Name Unknown
+{19:18:34} IJoinSession:Wake: 0x000004e6f5ac482e: 24.134.52.95:61436 x 85 (192.168.100.10:61436) Name Unknown
+{19:18:34} Recording preallocation #000004e6ff304149, 35
+{19:18:34} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=1.06&Duration=0.12
+{19:18:34} System:5(Oluf) Body:60 Pos:(212.243,977.15,-11.4384) 
+{19:18:34} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.02&Duration=1.26
+{19:18:36} Create TURN channel for 82.45.236.81:49250 x 6 Name Unknown
+{19:18:36} TurnClient:BindChannel:54.155.250.239:59703 : status=0(Success)
+{19:18:36} Create TURN channel for 46.164.241.21:56027 x 6 Name Unknown
+{19:18:36} TurnClient:BindChannel:79.125.72.13:19467 : status=0(Success)
+{19:18:36} Sync Established
+{19:18:36} Register fingerprint a1f9653b for 82.45.236.81:49250 x 8 Name Unknown
+{19:18:36} Connected: 82.45.236.81:49250 x 8 Name Unknown
+{19:18:36} Sync Established
+{19:18:36} Register fingerprint a2726da9 for 46.164.241.21:56027 x 8 Name Unknown
+{19:18:36} Connected: 46.164.241.21:56027 x 8 Name Unknown
+{19:18:36} CANCEL:82.45.236.81:49250 x 15 Name Unknown|SESRQSession 0x000004e6f5ac482d { x145 } 'Island' 2:0:1 members(0x000004e6f5ac482d,0x000004e707c6c000)|
+{19:18:36}  JoinSession:Island: 0x000004e6f5ac482d: 82.45.236.81:49250 x 18 Name Unknown
+{19:18:36} CANCEL:82.45.236.81:49250 x 19 Name Unknown|SESRQSession 0x000004e6f5ac482e { x6 } 'Wake' 2:0:1 members(0x000004e6f5ac482e,0x000004e707c6c000)|
+{19:18:36}  JoinSession:Wake: 0x000004e6f5ac482e: 82.45.236.81:49250 x 18 Name Unknown
+{19:18:36} CANCEL:82.45.236.81:49250 x 18 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 2:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:18:36} CANCEL:82.45.236.81:49250 x 16 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 1:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:18:36} CANCEL:82.45.236.81:49250 x 14 Name Unknown|SESRQSession 0x000004e702ee8c9a { x6 } 'Server (unspecified)' 2:0:2 members(0x000004e702ee8c9a,0x000004e707c6c000)|
+{19:18:36} CANCEL:46.164.241.21:56027 x 15 Name Unknown|SESRQSession 0x000004e6f5ac482d { x207 } 'Island' 1:0:2 members(0x000004e6f5ac482d,0x000004e707c6c000)|
+{19:18:36}  JoinSession:Island: 0x000004e6f5ac482d: 46.164.241.21:56027 x 18 Name Unknown
+{19:18:36} CANCEL:46.164.241.21:56027 x 19 Name Unknown|SESRQSession 0x000004e6f5ac482e { x7 } 'Wake' 1:0:2 members(0x000004e6f5ac482e,0x000004e707c6c000)|
+{19:18:36}  JoinSession:Wake: 0x000004e6f5ac482e: 46.164.241.21:56027 x 18 Name Unknown
+{19:18:36} CANCEL:46.164.241.21:56027 x 18 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 1:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:18:36} CANCEL:46.164.241.21:56027 x 16 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:18:36} CANCEL:46.164.241.21:56027 x 14 Name Unknown|SESRQSession 0x000004e702ee8c9a { x6 } 'Server (unspecified)' 1:0:2 members(0x000004e702ee8c9a,0x000004e707c6c000)|
+{19:18:36} Waiting for Authority Stability on 1 objects
+{19:18:36} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=2.78&Duration=0.00
+{19:18:36} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{19:18:37} NeedToSendAck for 82.45.236.81:49250 x 502 Name Unknown increased to 1.97, schedvalue=10.49
+{19:18:37} NeedToSendAck for 46.164.241.21:56027 x 325 Name Unknown increased to 1.96, schedvalue=10.49
+{19:18:39} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{19:18:40} FlowControl:15
+{19:18:41} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{19:18:44} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{19:18:45} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.02&Duration=13.44
+{19:18:51} FailToJoinSession1: 0x000004e702ee8c9a: at 30.0s : 54.228.11.66:19364 x 7 EDServer#327
+{19:18:51} CANCEL:54.228.11.66:19364 x 7 EDServer#327|SESRQSession 0x000004e702ee8c9a { x5 } 'Server (unspecified)' 0:0:2 members(0x000004e702ee8c9a,0x000004e707c6c000)|
+{19:18:51} FailToJoinSession1: 0x000000024bd2ff0b: at 30.0s : 54.228.11.66:19364 x 5 EDServer#327
+{19:18:51} CANCEL:54.228.11.66:19364 x 5 EDServer#327|SESRQSession 0x000000024bd2ff0b { x4 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:18:53} Dock Permission Received on pad 18
+{19:18:53} Viper_0x000004e707c6c003 Attempting to spawn docked but pad not in correct state, poking it
+{19:19:05} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=1.19&Duration=36.29
+{19:19:13} FlowControl:14
+{19:19:15} 2 machines overdue: 
+{19:19:18} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=50.39
+{19:19:18} System:5(Oluf) Body:60 Pos:(326.443,-761.155,1.28942) 
+{19:19:18} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:19:18} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:19:18} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:19:19} We (Viper_0x000004e707c6c003) own pad 18 but it's state disagrees, remind it
+{19:19:25} Low flow,153, 82.45.236.81:49250 x 204 Name Unknown: should send something to re-establish link
+{19:19:26} Dock Permission Received on pad 0
+{19:19:26} Dock Permission Received on pad 15
+{19:19:26} Low flow,142, 82.45.236.81:49250 x 199 Name Unknown: should send something to re-establish link
+{19:19:27} We (SideWinder_0x000004e6f40233f4) own pad 15 but it's state disagrees, remind it
+{19:19:27} We (SideWinder_0x000004e6f4023410) own pad 0 but it's state disagrees, remind it
+{19:19:28} FlowControl:12
+{19:19:28} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:19:32} Dock Permission Received on pad 35
+{19:19:33} Low flow,45, 82.45.236.81:49250 x 256 Name Unknown: should send something to re-establish link
+{19:19:33} We (Adder_0x000004e6f4023483) own pad 35 but it's state disagrees, remind it
+{19:19:34} Low flow,34, 82.45.236.81:49250 x 257 Name Unknown: should send something to re-establish link
+{19:19:35} Low flow,18, 82.45.236.81:49250 x 147 Name Unknown: should send something to re-establish link
+{19:19:36} Low flow,2, 82.45.236.81:49250 x 147 Name Unknown: should send something to re-establish link
+{19:19:38} FlowControl:10
+{19:19:45} 2 machines overdue: 
+{19:20:01} Low flow,177, 82.45.236.81:49250 x 146 Name Unknown: should send something to re-establish link
+{19:20:02} Low flow,166, 82.45.236.81:49250 x 146 Name Unknown: should send something to re-establish link
+{19:20:03} Low flow,150, 82.45.236.81:49250 x 146 Name Unknown: should send something to re-establish link
+{19:20:04} Low flow,134, 82.45.236.81:49250 x 146 Name Unknown: should send something to re-establish link
+{19:20:05} Discard old FragU packet: 08730126: 1/65535
+{19:20:05} Discard old FragU packet: e792012c: 1/3
+{19:20:07} FlowControl:8
+{19:20:17} Low flow,173, 82.45.236.81:49250 x 146 Name Unknown: should send something to re-establish link
+{19:20:20} 2 machines overdue: 
+{19:20:28}  LeftSession(3): 0x000004e6f5ac482d: 46.164.241.21:56027 x 443 Name Unknown
+{19:20:28} Dock Permission Received on pad 41
+{19:20:29} Low flow,-690, 82.45.236.81:49250 x 255 Name Unknown: should send something to re-establish link
+{19:20:29} We (SideWinder_0x000004e6edc7dd4c) own pad 41 but it's state disagrees, remind it
+{19:20:34} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:20:41} Low flow,205, 82.45.236.81:49250 x 201 Name Unknown: should send something to re-establish link
+{19:20:42} Low flow,187, 82.45.236.81:49250 x 201 Name Unknown: should send something to re-establish link
+{19:20:43} Low flow,171, 82.45.236.81:49250 x 201 Name Unknown: should send something to re-establish link
+{19:20:44} Low flow,153, 82.45.236.81:49250 x 201 Name Unknown: should send something to re-establish link
+{19:20:45} Discard old FragU packet: c3ce026a: 1/65535
+{19:20:45} Discard old FragU packet: 6d9b0270: 1/2
+{19:20:58} Low flow,122, 82.45.236.81:49250 x 201 Name Unknown: should send something to re-establish link
+{19:21:01} 2 machines overdue: 
+{19:21:13} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:21:13} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:21:13} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:21:18} Low flow,95, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:19} Low flow,84, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:20} Low flow,68, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:21} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:21:21} Low flow,52, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:22} Discard old FragU packet: 8c4a03b4: 2/3
+{19:21:27} Ship SideWinder_0x000004e6f40233f4 clearing docking state
+{19:21:34} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:21:36} Discard old FragU packet: 315c0422: 1/65535
+{19:21:36} Discard old FragU packet: 29110424: 1/2
+{19:21:38} 2 machines overdue: 
+{19:21:45} Low flow,202, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:46} Low flow,191, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:47} Low flow,175, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:48} Low flow,159, 82.45.236.81:49250 x 164 Name Unknown: should send something to re-establish link
+{19:21:48}  LeftSession(3): 0x000004e6f5ac482d: 82.45.236.81:49250 x 166 Name Unknown
+{19:22:10} New machine:217.117.113.203:51250 x 0 Name Unknown
+{19:22:10} using TURN connection for 217.117.113.203:51250 x 2 Name Unknown
+{19:22:10} Create TURN channel for 217.117.113.203:51250 x 2 # Name Unknown
+{19:22:10} TurnClient:BindChannel:54.155.187.75:24538 : status=0(Success)
+{19:22:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:22:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:22:14} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:22:25} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:22:26} Machine 217.117.113.203:51250 x 2 # Name Unknown disconnected: Unable to establish connection with SYNC
+{19:22:26} New Sync
+{19:22:32} Sync mismatch & received
+{19:22:34} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:22:35} Sync mismatch & received
+{19:22:38} Sync mismatch & received
+{19:22:53} Machine 217.117.113.203:51250 x 2 Name Unknown disconnected: Unable to establish connection with SYNC
+{19:22:59} 2 machines overdue: 
+{19:23:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:23:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:23:14} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:23:15} Machine 82.45.236.81:49250 x 6 Name Unknown disconnected: timeout
+{19:23:15}  LeftSession(2): 0x000004e6f5ac482e: 82.45.236.81:49250 x 7 Name Unknown
+{19:23:15} SYNC(0,0) received from 82.45.236.81:49250 - requested disconnect - 1dc-checksum
+{19:23:23} Machine going:217.117.113.203:51250 x 0 Name Unknown srtt=1000
+{19:23:25} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:23:35} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:23:45} Machine going:82.45.236.81:49250 x 0 Name Unknown srtt=455
+{19:23:54} Ship Adder_0x000004e6f4023483 clearing docking state
+{19:23:59} 2 machines overdue: 
+{19:24:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:24:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:24:18} Dock Permission Received on pad 9
+{19:24:18} Type7_0x000004e707c6c057 Attempting to spawn docked but pad not in correct state, poking it
+{19:24:22} Type7_0x000004e707c6c057 Attempting to spawn docked but pad not in correct state, poking it
+{19:24:26} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:24:26} Type7_0x000004e707c6c057 Attempting to spawn docked but pad not in correct state, poking it
+{19:24:30} Type7_0x000004e707c6c057 Attempting to spawn docked but pad not in correct state, poking it
+{19:24:34} Type7_0x000004e707c6c057 Attempting to spawn docked but pad not in correct state, poking it
+{19:24:37} 2 machines overdue: 
+{19:24:38} Type7_0x000004e707c6c057 Attempting to spawn docked but pad not in correct state, poking it
+{19:24:39} We (Type7_0x000004e707c6c057) own pad 9 but it's state disagrees, remind it
+{19:24:40} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:25:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:25:14} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:25:22} 2 machines overdue: 
+{19:25:26} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:25:38} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:25:52} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:26:08} 2 machines overdue: 
+{19:26:15} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:26:15} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:26:20} New machine:83.32.34.235:50765 x 0 Name Unknown
+{19:26:20} Create TURN channel for 83.32.34.235:50765 x 2 Name Unknown
+{19:26:20} TurnClient:BindChannel:54.220.56.152:50511 : status=0(Success)
+{19:26:21} Sync Established
+{19:26:21} Register fingerprint 8b432e16 for 83.32.34.235:50765 x 4 Name Unknown
+{19:26:21} Connected: 83.32.34.235:50765 x 4 Name Unknown
+{19:26:21} CANCEL:83.32.34.235:50765 x 14 Name Unknown|SESRQSession 0x000004e6f5ac482d { x339 } 'Island' 1:0:1 members(0x000004e6f5ac482d,0x000004e707c6c000)|
+{19:26:21} CANCEL:83.32.34.235:50765 x 27 Name Unknown|SESRQSession 0x000004e6f5ac482e { x9 } 'Wake' 1:0:2 members(0x000004e6f5ac482e,0x000004e707c6c000)|
+{19:26:21} CANCEL:83.32.34.235:50765 x 39 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:26:21} New machine:82.45.236.81:49250 x 0 Name Unknown
+{19:26:21}  JoinSession:Wake: 0x000004e6f5ac482e: 83.32.34.235:50765 x 38 Name Unknown
+{19:26:21} CANCEL:83.32.34.235:50765 x 38 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:26:21} CANCEL:83.32.34.235:50765 x 36 Name Unknown|SESRQSession 0x000004e702ee8c9a { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e702ee8c9a,0x000004e707c6c000)|
+{19:26:21}  JoinSession:Island: 0x000004e6f5ac482d: 83.32.34.235:50765 x 35 Name Unknown
+{19:26:21} Create TURN channel for 82.45.236.81:49250 x 4 Name Unknown
+{19:26:21} TurnClient:BindChannel:54.155.250.239:59703 : status=0(Success)
+{19:26:21} Sync Established
+{19:26:21} Register fingerprint 7415adac for 82.45.236.81:49250 x 6 Name Unknown
+{19:26:21} Connected: 82.45.236.81:49250 x 6 Name Unknown
+{19:26:21} CANCEL:82.45.236.81:49250 x 15 Name Unknown|SESRQSession 0x000004e6f5ac482e { x10 } 'Wake' 1:0:3 members(0x000004e6f5ac482e,0x000004e707c6c000)|
+{19:26:21}  JoinSession:Wake: 0x000004e6f5ac482e: 82.45.236.81:49250 x 15 Name Unknown
+{19:26:21} CANCEL:82.45.236.81:49250 x 35 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:26:21} CANCEL:82.45.236.81:49250 x 33 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:26:21} CANCEL:82.45.236.81:49250 x 31 Name Unknown|SESRQSession 0x000004e702ee8c9a { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e702ee8c9a,0x000004e707c6c000)|
+{19:26:21} CANCEL:82.45.236.81:49250 x 29 Name Unknown|SESRQSession 0x000004e6f5ac482d { x368 } 'Island' 0:0:2 members(0x000004e6f5ac482d,0x000004e707c6c000)|
+{19:26:23} Low flow,49, 83.32.34.235:50765 x 707 Name Unknown: should send something to re-establish link
+{19:26:29} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:26:38} 2 machines overdue: 
+{19:26:43} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:26:50} Machine 46.164.241.21:56027 x 7 Name Unknown disconnected: timeout
+{19:26:50}  LeftSession(2): 0x000004e6f5ac482e: 46.164.241.21:56027 x 8 Name Unknown
+{19:26:50} SYNC(0,0) received from 46.164.241.21:56027 - requested disconnect - 1dc-checksum
+{19:26:53} Dock Permission Received on pad 5
+{19:26:53} CobraMkIII_0x000004e707c6c08e Attempting to spawn docked but pad not in correct state, poking it
+{19:26:58} Ship Type7_0x000004e707c6c057 clearing docking state
+{19:26:59}  LeftSession(3): 0x000004e6f5ac482e: 82.45.236.81:49250 x 8 Name Unknown
+{19:26:59} CobraMkIII_0x000004e707c6c08e Attempting to spawn docked but pad not in correct state, poking it
+{19:27:03} CobraMkIII_0x000004e707c6c08e Attempting to spawn docked but pad not in correct state, poking it
+{19:27:08} CobraMkIII_0x000004e707c6c08e Attempting to spawn docked but pad not in correct state, poking it
+{19:27:13} CobraMkIII_0x000004e707c6c08e Attempting to spawn docked but pad not in correct state, poking it
+{19:27:16} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:27:16} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:27:18} CobraMkIII_0x000004e707c6c08e Attempting to spawn docked but pad not in correct state, poking it
+{19:27:19} We (CobraMkIII_0x000004e707c6c08e) own pad 5 but it's state disagrees, remind it
+{19:27:26} 2 machines overdue: 
+{19:27:30} Machine going:82.45.236.81:49250 x 0 Name Unknown srtt=229
+{19:27:30} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:27:44} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:28:00} machines=4&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=160&loss=0.071&&jit=0.333&act1=30.301&act2=6.649
+{19:28:04} System:5(Oluf) Body:60 Pos:(-1224.12,1595.44,-1025.91) 
+{19:28:07} 2 machines overdue: 
+{19:28:07} Ship Viper_0x000004e707c6c003 clearing docking state
+{19:28:11} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{19:28:16} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:28:16} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:28:18} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:28:25} System:5(Oluf) Body:60 Pos:(-2909.74,3681.63,-2371.55) 
+{19:28:30} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:28:44} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:28:45} System:5(Oluf) Body:60 Pos:(-4596.15,5768.65,-3717.72) 
+{19:28:48} NeedToSendAck for 83.32.34.235:50765 x 235 Name Unknown increased to 1.00, schedvalue=10.00
+{19:29:00} System:5(Oluf) Body:60 Pos:(-6256.03,7883.8,-5049.33) 
+{19:29:11} System:5(Oluf) Body:60 Pos:(-7943.01,9971.58,-6395.95) 
+{19:29:12} NeedToSendAck for 83.32.34.235:50765 x 378 Name Unknown increased to 1.00, schedvalue=10.00
+{19:29:13} Ship CobraMkIII_0x000004e707c6c08e clearing docking state
+{19:29:23} System:5(Oluf) Body:60 Pos:(-9629.25,12058.1,-7742.02) 
+{19:29:25} Ship SideWinder_0x000004e6edc7dd4c clearing docking state
+{19:29:31} System:5(Oluf) Body:60 Pos:(-11317.6,14146.8,-9103.28) 
+{19:29:52} 2 machines overdue: 
+{19:29:56} System:5(Oluf) Body:60 Pos:(-10859.3,11758.2,-7345.56) 
+{19:29:59} Low flow,44, 83.32.34.235:50765 x 180 Name Unknown: should send something to re-establish link
+{19:30:04} NeedToSendAck for 83.32.34.235:50765 x 178 Name Unknown increased to 1.00, schedvalue=10.00
+{19:30:07} System:5(Oluf) Body:60 Pos:(-8951.14,9790.6,-6123.54) 
+{19:30:11} NeedToSendAck for 83.32.34.235:50765 x 157 Name Unknown increased to 1.00, schedvalue=10.00
+{19:30:16} System:5(Oluf) Body:60 Pos:(-7007.95,7786.87,-4879.1) 
+{19:30:25} System:5(Oluf) Body:60 Pos:(-5046.98,5847.23,-3679.25) 
+{19:30:31} Dock Permission Received on pad 20
+{19:30:32} We (Viper_0x000004e707c6c003) own pad 20 but it's state disagrees, remind it
+{19:30:34} System:5(Oluf) Body:60 Pos:(-3045.17,3937.29,-2508.59) 
+{19:30:35} System:5(Oluf) Body:60 Pos:(-2913.85,3801.11,-2426.6) 
+{19:30:40} Dock Permission Received on pad 2
+{19:30:41} We (Asp_0x000004e700090d09) own pad 2 but it's state disagrees, remind it
+{19:30:41} NeedToSendAck for 83.32.34.235:50765 x 183 Name Unknown increased to 1.00, schedvalue=10.00
+{19:30:46} System:5(Oluf) Body:60 Pos:(-1163.59,1760.07,-1093.09) 
+{19:30:57} Low flow,165, 83.32.34.235:50765 x 189 Name Unknown: should send something to re-establish link
+{19:30:58} 2 machines overdue: 
+{19:31:35} Claim authority of Type6_0x000004e700090dbe after death notification 10 from 83.32.34.235:50765 x 163 Name Unknown
+{19:31:43} 2 machines overdue: 
+{19:32:07} System:5(Oluf) Body:60 Pos:(-207.888,16.3064,-509.682) 
+{19:32:16} 2 machines overdue: 
+{19:32:38} Low flow,-351, 83.32.34.235:50765 x 194 Name Unknown: should send something to re-establish link
+{19:32:59} 2 machines overdue: 
+{19:33:01} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:33:01} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:33:03} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:33:15} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:33:29} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:33:42} 2 machines overdue: 
+{19:33:52} System:5(Oluf) Body:60 Pos:(-1.67818,142.137,-528.342) 
+{19:34:01} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:34:01} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:34:07} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:34:15} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:34:21} Ship Viper_0x000004e700090cef clearing docking state
+{19:34:22} System:5(Oluf) Body:60 Pos:(25.3734,541.02,62.9494) 
+{19:34:29} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:34:42} 2 machines overdue: 
+{19:34:48} New machine:82.45.236.81:49250 x 0 Name Unknown
+{19:34:48} Create TURN channel for 82.45.236.81:49250 x 2 Name Unknown
+{19:34:48} TurnClient:BindChannel:54.155.250.239:59703 : status=0(Success)
+{19:34:48} Sync Established
+{19:34:48} Register fingerprint a041dd08 for 82.45.236.81:49250 x 4 Name Unknown
+{19:34:48} Connected: 82.45.236.81:49250 x 4 Name Unknown
+{19:34:48} CANCEL:82.45.236.81:49250 x 14 Name Unknown|SESRQSession 0x000004e6f5ac482d { x405 } 'Island' 1:0:2 members(0x000004e6f5ac482d,0x000004e707c6c000)|
+{19:34:48} CANCEL:82.45.236.81:49250 x 23 Name Unknown|SESRQSession 0x000004e6f5ac482e { x9 } 'Wake' 1:0:2 members(0x000004e6f5ac482e,0x000004e707c6c000)|
+{19:34:48} CANCEL:82.45.236.81:49250 x 38 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:34:48}  JoinSession:Wake: 0x000004e6f5ac482e: 82.45.236.81:49250 x 37 Name Unknown
+{19:34:48} CANCEL:82.45.236.81:49250 x 37 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:34:48} CANCEL:82.45.236.81:49250 x 35 Name Unknown|SESRQSession 0x000004e702ee8c9a { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e702ee8c9a,0x000004e707c6c000)|
+{19:34:48}  JoinSession:Island: 0x000004e6f5ac482d: 82.45.236.81:49250 x 34 Name Unknown
+{19:34:50} Low flow,-954, 82.45.236.81:49250 x 262 Name Unknown: should send something to re-establish link
+{19:35:02} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{19:35:02} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{19:35:07} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{19:35:11} NeedToSendAck for 83.32.34.235:50765 x 199 Name Unknown increased to 1.00, schedvalue=10.00
+{19:35:15} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{19:35:18} Ship Viper_0x000004e707c6c003 clearing docking state
+{19:35:21} System:5(Oluf) Body:60 Pos:(-2555.76,1320.57,-1261.11) 
+{19:35:29} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{19:35:29} System:5(Oluf) Body:60 Pos:(-5408.84,460.31,-1612.37) 
+{19:35:38} System:5(Oluf) Body:60 Pos:(-8261.61,-399.856,-1963.6) 
+{19:35:48} System:5(Oluf) Body:60 Pos:(-11157.1,-1191.4,-1990.12) 
+{19:35:52} System:5(Oluf) Body:60 Pos:(-12327.9,-1457.14,-1849.88) 
+{19:36:01} System:5(Oluf) Body:60 Pos:(-15234.6,-2116.91,-1501.66) 
+{19:36:05} 2 machines overdue: 
+{19:36:10} System:5(Oluf) Body:60 Pos:(-18141.6,-2776.76,-1153.41) 
+{19:36:11} ILeftSession(3): 0x000004e6f5ac482d: 24.134.52.95:61436 x 164 (192.168.100.10:61436) Name Unknown
+{19:36:11}  LeftSession(6): 0x000004e6f5ac482d: 82.45.236.81:49250 x 677 Name Unknown
+{19:36:11}  LeftSession(6): 0x000004e6f5ac482d: 83.32.34.235:50765 x 280 Name Unknown
+{19:36:12} ILeftSession(3): 0x000004e702ee8c9a: 24.134.52.95:61436 x 57 (192.168.100.10:61436) Name Unknown
+{19:36:12}  LeftSession(6): 0x000004e702ee8c9a: 54.195.203.204:19364 x 9 EDServer#377
+{19:36:12} Machine 54.195.203.204:19364 x 7 EDServer#377 disconnected: ServerLink::~
+{19:36:12} SYNC(0,0) received from 54.228.11.66:19364 - requested disconnect - 1fingerprint
+{19:36:12} Machine 54.228.11.66:19364 x 6 EDServer#327 disconnected: requested:1fingerprint
+{19:36:12} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{19:36:12} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{19:36:12} System:5(Oluf) Body:60 Pos:(-12298,-1452.08,-1855.36) cruising
+{19:36:12} vvv------------ ISLAND 0x00000002 CLAIMED ------------vvv
+{19:36:12} 82.45.236.81:49250 x 8 Name Unknown
+{19:36:12} ^^^------------ island 0x00000002 claimed ------------^^^
+{19:36:12} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6f5aece91: with 0 players, health=100.000000, friendscore=0, recentplayers=0
+  Reject 0x000004e6ff31c6e4: number of players,health (0,100.0) <= existing best choice (0x000004e6f5aece91 with 0,100.0)
+FindBestIsland complete, 0x000004e6f5aece91 best health=100.0
+
+{19:36:12} IJoinSession:Island: 0x000004e6f5aece91: 24.134.52.95:61436 x 67 (192.168.100.10:61436) Name Unknown
+{19:36:12} IJoinSession:Wake: 0x000004e6f5aece92: 24.134.52.95:61436 x 68 (192.168.100.10:61436) Name Unknown
+{19:36:12} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.12
+{19:36:12} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.15
+{19:36:12} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.17
+{19:36:12} CANCEL:82.45.236.81:49250 x 13 Name Unknown|SESRQSession 0x000004e6f5aece91 { x39 } 'Island' 0:0:1 members(0x000004e6f5aece91,0x000004e707c6c000)|
+{19:36:12} CANCEL:82.45.236.81:49250 x 12 Name Unknown|SESRQSession 0x000004e6f5aece92 { x6 } 'Wake' 1:0:1 members(0x000004e6f5aece92,0x000004e707c6c000)|
+{19:36:12}  JoinSession:Wake: 0x000004e6f5aece92: 82.45.236.81:49250 x 11 Name Unknown
+{19:36:12} Waiting for Authority Stability on 3 objects
+{19:36:12} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.30&Duration=0.00
+{19:36:12} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.55
+{19:36:15} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.20&Duration=2.82
+{19:36:16} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=4.12
+{19:36:42} Machine going:54.195.203.204:19364 x 0 EDServer#377 srtt=209
+{19:37:57} ILeftSession(3): 0x000004e6f5aece91: 24.134.52.95:61436 x 210 (192.168.100.10:61436) Name Unknown
+{19:37:58} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{19:37:58} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{19:37:58} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.03
+{19:37:58} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.00
+{19:37:58} System:5(Oluf) Body:14 Pos:(-1.04e+008,-829259,8.98721e+007) 
+{19:37:58} vvv------------ ISLAND 0x00000003 CLAIMED ------------vvv
+{19:37:58} ^^^------------ island 0x00000003 claimed ------------^^^
+{19:37:58} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e6ff34e1f9(-) (wake=0x000004e6ff34e1fa)
+FindBestIsland complete, 0x000004e6ff34e1f9 best health=100.0
+
+{19:37:58} IJoinSession:Island: 0x000004e6ff34e1f9: 24.134.52.95:61436 x 64 (192.168.100.10:61436) Name Unknown
+{19:37:58} IJoinSession:Wake: 0x000004e6ff34e1fa: 24.134.52.95:61436 x 65 (192.168.100.10:61436) Name Unknown
+{19:37:58} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.13
+{19:37:58} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.15
+{19:37:58} Waiting for Authority Stability on 0 objects
+{19:37:58} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.20&Duration=0.00
+{19:37:58} System:5(Oluf) Body:14 Pos:(-1.04e+008,-829015,8.98711e+007) 
+{19:37:58} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.20&Duration=0.27
+{19:37:59} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.57
+{19:37:59} System:5(Oluf) Body:14 Pos:(-1.04e+008,-829256,8.98721e+007) 
+{19:37:59} System:5(Oluf) Body:14 Pos:(-1.04002e+008,-828326,8.98693e+007) 
+{19:38:00} System:5(Oluf) Body:14 Pos:(-1.04003e+008,-827450,8.98666e+007) 
+{19:38:00} machines=3&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=310&loss=0.071&&jit=0.076&act1=21.490&act2=5.859
+{19:38:01} Machine 83.32.34.235:50765 x 6 Name Unknown disconnected: timeout
+{19:38:01}  LeftSession(2): 0x000004e6f5ac482e: 83.32.34.235:50765 x 7 Name Unknown
+{19:38:12} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{19:38:13} System:5(Oluf) Body:14 Pos:(-1.04004e+008,-826268,8.98642e+007) 
+{19:38:21} System:5(Oluf) Body:14 Pos:(-1.04005e+008,-824150,8.98629e+007) 
+{19:38:31} System:5(Oluf) Body:14 Pos:(-1.04005e+008,-821593,8.98614e+007) 
+{19:38:31} ILeftSession(3): 0x000004e6ff34e1f9: 24.134.52.95:61436 x 85 (192.168.100.10:61436) Name Unknown
+{19:38:31} Machine going:83.32.34.235:50765 x 0 Name Unknown srtt=486
+{19:38:32} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{19:38:32} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{19:38:32} System:5(Oluf) Body:14 Pos:(-1.04005e+008,-824179,8.9863e+007) cruising
+{19:38:32} vvv------------ ISLAND 0x00000004 CLAIMED ------------vvv
+{19:38:32} 82.45.236.81:49250 x 11 Name Unknown
+{19:38:32} 24.134.52.95:61436 x 73 (192.168.100.10:61436) Name Unknown
+{19:38:32} ^^^------------ island 0x00000004 claimed ------------^^^
+{19:38:32} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6f5aece91: with 0 players, health=100.000000, friendscore=0, recentplayers=0
+FindBestIsland complete, 0x000004e6f5aece91 best health=100.0
+
+{19:38:32} IJoinSession:Island: 0x000004e6f5aece91: 24.134.52.95:61436 x 76 (192.168.100.10:61436) Name Unknown
+{19:38:32} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.12
+{19:38:32} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.15
+{19:38:32} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.15
+{19:38:32} CANCEL:82.45.236.81:49250 x 14 Name Unknown|SESRQSession 0x000004e6f5aece91 { x40 } 'Island' 0:0:1 members(0x000004e6f5aece91,0x000004e707c6c000)|
+{19:38:32} Waiting for Authority Stability on 3 objects
+{19:38:32} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.32&Duration=0.00
+{19:38:32} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.85
+{19:38:38} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.20&Duration=5.95
+{19:38:39} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=7.29
+{19:38:53} ILeftSession(3): 0x000004e6f5aece91: 24.134.52.95:61436 x 111 (192.168.100.10:61436) Name Unknown
+{19:38:54} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{19:38:54} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{19:38:54} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.00
+{19:38:54} System:5(Oluf) Body:14 Pos:(-1.04224e+008,-15156.7,8.93531e+007) 
+{19:38:54} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.43
+{19:39:21} vvv------------ ISLAND 0x00000005 CLAIMED ------------vvv
+{19:39:21} ^^^------------ island 0x00000005 claimed ------------^^^
+{19:39:21} FindBestIsland:Bozan:18446744073709551615
+  Reject 0x000004e6ff34e1f9: fails to connect
+None found - create new 0x000004e6ff34e3a6(-) (wake=0x000004e6ff34e3a7)
+FindBestIsland complete, 0x000004e6ff34e3a6 best health=100.0
+
+{19:39:21} IJoinSession:Island: 0x000004e6ff34e3a6: 24.134.52.95:61436 x 72 (192.168.100.10:61436) Name Unknown
+{19:39:21} IJoinSession:Wake: 0x000004e6ff34e3a7: 24.134.52.95:61436 x 73 (192.168.100.10:61436) Name Unknown
+{19:39:21} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=27.70
+{19:39:21} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=27.72
+{19:39:21} Waiting for Authority Stability on 0 objects
+{19:39:21} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=27.77&Duration=0.00
+{19:39:21} System:5(Oluf) Body:14 Pos:(-1.04224e+008,-15049.9,8.93537e+007) 
+{19:39:22} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=27.77&Duration=0.28
+{19:39:23} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=29.17
+{19:39:23} System:5(Oluf) Body:14 Pos:(-1.04224e+008,-15151.5,8.93531e+007) 
+{19:39:23} System:5(Oluf) Body:14 Pos:(-1.04225e+008,-13006.4,8.93511e+007) 
+{19:39:23} System:5(Oluf) Body:14 Pos:(-1.04226e+008,-10812.8,8.9349e+007) 
+{19:39:32} System:5(Oluf) Body:14 Pos:(-1.04226e+008,-8881.65,8.93468e+007) 
+{19:39:40} System:5(Oluf) Body:14 Pos:(-1.04227e+008,-7405.54,8.93443e+007) 
+{19:39:45} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:39:45} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:39:49} System:5(Oluf) Body:14 Pos:(-1.04228e+008,-5979.31,8.93418e+007) 
+{19:39:54}  LeftSession(3): 0x000004e6f5aece92: 82.45.236.81:49250 x 13 Name Unknown
+{19:39:58} System:5(Oluf) Body:14 Pos:(-1.04229e+008,-4587.85,8.93392e+007) 
+{19:40:07} System:5(Oluf) Body:14 Pos:(-1.0423e+008,-2692.39,8.93373e+007) 
+{19:40:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:40:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:40:16} System:5(Oluf) Body:14 Pos:(-1.04231e+008,-466.274,8.93357e+007) 
+{19:40:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:40:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:40:29} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:40:30} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:40:37} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:40:37} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:40:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:40:53} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:40:59} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:41:00} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:41:08} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:41:08} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:41:10} Machine 82.45.236.81:49250 x 6 Name Unknown disconnected: timeout
+{19:41:10}  LeftSession(2): 0x000004e6f5ac482e: 82.45.236.81:49250 x 7 Name Unknown
+{19:41:10} SYNC(0,0) received from 82.45.236.81:49250 - requested disconnect - 1dc-checksum
+{19:41:16} ILeftSession(3): 0x000004e6f5ac482e: 24.134.52.95:61436 x 252 (192.168.100.10:61436) Name Unknown
+{19:41:16} Machine going:46.164.241.21:56027 x 0 Name Unknown srtt=910
+{19:41:29} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:41:29} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:41:30} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:41:39} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:41:39} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:41:40} Machine going:82.45.236.81:49250 x 0 Name Unknown srtt=243
+{19:41:59} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:41:59} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:42:23} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:42:23} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:42:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:42:23} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:42:29} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:42:30} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:42:30} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:42:34} System:5(Oluf) Body:14 Pos:(-1.04231e+008,2422.32,8.9335e+007) 
+{19:42:39} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:42:39} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:42:53} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:42:53} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:42:59} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:42:59} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:43:14} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:43:14} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:43:24} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:43:24} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:43:24} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:43:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:43:29} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:43:29} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:43:30} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:43:30} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:43:39} ILeftSession(3): 0x000004e6ff34e1fa: 24.134.52.95:61436 x 361 (192.168.100.10:61436) Name Unknown
+{19:43:45} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:43:45} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:43:54} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:43:54} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:43:59} System:5(Oluf) Body:14 Pos:(-1.04228e+008,3293.64,8.93353e+007) 
+{19:43:59} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:44:00} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:44:00} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:44:15} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:44:15} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:44:23} ILeftSession(3): 0x000004e6f5aece92: 24.134.52.95:61436 x 368 (192.168.100.10:61436) Name Unknown
+{19:44:23} ILeftSession(3): 0x000004e6f5aece92: 24.134.52.95:61436 x 368 (192.168.100.10:61436) Name Unknown
+{19:44:23} Webserver request failed: code 0
+{19:44:24} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:44:24} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:44:26} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:44:30} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:44:30} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:44:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:44:31} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:44:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:44:46} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:44:55} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:44:55} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:45:10} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:45:10} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:45:24} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:45:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:45:25} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:45:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:45:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:45:26} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:45:30} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:45:30} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:45:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:45:40} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:45:40} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:45:55} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:45:55} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:46:08} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:46:08} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:46:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:46:23} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:46:24} System:5(Oluf) Body:14 Pos:(-1.04226e+008,4731.6,8.93332e+007) 
+{19:46:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:46:25} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:46:26} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:46:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:46:38} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:46:38} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:46:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:46:53} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:46:56} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:46:56} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:47:00} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:47:00} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:47:08} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:47:08} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:47:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:47:24} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:47:25} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:47:26} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:47:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:47:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:47:32} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:47:40} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:47:40} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:47:50} Server resource allocation failed, group:00000000c0286000 subgroup:DockingBays requested:1
+{19:47:55} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:47:55} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:47:56} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:48:00} machines=1&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=234&loss=0.094&&jit=0.103&act1=7.393&act2=0.352
+{19:48:10} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:48:10} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:48:12} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{19:48:26} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:48:26} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:48:26} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:48:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:48:30} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:48:30} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:48:30} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:48:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:48:32} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:49:00} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:49:00} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:49:00} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:49:00} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:49:16} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:49:16} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:49:25} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:49:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:49:30} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:49:30} System:5(Oluf) Body:14 Pos:(-1.04229e+008,4430.34,8.93347e+007) 
+{19:49:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:49:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:49:32} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:49:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:49:46} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:50:00} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:50:01} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:50:01} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:50:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:50:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:50:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:50:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:50:31} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:50:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:50:40} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:50:40} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:50:40} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:50:47} System:5(Oluf) Body:14 Pos:(-1.0423e+008,3235.16,8.93372e+007) 
+{19:50:55} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:50:55} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:50:55} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:51:01} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:51:11} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:51:11} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:51:26} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:51:27} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:51:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:51:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:51:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:51:31} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:51:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:51:32} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:51:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:51:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:51:56} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:51:56} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:52:02} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:52:11} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:52:11} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:52:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:52:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:52:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:52:43} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:52:43} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:52:43} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:52:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:52:57} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:52:58} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:52:58} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:52:58} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:53:09} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:53:09} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:53:13} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:53:13} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:53:13} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:53:42} System:5(Oluf) Body:14 Pos:(-1.04232e+008,2372.89,8.93351e+007) 
+{19:53:42} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:53:42} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:53:42} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:53:42} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:53:43} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:53:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:53:57} System:5(Oluf) Body:14 Pos:(-1.04235e+008,2075.41,8.93346e+007) 
+{19:53:57} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:53:58} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:53:58} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:54:10} System:5(Oluf) Body:14 Pos:(-1.04238e+008,2476.22,8.93349e+007) 
+{19:54:21} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:54:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:54:21} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:54:21} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:54:36} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:54:36} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:54:40} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:54:40} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:54:43} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:54:51} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:54:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:54:51} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:54:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:54:57} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:54:59} System:5(Oluf) Body:14 Pos:(-1.04237e+008,375.482,8.93332e+007) 
+{19:55:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:55:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:55:22} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:55:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:55:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:55:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:55:25} System:5(Oluf) Body:14 Pos:(-1.04236e+008,-2270.55,8.93322e+007) 
+{19:55:36} System:5(Oluf) Body:14 Pos:(-1.04235e+008,-5066.56,8.93313e+007) 
+{19:55:37} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:55:37} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:55:43} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:55:43} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:55:44} System:5(Oluf) Body:14 Pos:(-1.04234e+008,-7864.14,8.93309e+007) 
+{19:55:52} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:55:57} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:55:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:55:57} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:55:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:56:10} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:56:10} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:56:12} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:56:12} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:56:22} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:56:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:56:43} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:56:43} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:56:43} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:56:53} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:56:57} System:5(Oluf) Body:14 Pos:(-1.04231e+008,-7554.81,8.93311e+007) 
+{19:56:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:56:58} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:56:58} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:56:59} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:56:59} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:57:14} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:57:14} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:57:23} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:57:28} Server resource allocation failed, group:000000000000232b subgroup:Pirates2SW requested:1
+{19:57:29} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:57:29} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:57:40} Server resource allocation failed, group:0000000000002329 subgroup:Miners3CO requested:1
+{19:57:40} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{19:57:43} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{19:57:44} Server resource allocation failed, group:0000000000002329 subgroup:Miners4SW requested:1
+{19:57:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:57:52} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:57:53} Server resource allocation failed, group:0000000000002329 subgroup:3extra Miners B requested:1
+{19:57:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{19:57:59} Server resource allocation failed, group:000000000000232b subgroup:AmbushPirates2CO requested:1
+{19:58:00} machines=1&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=105&loss=0.120&&jit=0.136&act1=1.924&act2=0.359
+{19:58:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{19:58:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{19:58:08} System:5(Oluf) Body:14 Pos:(-1.04233e+008,-7675.93,8.93304e+007) 
+{19:58:12} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{19:58:19} System:5(Oluf) Body:14 Pos:(-1.04236e+008,-8416.57,8.9329e+007) 
+{19:58:22} ILeftSession(3): 0x000004e6ff34e3a6: 24.134.52.95:61436 x 396 (192.168.100.10:61436) Name Unknown
+{19:58:22} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{19:58:22} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{19:58:22} System:5(Oluf) Body:14 Pos:(-1.04233e+008,-14010.5,8.93304e+007) cruising
+{19:58:22} New machine:178.78.81.184:26111 x 0 Name Unknown
+{19:58:22} New machine:82.45.236.81:49250 x 0 Name Unknown
+{19:58:22} vvv------------ ISLAND 0x00000004 CLAIMED ------------vvv
+{19:58:22} 178.78.81.184:26111 x 10 Name Unknown
+{19:58:22} 178.78.81.184:26111 x 10 Name Unknown
+{19:58:22} 178.78.81.184:26111 x 10 Name Unknown
+{19:58:22} 178.78.81.184:26111 x 10 Name Unknown
+{19:58:22} 178.78.81.184:26111 x 10 Name Unknown
+{19:58:22} 82.45.236.81:49250 x 2 Name Unknown
+{19:58:22} ^^^------------ island 0x00000004 claimed ------------^^^
+{19:58:22} FindBestIsland:Bozan:18446744073709551615
+  Reject 0x000004e6ff36dab6: supercruise mismatch
+  Accept 0x000004e6ff34e92a: with 1 players, health=85.482666, friendscore=0, recentplayers=0
+FindBestIsland complete, 0x000004e6ff34e92a best health=85.5
+
+{19:58:22} IJoinSession:Island: 0x000004e6ff34e92a: 24.134.52.95:61436 x 85 (192.168.100.10:61436) Name Unknown
+{19:58:22} IJoinSession:Wake: 0x000004e6ff34e92b: 24.134.52.95:61436 x 86 (192.168.100.10:61436) Name Unknown
+{19:58:22} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.10
+{19:58:22} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.13
+{19:58:22} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.13
+{19:58:22} Create TURN channel for 178.78.81.184:26111 x 6 Name Unknown
+{19:58:22} TurnClient:BindChannel:54.220.56.152:37088 : status=0(Success)
+{19:58:22} Create TURN channel for 82.45.236.81:49250 x 6 Name Unknown
+{19:58:22} TurnClient:BindChannel:54.155.250.239:59703 : status=0(Success)
+{19:58:23} Sync mismatch & sent
+{19:58:23} Sync mismatch & sent
+{19:58:23} soft sync after hard sync - are params ok?
+{19:58:23} Sync Established
+{19:58:23} Register fingerprint 39c21ab0 for 82.45.236.81:49250 x 8 Name Unknown
+{19:58:23} Connected: 82.45.236.81:49250 x 8 Name Unknown
+{19:58:23} soft sync after hard sync - are params ok?
+{19:58:23} Sync Established
+{19:58:23} Register fingerprint 392315a9 for 178.78.81.184:26111 x 8 Name Unknown
+{19:58:23} Connected: 178.78.81.184:26111 x 8 Name Unknown
+{19:58:23} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.50
+{19:58:23} CANCEL:82.45.236.81:49250 x 28 Name Unknown|SESRQSession 0x000004e6ff34e92a { x43 } 'Island' 1:0:1 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{19:58:23} CANCEL:82.45.236.81:49250 x 27 Name Unknown|SESRQSession 0x000004e6ff34e92b { x6 } 'Wake' 2:0:1 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{19:58:23}  JoinSession:Wake: 0x000004e6ff34e92b: 82.45.236.81:49250 x 26 Name Unknown
+{19:58:23} CANCEL:178.78.81.184:26111 x 14 Name Unknown|SESRQSession 0x000004e6ff34e92a { x43 } 'Island' 1:0:1 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{19:58:23} CANCEL:178.78.81.184:26111 x 21 Name Unknown|SESRQSession 0x000004e6ff34e92b { x8 } 'Wake' 1:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{19:58:23} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.18&Duration=0.38
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} StationSuperCruiseFacsimileBase_0x00000000c0286000 proxy on 178.78.81.184:26111 x 27 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286200 proxy on 178.78.81.184:26111 x 27 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286100 proxy on 178.78.81.184:26111 x 27 Name Unknown
+Machine 178.78.81.184:26111 x 27 Name Unknown
+{19:58:23} CANCEL:82.45.236.81:49250 x 30 Name Unknown|SESRQSession 0x000004e6ff34e3a7 { x5 } 'Wake' 1:0:1 members(0x000004e6ff34e3a7,0x000004e707c6c000)|
+{19:58:23} CANCEL:82.45.236.81:49250 x 28 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 1:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:58:23} CANCEL:82.45.236.81:49250 x 26 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 1:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} StationSuperCruiseFacsimileBase_0x00000000c0286000 proxy on 178.78.81.184:26111 x 27 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286200 proxy on 178.78.81.184:26111 x 27 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286100 proxy on 178.78.81.184:26111 x 27 Name Unknown
+Machine 178.78.81.184:26111 x 27 Name Unknown
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} StationSuperCruiseFacsimileBase_0x00000000c0286000 proxy on 178.78.81.184:26111 x 27 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286200 proxy on 178.78.81.184:26111 x 27 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286100 proxy on 178.78.81.184:26111 x 27 Name Unknown
+Machine 178.78.81.184:26111 x 27 Name Unknown
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} StationSuperCruiseFacsimileBase_0x00000000c0286000 proxy on 178.78.81.184:26111 x 25 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286200 proxy on 178.78.81.184:26111 x 25 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286100 proxy on 178.78.81.184:26111 x 25 Name Unknown
+Machine 178.78.81.184:26111 x 25 Name Unknown
+{19:58:23}  JoinSession:Island: 0x000004e6ff34e92a: 178.78.81.184:26111 x 29 Name Unknown
+{19:58:23}  JoinSession:Wake: 0x000004e6ff34e92b: 178.78.81.184:26111 x 30 Name Unknown
+{19:58:23} CANCEL:178.78.81.184:26111 x 30 Name Unknown|SESRQSession 0x000004e6ff34e3a7 { x5 } 'Wake' 0:0:1 members(0x000004e6ff34e3a7,0x000004e707c6c000)|
+{19:58:23} CANCEL:178.78.81.184:26111 x 28 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:58:23} CANCEL:178.78.81.184:26111 x 26 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} StationSuperCruiseFacsimileBase_0x00000000c0286000 proxy on 178.78.81.184:26111 x 261 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286200 proxy on 178.78.81.184:26111 x 261 Name Unknown
+StationSuperCruiseFacsimileBase_0x00000000c0286100 proxy on 178.78.81.184:26111 x 261 Name Unknown
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:23} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} Waiting for Authority Stability on 3 objects
+{19:58:24} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.67
+{19:58:24} Low flow,-364, 178.78.81.184:26111 x 300 Name Unknown: should send something to re-establish link
+{19:58:24} NeedToSendAck for 178.78.81.184:26111 x 299 Name Unknown increased to 1.00, schedvalue=10.00
+{19:58:36} Discard old FragU packet: e8a5000d: 5/6
+{19:58:36} Discard old FragU packet: fcd4000e: 4/6
+{19:58:37} Discard old FragU packet: 17790010: 5/6
+{19:58:47} Discard old FragU packet: 36190012: 1/2
+{19:58:55} Low flow,181, 178.78.81.184:26111 x 161 Name Unknown: should send something to re-establish link
+{19:59:11} Low flow,17, 178.78.81.184:26111 x 159 Name Unknown: should send something to re-establish link
+{19:59:27} Low flow,172, 178.78.81.184:26111 x 159 Name Unknown: should send something to re-establish link
+{19:59:39} Machine 82.45.236.81:49250 x 6 Name Unknown disconnected: timeout
+{19:59:39}  LeftSession(2): 0x000004e6ff34e92b: 82.45.236.81:49250 x 7 Name Unknown
+{19:59:41} New machine:2.88.81.181:57349 x 0 Name Unknown
+{19:59:41} Create TURN channel for 2.88.81.181:57349 x 2 Name Unknown
+{19:59:41} TurnClient:BindChannel:54.155.187.75:47162 : status=0(Success)
+{19:59:41} Sync mismatch & sent
+{19:59:41} soft sync after hard sync - are params ok?
+{19:59:41} Sync Established
+{19:59:41} Register fingerprint 2c46a584 for 2.88.81.181:57349 x 4 Name Unknown
+{19:59:41} Connected: 2.88.81.181:57349 x 4 Name Unknown
+{19:59:41} CANCEL:2.88.81.181:57349 x 14 Name Unknown|SESRQSession 0x000004e6ff34e92a { x435 } 'Island' 1:0:2 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{19:59:41} CANCEL:2.88.81.181:57349 x 23 Name Unknown|SESRQSession 0x000004e6ff34e92b { x9 } 'Wake' 1:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{19:59:41} CANCEL:2.88.81.181:57349 x 38 Name Unknown|SESRQSession 0x000004e6ff34e3a7 { x5 } 'Wake' 0:0:1 members(0x000004e6ff34e3a7,0x000004e707c6c000)|
+{19:59:41} CANCEL:2.88.81.181:57349 x 36 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:59:41}  JoinSession:Wake: 0x000004e6ff34e92b: 2.88.81.181:57349 x 35 Name Unknown
+{19:59:41} CANCEL:2.88.81.181:57349 x 35 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:59:41}  JoinSession:Island: 0x000004e6ff34e92a: 2.88.81.181:57349 x 34 Name Unknown
+{19:59:42} Sync Established
+{19:59:42} Register fingerprint 136a48b5 for 82.45.236.81:49250 x 6 Name Unknown
+{19:59:42} Connected: 82.45.236.81:49250 x 6 Name Unknown
+{19:59:42} CANCEL:82.45.236.81:49250 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x10 } 'Wake' 1:0:3 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{19:59:42}  JoinSession:Wake: 0x000004e6ff34e92b: 82.45.236.81:49250 x 15 Name Unknown
+{19:59:42} CANCEL:82.45.236.81:49250 x 31 Name Unknown|SESRQSession 0x000004e6ff34e3a7 { x5 } 'Wake' 0:0:1 members(0x000004e6ff34e3a7,0x000004e707c6c000)|
+{19:59:42} CANCEL:82.45.236.81:49250 x 29 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{19:59:42} CANCEL:82.45.236.81:49250 x 27 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{19:59:42} CANCEL:82.45.236.81:49250 x 25 Name Unknown|SESRQSession 0x000004e6ff34e92a { x467 } 'Island' 0:0:3 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{19:59:47} Low flow,150, 178.78.81.184:26111 x 160 Name Unknown: should send something to re-establish link
+{19:59:48} NeedToSendAck for 2.88.81.181:57349 x 122 Name Unknown increased to 1.00, schedvalue=10.00
+{19:59:53} Low flow,192, 2.88.81.181:57349 x 174 Name Unknown: should send something to re-establish link
+{20:00:04} Low flow,219, 178.78.81.184:26111 x 162 Name Unknown: should send something to re-establish link
+{20:00:11}  LeftSession(3): 0x000004e6ff34e92a: 178.78.81.184:26111 x 143 Name Unknown
+{20:00:12} Low flow,41, 2.88.81.181:57349 x 184 Name Unknown: should send something to re-establish link
+{20:00:12} NeedToSendAck for 2.88.81.181:57349 x 185 Name Unknown increased to 2.00, schedvalue=10.50
+{20:00:46}  LeftSession(3): 0x000004e6ff34e92b: 82.45.236.81:49250 x 8 Name Unknown
+{20:00:47} NeedToSendAck for 82.45.236.81:49250 x 5 Name Unknown increased to 1.00, schedvalue=10.00
+{20:01:11} Low flow,176, 2.88.81.181:57349 x 260 Name Unknown: should send something to re-establish link
+{20:01:17} Machine going:82.45.236.81:49250 x 0 Name Unknown srtt=85
+{20:01:41} ILeftSession(3): 0x000004e6ff34e92a: 24.134.52.95:61436 x 224 (192.168.100.10:61436) Name Unknown
+{20:01:41}  LeftSession(6): 0x000004e6ff34e92a: 2.88.81.181:57349 x 796 Name Unknown
+{20:01:42} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{20:01:42} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{20:01:42} System:5(Oluf) Body:60 Pos:(19302.9,4729.81,-7661.29) 
+{20:01:42} New machine:82.45.236.81:49250 x 0 Name Unknown
+{20:01:42} vvv------------ ISLAND 0x00000003 CLAIMED ------------vvv
+{20:01:42} 82.45.236.81:49250 x 2 Name Unknown
+{20:01:42} 178.78.81.184:26111 x 273 Name Unknown
+{20:01:42} ^^^------------ island 0x00000003 claimed ------------^^^
+{20:01:42} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6ff36df64: with 2 players, health=90.921356, friendscore=0, recentplayers=2
+FindBestIsland complete, 0x000004e6ff36df64 best health=90.9
+
+{20:01:42} IJoinSession:Island: 0x000004e6ff36df64: 24.134.52.95:61436 x 129 (192.168.100.10:61436) Name Unknown
+{20:01:42} IJoinSession:Wake: 0x000004e6ff36df65: 24.134.52.95:61436 x 130 (192.168.100.10:61436) Name Unknown
+{20:01:42} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.11
+{20:01:42} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.15
+{20:01:42} System:5(Oluf) Body:60 Pos:(19080.6,5320.35,-6952.66) 
+{20:01:42} CANCEL:178.78.81.184:26111 x 280 Name Unknown|SESRQSession 0x000004e6ff36df64 { x146 } 'Island' 2:0:1 members(0x000004e6ff36df64,0x000004e707c6c000)|
+{20:01:42}  JoinSession:Island: 0x000004e6ff36df64: 178.78.81.184:26111 x 284 Name Unknown
+{20:01:42} CANCEL:178.78.81.184:26111 x 285 Name Unknown|SESRQSession 0x000004e6ff36df65 { x6 } 'Wake' 2:0:1 members(0x000004e6ff36df65,0x000004e707c6c000)|
+{20:01:42}  JoinSession:Wake: 0x000004e6ff36df65: 178.78.81.184:26111 x 285 Name Unknown
+{20:01:42} Create TURN channel for 82.45.236.81:49250 x 6 Name Unknown
+{20:01:42} TurnClient:BindChannel:54.155.250.239:59703 : status=0(Success)
+{20:01:42} Sync mismatch & sent
+{20:01:42} Register fingerprint ebc150d1 for 82.45.236.81:49250 x 7 Name Unknown
+{20:01:42} Connected: 82.45.236.81:49250 x 7 Name Unknown
+{20:01:42} CANCEL:82.45.236.81:49250 x 26 Name Unknown|SESRQSession 0x000004e6ff36df64 { x209 } 'Island' 1:0:2 members(0x000004e6ff36df64,0x000004e707c6c000)|
+{20:01:42} CANCEL:82.45.236.81:49250 x 32 Name Unknown|SESRQSession 0x000004e6ff36df65 { x8 } 'Wake' 1:0:2 members(0x000004e6ff36df65,0x000004e707c6c000)|
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Coriolis_0x00000000c0286000 proxy on 82.45.236.81:49250 x 32 Name Unknown
+Machine 82.45.236.81:49250 x 32 Name Unknown
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Coriolis_0x00000000c0286000 proxy on 82.45.236.81:49250 x 35 Name Unknown
+Machine 82.45.236.81:49250 x 35 Name Unknown
+{20:01:42} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.62
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Coriolis_0x00000000c0286000 proxy on 82.45.236.81:49250 x 35 Name Unknown
+Machine 82.45.236.81:49250 x 35 Name Unknown
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Coriolis_0x00000000c0286000 proxy on 82.45.236.81:49250 x 35 Name Unknown
+Machine 82.45.236.81:49250 x 35 Name Unknown
+{20:01:42} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.60
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Coriolis_0x00000000c0286000 proxy on 82.45.236.81:49250 x 145 Name Unknown
+Machine 82.45.236.81:49250 x 145 Name Unknown
+{20:01:42} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.20&Duration=0.47
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Coriolis_0x00000000c0286000 proxy on 82.45.236.81:49250 x 143 Name Unknown
+Machine 82.45.236.81:49250 x 143 Name Unknown
+{20:01:42}  JoinSession:Island: 0x000004e6ff36df64: 82.45.236.81:49250 x 147 Name Unknown
+{20:01:42}  JoinSession:Wake: 0x000004e6ff36df65: 82.45.236.81:49250 x 148 Name Unknown
+{20:01:42} CANCEL:82.45.236.81:49250 x 148 Name Unknown|SESRQSession 0x000004e6ff34e3a7 { x5 } 'Wake' 0:0:1 members(0x000004e6ff34e3a7,0x000004e707c6c000)|
+{20:01:42} CANCEL:82.45.236.81:49250 x 146 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:01:42} CANCEL:82.45.236.81:49250 x 144 Name Unknown|SESRQSession 0x000004e6ff34e92b { x9 } 'Wake' 0:0:3 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:01:42} CANCEL:82.45.236.81:49250 x 142 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Coriolis_0x00000000c0286000 proxy on 82.45.236.81:49250 x 180 Name Unknown
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:42} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:43} Waiting for Authority Stability on 1 objects
+{20:01:44} Waiting for Authority Stability on 1 objects
+{20:01:44} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.79
+{20:01:44} System:5(Oluf) Body:60 Pos:(19294.4,4728.91,-7656.31) 
+{20:01:44} System:5(Oluf) Body:60 Pos:(15881.8,3764.47,-6497.74) 
+{20:01:44} System:5(Oluf) Body:60 Pos:(13068.8,2969.47,-5542.73) 
+{20:01:44} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{20:01:44} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{20:01:44} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{20:01:44} System:5(Oluf) Body:60 Pos:(10210.9,2161.82,-4572.51) 
+{20:01:52} System:5(Oluf) Body:60 Pos:(7399.43,1508.51,-3721.98) 
+{20:01:53} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{20:02:00} System:5(Oluf) Body:60 Pos:(4435.92,1922.77,-3504.94) 
+{20:02:04} Dock Permission Received on pad 27
+{20:02:05} We (Viper_0x000004e707c6c9c3) own pad 27 but it's state disagrees, remind it
+{20:02:09} System:5(Oluf) Body:60 Pos:(1538.97,2621.22,-3152.5) 
+{20:02:20} System:5(Oluf) Body:60 Pos:(-797.689,1925.4,-1387.27) 
+{20:02:30} NeedToSendAck for 178.78.81.184:26111 x 163 Name Unknown increased to 1.00, schedvalue=10.00
+{20:03:09} Low flow,239, 178.78.81.184:26111 x 128 Name Unknown: should send something to re-establish link
+{20:03:17} System:5(Oluf) Body:60 Pos:(38.606,300.085,259.476) 
+{20:03:17} Dock Permission Received on pad 12
+{20:03:17} Dock Permission Received on pad 3
+{20:03:18} We (Eagle_0x000004e70382f9f4) own pad 12 but it's state disagrees, remind it
+{20:03:18} We (SideWinder_0x000004e70382f9dc) own pad 3 but it's state disagrees, remind it
+{20:03:18}  LeftSession(3): 0x000004e6ff36df64: 178.78.81.184:26111 x 261 Name Unknown
+{20:03:24} ILeftSession(3): 0x000004e6ff34e3a7: 24.134.52.95:61436 x 222 (192.168.100.10:61436) Name Unknown
+{20:03:24} 3 machines overdue: 
+{20:03:25} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{20:03:25} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{20:03:25} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{20:03:34} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{20:03:36} Dock Permission Received on pad 24
+{20:03:36} We (Orca_0x000004e70382fa06) own pad 24 but it's state disagrees, remind it
+{20:04:20} Dock Permission Received on pad 43
+{20:04:21} We (SideWinder_0x000004e70382fa7a) own pad 43 but it's state disagrees, remind it
+{20:04:25} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{20:04:25} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{20:04:25} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{20:04:34} Dock Permission Received on pad 20
+{20:04:35} CobraMkIII_0x000004e707c6c9de Attempting to spawn docked but pad not in correct state, poking it
+{20:04:37} System:5(Oluf) Body:60 Pos:(316.086,230.633,4.08745) 
+{20:04:39} CobraMkIII_0x000004e707c6c9de Attempting to spawn docked but pad not in correct state, poking it
+{20:04:40} Machine 2.88.81.181:57349 x 6 Name Unknown disconnected: timeout
+{20:04:40}  LeftSession(2): 0x000004e6ff34e92b: 2.88.81.181:57349 x 7 Name Unknown
+{20:04:40} SYNC(0,0) received from 2.88.81.181:57349 - requested disconnect - 1dc-checksum
+{20:04:44} CobraMkIII_0x000004e707c6c9de Attempting to spawn docked but pad not in correct state, poking it
+{20:04:46} SYNC(0,0) received from 178.78.81.184:26111 - requested disconnect - 1timeout
+{20:04:46} Machine 178.78.81.184:26111 x 11 Name Unknown disconnected: requested:1timeout
+{20:04:46}  LeftSession(2): 0x000004e6ff36df65: 178.78.81.184:26111 x 12 Name Unknown
+{20:04:46}  LeftSession(2): 0x000004e6ff34e92b: 178.78.81.184:26111 x 10 Name Unknown
+{20:04:49} CobraMkIII_0x000004e707c6c9de Attempting to spawn docked but pad not in correct state, poking it
+{20:04:53} CobraMkIII_0x000004e707c6c9de Attempting to spawn docked but pad not in correct state, poking it
+{20:04:58} CobraMkIII_0x000004e707c6c9de Attempting to spawn docked but pad not in correct state, poking it
+{20:04:59} Sync mismatch & sent
+{20:04:59} soft sync after hard sync - are params ok?
+{20:04:59} Sync Established
+{20:04:59} Register fingerprint 363b546c for 2.88.81.181:57349 x 4 Name Unknown
+{20:04:59} Connected: 2.88.81.181:57349 x 4 Name Unknown
+{20:04:59} We (CobraMkIII_0x000004e707c6c9de) own pad 20 but it's state disagrees, remind it
+{20:04:59} CANCEL:2.88.81.181:57349 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x5 } 'Wake' 1:0:1 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:04:59} CANCEL:2.88.81.181:57349 x 30 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:04:59} CANCEL:2.88.81.181:57349 x 29 Name Unknown|SESRQSession 0x000004e6ff36df65 { x9 } 'Wake' 0:0:2 members(0x000004e6ff36df65,0x000004e707c6c000)|
+{20:04:59}  JoinSession:Wake: 0x000004e6ff34e92b: 2.88.81.181:57349 x 29 Name Unknown
+{20:04:59} CANCEL:2.88.81.181:57349 x 29 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:04:59} CANCEL:2.88.81.181:57349 x 28 Name Unknown|SESRQSession 0x000004e6ff36df64 { x419 } 'Island' 0:0:2 members(0x000004e6ff36df64,0x000004e707c6c000)|
+{20:05:33} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{20:05:33} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{20:05:33} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{20:05:48} System:5(Oluf) Body:60 Pos:(-1678.48,1913,-1485.99) 
+{20:05:51} Ship Viper_0x000004e707c6c9c3 clearing docking state
+{20:05:54} System:5(Oluf) Body:60 Pos:(-2775.62,2998.41,-2524.13) 
+{20:05:54}  LeftSession(3): 0x000004e6ff36df64: 82.45.236.81:49250 x 355 Name Unknown
+{20:05:55} Dock Permission Received on pad 35
+{20:05:55} Dock Permission Received on pad 3
+{20:05:56} We (Eagle_0x000004e70382f9f4) own pad 3 but it's state disagrees, remind it
+{20:05:56} We (SideWinder_0x000004e70382f9dc) own pad 35 but it's state disagrees, remind it
+{20:05:59} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{20:06:02} System:5(Oluf) Body:60 Pos:(-4521.5,3322.03,-4178.84) 
+{20:06:11} System:5(Oluf) Body:60 Pos:(-6807.03,3431.64,-6126.71) 
+{20:06:12} ILeftSession(3): 0x000004e6ff36df64: 24.134.52.95:61436 x 245 (192.168.100.10:61436) Name Unknown
+{20:06:13} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.02
+{20:06:13} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.02
+{20:06:13} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.02
+{20:06:13} System:5(Oluf) Body:60 Pos:(-4498.49,3323.41,-4158.45) cruising
+{20:06:13} vvv------------ ISLAND 0x00000005 CLAIMED ------------vvv
+{20:06:13} 2.88.81.181:57349 x 10 Name Unknown
+{20:06:13} 2.88.81.181:57349 x 10 Name Unknown
+{20:06:13} 24.134.52.95:61436 x 88 (192.168.100.10:61436) Name Unknown
+{20:06:13} ^^^------------ island 0x00000005 claimed ------------^^^
+{20:06:13} FindBestIsland:Bozan:18446744073709551615
+  Reject 0x000004e6ff388e1c: supercruise mismatch
+  Accept 0x000004e6ff34e92a: with 1 players, health=89.515404, friendscore=0, recentplayers=1
+FindBestIsland complete, 0x000004e6ff34e92a best health=89.5
+
+{20:06:13} IJoinSession:Island: 0x000004e6ff34e92a: 24.134.52.95:61436 x 91 (192.168.100.10:61436) Name Unknown
+{20:06:13} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.12
+{20:06:13} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.12
+{20:06:13} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.15
+{20:06:13} CANCEL:2.88.81.181:57349 x 13 Name Unknown|SESRQSession 0x000004e6ff34e92a { x44 } 'Island' 1:0:1 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{20:06:13}  JoinSession:Island: 0x000004e6ff34e92a: 2.88.81.181:57349 x 15 Name Unknown
+{20:06:13} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.20&Duration=0.27
+{20:06:13} Waiting for Authority Stability on 3 objects
+{20:06:13} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.47&Duration=0.00
+{20:06:14} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.59
+{20:06:15} Low flow,198, 2.88.81.181:57349 x 480 Name Unknown: should send something to re-establish link
+{20:06:26}  LeftSession(3): 0x000004e6ff34e92a: 2.88.81.181:57349 x 130 Name Unknown
+{20:06:29} NeedToSendAck for 2.88.81.181:57349 x 13 Name Unknown increased to 1.00, schedvalue=10.00
+{20:06:29} NeedToSendAck for 2.88.81.181:57349 x 13 Name Unknown increased to 2.00, schedvalue=10.50
+{20:06:29} NeedToSendAck for 2.88.81.181:57349 x 13 Name Unknown increased to 3.00, schedvalue=10.67
+{20:06:29} NeedToSendAck for 2.88.81.181:57349 x 13 Name Unknown increased to 4.00, schedvalue=10.75
+{20:06:29} NeedToSendAck for 2.88.81.181:57349 x 13 Name Unknown increased to 5.00, schedvalue=10.80
+{20:06:29} NeedToSendAck for 2.88.81.181:57349 x 13 Name Unknown increased to 6.00, schedvalue=10.83
+{20:06:30} NeedToSendAck for 2.88.81.181:57349 x 13 Name Unknown increased to 1.00, schedvalue=10.00
+{20:06:52}  JoinSession:Island: 0x000004e6ff34e92a: 2.88.81.181:57349 x 17 Name Unknown
+{20:06:55} Low flow,-825, 2.88.81.181:57349 x 818 Name Unknown: should send something to re-establish link
+{20:06:57} Low flow,-827, 2.88.81.181:57349 x 917 Name Unknown: should send something to re-establish link
+{20:07:02} Discard old FragU packet: 37a30028: 1/2
+{20:07:29} Machine 82.45.236.81:49250 x 7 Name Unknown disconnected: timeout
+{20:07:29}  LeftSession(2): 0x000004e6ff36df65: 82.45.236.81:49250 x 8 Name Unknown
+{20:08:00} machines=2&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=205&loss=0.069&&jit=0.074&act1=22.257&act2=7.486
+{20:08:06} New machine:81.174.151.145:55533 x 0 Name Unknown
+{20:08:06} Create TURN channel for 81.174.151.145:55533 x 2 Name Unknown
+{20:08:06} TurnClient:BindChannel:54.228.114.174:48500 : status=0(Success)
+{20:08:06} Sync Established
+{20:08:06} Register fingerprint 09777ab7 for 81.174.151.145:55533 x 4 Name Unknown
+{20:08:06} Connected: 81.174.151.145:55533 x 4 Name Unknown
+{20:08:06} CANCEL:81.174.151.145:55533 x 14 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:08:06} CANCEL:81.174.151.145:55533 x 12 Name Unknown|SESRQSession 0x000004e6ff36df65 { x5 } 'Wake' 0:0:1 members(0x000004e6ff36df65,0x000004e707c6c000)|
+{20:08:06} CANCEL:81.174.151.145:55533 x 11 Name Unknown|SESRQSession 0x000004e6ff34e92b { x11 } 'Wake' 1:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:08:06}  JoinSession:Wake: 0x000004e6ff34e92b: 81.174.151.145:55533 x 11 Name Unknown
+{20:08:06} CANCEL:81.174.151.145:55533 x 11 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:08:06} CANCEL:81.174.151.145:55533 x 10 Name Unknown|SESRQSession 0x000004e6ff34e92a { x504 } 'Island' 1:0:2 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{20:08:06}  JoinSession:Island: 0x000004e6ff34e92a: 81.174.151.145:55533 x 23 Name Unknown
+{20:08:10} Low flow,-573, 81.174.151.145:55533 x 471 Name Unknown: should send something to re-establish link
+{20:08:12} Low flow,-514, 81.174.151.145:55533 x 429 Name Unknown: should send something to re-establish link
+{20:08:12} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{20:08:13} Low flow,-882, 81.174.151.145:55533 x 647 Name Unknown: should send something to re-establish link
+{20:08:30} Low flow,173, 2.88.81.181:57349 x 281 Name Unknown: should send something to re-establish link
+{20:08:42} Low flow,106, 2.88.81.181:57349 x 284 Name Unknown: should send something to re-establish link
+{20:08:44} Low flow,105, 2.88.81.181:57349 x 287 Name Unknown: should send something to re-establish link
+{20:08:53} Discard old FragU packet: 7d0c002b: 3/4
+{20:09:02} ILeftSession(3): 0x000004e6ff34e92a: 24.134.52.95:61436 x 258 (192.168.100.10:61436) Name Unknown
+{20:09:02}  LeftSession(6): 0x000004e6ff34e92a: 81.174.151.145:55533 x 330 Name Unknown
+{20:09:02}  LeftSession(6): 0x000004e6ff34e92a: 2.88.81.181:57349 x 770 Name Unknown
+{20:09:02} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{20:09:02} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{20:09:02} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.07&Duration=0.00
+{20:09:02} System:5(Oluf) Body:14 Pos:(1.15672e+008,10407.7,-7.11915e+007) 
+{20:09:02} vvv------------ ISLAND 0x00000002 CLAIMED ------------vvv
+{20:09:02} ^^^------------ island 0x00000002 claimed ------------^^^
+{20:09:02} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e6ff3c1a7c(-) (wake=0x000004e6ff3c1a7d)
+FindBestIsland complete, 0x000004e6ff3c1a7c best health=100.0
+
+{20:09:02} IJoinSession:Island: 0x000004e6ff3c1a7c: 24.134.52.95:61436 x 97 (192.168.100.10:61436) Name Unknown
+{20:09:02} IJoinSession:Wake: 0x000004e6ff3c1a7d: 24.134.52.95:61436 x 98 (192.168.100.10:61436) Name Unknown
+{20:09:02} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.07&Duration=0.13
+{20:09:02} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.07&Duration=0.17
+{20:09:02} Waiting for Authority Stability on 0 objects
+{20:09:02} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.23&Duration=0.00
+{20:09:02} System:5(Oluf) Body:14 Pos:(1.15673e+008,9809.13,-7.11915e+007) 
+{20:09:03} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.80
+{20:09:08} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.23&Duration=5.89
+{20:09:09} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=7.26
+{20:09:10} 2 machines overdue: 
+{20:09:10} System:5(Oluf) Body:14 Pos:(1.15672e+008,10404.7,-7.11915e+007) 
+{20:09:10} System:5(Oluf) Body:14 Pos:(1.15669e+008,10205,-7.11897e+007) 
+{20:09:10} System:5(Oluf) Body:14 Pos:(1.15667e+008,10025.7,-7.11881e+007) 
+{20:09:19} System:5(Oluf) Body:14 Pos:(1.15664e+008,9849.53,-7.11865e+007) 
+{20:09:41} System:5(Oluf) Body:14 Pos:(1.15662e+008,9188.44,-7.1185e+007) 
+{20:09:56} System:5(Oluf) Body:14 Pos:(1.15659e+008,7469.28,-7.11842e+007) 
+{20:10:12} System:5(Oluf) Body:14 Pos:(1.15657e+008,5749.11,-7.11833e+007) 
+{20:10:28} System:5(Oluf) Body:14 Pos:(1.15655e+008,4029.07,-7.11824e+007) 
+{20:10:31} SYNC(0,0) received from 81.174.151.145:55533 - requested disconnect - 1timeout
+{20:10:31} Machine 81.174.151.145:55533 x 5 Name Unknown disconnected: requested:1timeout
+{20:10:31}  LeftSession(2): 0x000004e6ff34e92b: 81.174.151.145:55533 x 6 Name Unknown
+{20:10:44} System:5(Oluf) Body:14 Pos:(1.15652e+008,2310.56,-7.11815e+007) 
+{20:10:58} System:5(Oluf) Body:14 Pos:(1.1565e+008,578.799,-7.11806e+007) 
+{20:11:01} Machine going:81.174.151.145:55533 x 0 Name Unknown srtt=390
+{20:11:11} System:5(Oluf) Body:14 Pos:(1.15648e+008,-1107.81,-7.11795e+007) 
+{20:11:14} ILeftSession(3): 0x000004e6ff36df65: 24.134.52.95:61436 x 103 (192.168.100.10:61436) Name Unknown
+{20:11:14} 2 machines overdue: 
+{20:11:14} Machine going:82.45.236.81:49250 x 0 Name Unknown srtt=507
+{20:11:14} Machine going:178.78.81.184:26111 x 0 Name Unknown srtt=417
+{20:11:21} System:5(Oluf) Body:14 Pos:(1.15645e+008,-1415.32,-7.11779e+007) 
+{20:11:28} New machine:83.97.221.133:57942 x 0 Name Unknown
+{20:11:28} Create TURN channel for 83.97.221.133:57942 x 2 Name Unknown
+{20:11:28} TurnClient:BindChannel:54.155.175.96:46661 : status=0(Success)
+{20:11:28} Sync Established
+{20:11:28} Register fingerprint 65db2f6d for 83.97.221.133:57942 x 4 Name Unknown
+{20:11:28} Connected: 83.97.221.133:57942 x 4 Name Unknown
+{20:11:28} CANCEL:83.97.221.133:57942 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x9 } 'Wake' 1:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:11:28} CANCEL:83.97.221.133:57942 x 27 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:11:28} CANCEL:83.97.221.133:57942 x 25 Name Unknown|SESRQSession 0x000004e6ff3c1a7c { x70 } 'Island' 0:0:1 members(0x000004e6ff3c1a7c,0x000004e707c6c000)|
+{20:11:28} New machine:71.198.134.237:62586 x 0 Name Unknown
+{20:11:28} New machine:81.174.151.145:55533 x 0 Name Unknown
+{20:11:28}  JoinSession:Wake: 0x000004e6ff34e92b: 83.97.221.133:57942 x 24 Name Unknown
+{20:11:28} CANCEL:83.97.221.133:57942 x 24 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:11:28} CANCEL:83.97.221.133:57942 x 22 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x7 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:11:28} Create TURN channel for 71.198.134.237:62586 x 4 Name Unknown
+{20:11:28} TurnClient:BindChannel:54.69.194.223:48997 : status=0(Success)
+{20:11:28} Create TURN channel for 81.174.151.145:55533 x 4 Name Unknown
+{20:11:28} TurnClient:BindChannel:54.228.114.174:48500 : status=0(Success)
+{20:11:29} Sync Established
+{20:11:29} Register fingerprint 5245db3c for 81.174.151.145:55533 x 6 Name Unknown
+{20:11:29} Connected: 81.174.151.145:55533 x 6 Name Unknown
+{20:11:29} CANCEL:81.174.151.145:55533 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x10 } 'Wake' 2:0:3 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:11:29}  JoinSession:Wake: 0x000004e6ff34e92b: 81.174.151.145:55533 x 15 Name Unknown
+{20:11:29} CANCEL:81.174.151.145:55533 x 39 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:11:29} CANCEL:81.174.151.145:55533 x 37 Name Unknown|SESRQSession 0x000004e6ff3c1a7c { x70 } 'Island' 0:0:1 members(0x000004e6ff3c1a7c,0x000004e707c6c000)|
+{20:11:29} CANCEL:81.174.151.145:55533 x 35 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:11:29} CANCEL:81.174.151.145:55533 x 33 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x7 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:11:29} Sync Established
+{20:11:29} Register fingerprint 520e8e55 for 71.198.134.237:62586 x 6 Name Unknown
+{20:11:29} Connected: 71.198.134.237:62586 x 6 Name Unknown
+{20:11:29} CANCEL:71.198.134.237:62586 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x11 } 'Wake' 1:0:4 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:11:29}  JoinSession:Wake: 0x000004e6ff34e92b: 71.198.134.237:62586 x 16 Name Unknown
+{20:11:29} CANCEL:71.198.134.237:62586 x 33 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:11:29} CANCEL:71.198.134.237:62586 x 31 Name Unknown|SESRQSession 0x000004e6ff3c1a7c { x70 } 'Island' 0:0:1 members(0x000004e6ff3c1a7c,0x000004e707c6c000)|
+{20:11:29} CANCEL:71.198.134.237:62586 x 29 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:11:29} CANCEL:71.198.134.237:62586 x 27 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x7 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:12:07} System:5(Oluf) Body:14 Pos:(1.15642e+008,-1935.43,-7.11779e+007) 
+{20:12:15} System:5(Oluf) Body:14 Pos:(1.15639e+008,-2551.44,-7.11779e+007) 
+{20:12:23} System:5(Oluf) Body:14 Pos:(1.15637e+008,-2907.93,-7.11766e+007) 
+{20:12:32} System:5(Oluf) Body:14 Pos:(1.15634e+008,-3258.17,-7.1175e+007) 
+{20:12:41} System:5(Oluf) Body:14 Pos:(1.15632e+008,-3607.59,-7.11734e+007) 
+{20:12:45} Machine 71.198.134.237:62586 x 4 Name Unknown disconnected: timeout
+{20:12:45}  LeftSession(2): 0x000004e6ff34e92b: 71.198.134.237:62586 x 5 Name Unknown
+{20:12:51} System:5(Oluf) Body:14 Pos:(1.15629e+008,-3958.08,-7.11718e+007) 
+{20:13:00} System:5(Oluf) Body:14 Pos:(1.15627e+008,-4154.26,-7.11703e+007) 
+{20:13:13} System:5(Oluf) Body:14 Pos:(1.15624e+008,-3593.41,-7.11691e+007) 
+{20:13:15} Machine going:71.198.134.237:62586 x 0 Name Unknown srtt=229
+{20:13:23} SYNC(0,0) received from 2.88.81.181:57349 - requested disconnect - 1timeout
+{20:13:23} Machine 2.88.81.181:57349 x 8 Name Unknown disconnected: requested:1timeout
+{20:13:23}  LeftSession(2): 0x000004e6ff34e92b: 2.88.81.181:57349 x 9 Name Unknown
+{20:13:39} SYNC(0,0) received from 83.97.221.133:57942 - requested disconnect - 1timeout
+{20:13:39} Machine 83.97.221.133:57942 x 5 Name Unknown disconnected: requested:1timeout
+{20:13:39}  LeftSession(2): 0x000004e6ff34e92b: 83.97.221.133:57942 x 6 Name Unknown
+{20:13:45} System:5(Oluf) Body:14 Pos:(1.15624e+008,-2256.33,-7.11677e+007) 
+{20:14:09} Machine going:83.97.221.133:57942 x 0 Name Unknown srtt=179
+{20:14:10} ILeftSession(3): 0x000004e6ff34e92b: 24.134.52.95:61436 x 118 (192.168.100.10:61436) Name Unknown
+{20:14:10}  LeftSession(6): 0x000004e6ff34e92b: 81.174.151.145:55533 x 6 Name Unknown
+{20:14:10} ILeftSession(3): 0x000004e6ff34e92b: 24.134.52.95:61436 x 118 (192.168.100.10:61436) Name Unknown
+{20:14:10} 2 machines overdue: 
+{20:14:10} Machine going:2.88.81.181:57349 x 0 Name Unknown srtt=542
+{20:14:10} New machine:95.90.246.242:43127 x 0 Name Unknown
+{20:14:11} Create TURN channel for 95.90.246.242:43127 x 2 Name Unknown
+{20:14:11} TurnClient:BindChannel:176.34.194.254:55965 : status=0(Success)
+{20:14:11} Sync Established
+{20:14:11} Register fingerprint 1b888b4e for 95.90.246.242:43127 x 4 Name Unknown
+{20:14:11} Connected: 95.90.246.242:43127 x 4 Name Unknown
+{20:14:11} CANCEL:95.90.246.242:43127 x 36 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:14:11} CANCEL:95.90.246.242:43127 x 34 Name Unknown|SESRQSession 0x000004e6ff3c1a7c { x106 } 'Island' 0:0:1 members(0x000004e6ff3c1a7c,0x000004e707c6c000)|
+{20:14:11} CANCEL:95.90.246.242:43127 x 32 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:14:11} CANCEL:95.90.246.242:43127 x 30 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x7 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:14:12} NeedToSendAck for 95.90.246.242:43127 x 28 Name Unknown increased to 1.00, schedvalue=10.00
+{20:14:35} System:5(Oluf) Body:14 Pos:(1.15622e+008,-2633.97,-7.11661e+007) 
+{20:14:35} System:5(Oluf) Body:14 Pos:(1.15622e+008,-2639.35,-7.11661e+007) 
+{20:14:42} Machine going:95.90.246.242:43127 x 0 Name Unknown srtt=59
+{20:14:43} System:5(Oluf) Body:14 Pos:(1.15619e+008,-2751.77,-7.11646e+007) 
+{20:14:49} Machine going:81.174.151.145:55533 x 0 Name Unknown srtt=140
+{20:14:52} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{20:14:52} Server resource allocation failed, group:0000000000002329 subgroup:BountyHunters1CO requested:1
+{20:14:52} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{20:14:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:14:53} System:5(Oluf) Body:14 Pos:(1.15618e+008,-5207.53,-7.11638e+007) 
+{20:15:02} System:5(Oluf) Body:14 Pos:(1.15617e+008,-8155.27,-7.11635e+007) 
+{20:15:04} System:5(Oluf) Body:14 Pos:(1.15617e+008,-8523.79,-7.11633e+007) 
+{20:15:07} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{20:15:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{20:15:07} Server resource allocation failed, group:0000000000002329 subgroup:BountyHunters1CO requested:1
+{20:15:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:15:13} System:5(Oluf) Body:14 Pos:(1.15615e+008,-11011.9,-7.11625e+007) 
+{20:15:14} ILeftSession(3): 0x000004e6ff3c1a7c: 24.134.52.95:61436 x 140 (192.168.100.10:61436) Name Unknown
+{20:15:14} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.05
+{20:15:14} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.05
+{20:15:14} System:5(Oluf) Body:14 Pos:(1.15617e+008,-14010.5,-7.11633e+007) cruising
+{20:15:14} New machine:2.88.81.181:57349 x 0 Name Unknown
+{20:15:14} New machine:83.97.221.133:57942 x 0 Name Unknown
+{20:15:14} New machine:95.90.246.242:43127 x 0 Name Unknown
+{20:15:14} vvv------------ ISLAND 0x00000005 CLAIMED ------------vvv
+{20:15:14} 2.88.81.181:57349 x 8 Name Unknown
+{20:15:14} 83.97.221.133:57942 x 2 Name Unknown
+{20:15:14} 2.88.81.181:57349 x 8 Name Unknown
+{20:15:14} 2.88.81.181:57349 x 8 Name Unknown
+{20:15:14} 95.90.246.242:43127 x 2 Name Unknown
+{20:15:14} 2.88.81.181:57349 x 8 Name Unknown
+{20:15:14} ^^^------------ island 0x00000005 claimed ------------^^^
+{20:15:14} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6ff34e92a: with 0 players, health=100.000000, friendscore=0, recentplayers=0
+  Reject 0x000004e6ff3c1bb1: supercruise mismatch
+FindBestIsland complete, 0x000004e6ff34e92a best health=100.0
+
+{20:15:14} IJoinSession:Island: 0x000004e6ff34e92a: 24.134.52.95:61436 x 103 (192.168.100.10:61436) Name Unknown
+{20:15:14} IJoinSession:Wake: 0x000004e6ff34e92b: 24.134.52.95:61436 x 104 (192.168.100.10:61436) Name Unknown
+{20:15:14} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.06&Duration=0.12
+{20:15:14} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.06&Duration=0.12
+{20:15:14} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.06&Duration=0.15
+{20:15:14} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.32
+{20:15:14} Create TURN channel for 2.88.81.181:57349 x 6 Name Unknown
+{20:15:14} TurnClient:BindChannel:54.155.187.75:47162 : status=0(Success)
+{20:15:14} Create TURN channel for 83.97.221.133:57942 x 6 Name Unknown
+{20:15:14} TurnClient:BindChannel:54.155.175.96:46661 : status=0(Success)
+{20:15:14} Create TURN channel for 95.90.246.242:43127 x 6 Name Unknown
+{20:15:14} TurnClient:BindChannel:176.34.194.254:55965 : status=0(Success)
+{20:15:15} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.21&Duration=0.25
+{20:15:16} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.56
+{20:15:18} Sync Established
+{20:15:18} Register fingerprint f38b4027 for 2.88.81.181:57349 x 8 Name Unknown
+{20:15:18} Connected: 2.88.81.181:57349 x 8 Name Unknown
+{20:15:18} CANCEL:2.88.81.181:57349 x 14 Name Unknown|SESRQSession 0x000004e6ff34e92a { x43 } 'Island' 2:0:1 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{20:15:18} CANCEL:2.88.81.181:57349 x 13 Name Unknown|SESRQSession 0x000004e6ff34e92b { x7 } 'Wake' 3:0:1 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:15:18}  JoinSession:Wake: 0x000004e6ff34e92b: 2.88.81.181:57349 x 13 Name Unknown
+{20:15:18} CANCEL:2.88.81.181:57349 x 13 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:15:18} CANCEL:2.88.81.181:57349 x 11 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:15:18} CANCEL:2.88.81.181:57349 x 9 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x5 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:15:29} RestartSyncUsingTurn
+{20:15:29} Create TURN channel for 95.90.246.242:43127 x 6 # Name Unknown
+{20:15:29} TurnClient:BindChannel:176.34.194.254:55965 : status=0(Success)
+{20:15:29} RestartSyncUsingTurn
+{20:15:29} Create TURN channel for 83.97.221.133:57942 x 6 # Name Unknown
+{20:15:29} TurnClient:BindChannel:54.155.175.96:46661 : status=0(Success)
+{20:15:41} ILeftSession(3): 0x000004e6ff34e92a: 24.134.52.95:61436 x 149 (192.168.100.10:61436) Name Unknown
+{20:15:41} CANCEL:95.90.246.242:43127 x 8 # Name Unknown|SESRQSession 0x000004e6ff34e92a { x32 } 'Island' 1:0:0 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{20:15:41}  LeftSession(6): 0x000004e6ff34e92a: 95.90.246.242:43127 x 7 # Name Unknown
+{20:15:41} CANCEL:83.97.221.133:57942 x 8 # Name Unknown|SESRQSession 0x000004e6ff34e92a { x32 } 'Island' 0:0:0 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{20:15:41}  LeftSession(6): 0x000004e6ff34e92a: 83.97.221.133:57942 x 7 # Name Unknown
+{20:15:42} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{20:15:42} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{20:15:42} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.00
+{20:15:42} System:5(Oluf) Body:14 Pos:(1.1555e+008,-13433.3,-7.11221e+007) 
+{20:15:42} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.11
+{20:15:44} FailToJoinSession1: 0x000004e6ff34e92b: at 30.0s : 95.90.246.242:43127 x 4 # Name Unknown
+{20:15:44} CANCEL:95.90.246.242:43127 x 4 # Name Unknown|SESRQSession 0x000004e6ff34e92b { x6 } 'Wake' 1:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:15:44} FailToJoinSession1: 0x000004e6ff34e92b: at 30.0s : 83.97.221.133:57942 x 4 # Name Unknown
+{20:15:44} CANCEL:83.97.221.133:57942 x 4 # Name Unknown|SESRQSession 0x000004e6ff34e92b { x6 } 'Wake' 0:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:15:45} Machine 95.90.246.242:43127 x 3 # Name Unknown disconnected: Unable to establish connection with SYNC
+{20:15:45} Machine 83.97.221.133:57942 x 3 # Name Unknown disconnected: Unable to establish connection with SYNC
+{20:15:45} vvv------------ ISLAND 0x00000004 CLAIMED ------------vvv
+{20:15:45} 24.134.52.95:61436 x 100 (192.168.100.10:61436) Name Unknown
+{20:15:45} ^^^------------ island 0x00000004 claimed ------------^^^
+{20:15:45} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6ff3c1a7c: with 0 players, health=100.000000, friendscore=0, recentplayers=0
+FindBestIsland complete, 0x000004e6ff3c1a7c best health=100.0
+
+{20:15:45} IJoinSession:Island: 0x000004e6ff3c1a7c: 24.134.52.95:61436 x 103 (192.168.100.10:61436) Name Unknown
+{20:15:45} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=2.89
+{20:15:45} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=2.92
+{20:15:45} Waiting for Authority Stability on 0 objects
+{20:15:45} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=2.97&Duration=0.00
+{20:15:45} System:5(Oluf) Body:14 Pos:(1.15549e+008,-13183.3,-7.11223e+007) 
+{20:15:45} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=2.97&Duration=0.28
+{20:15:46} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=4.39
+{20:15:46} System:5(Oluf) Body:14 Pos:(1.1555e+008,-13426.5,-7.11221e+007) 
+{20:15:46} System:5(Oluf) Body:14 Pos:(1.15552e+008,-11982.7,-7.11234e+007) 
+{20:15:47} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:15:47} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{20:15:47} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:15:47} System:5(Oluf) Body:14 Pos:(1.15554e+008,-10449,-7.11248e+007) 
+{20:15:54} System:5(Oluf) Body:14 Pos:(1.15557e+008,-8989.3,-7.11261e+007) 
+{20:15:54} New machine:81.174.151.145:55533 x 0 Name Unknown
+{20:15:54} Create TURN channel for 81.174.151.145:55533 x 2 Name Unknown
+{20:15:54} TurnClient:BindChannel:54.228.114.174:48500 : status=0(Success)
+{20:15:54} Sync Established
+{20:15:54} Register fingerprint 3cca0d13 for 81.174.151.145:55533 x 4 Name Unknown
+{20:15:54} Connected: 81.174.151.145:55533 x 4 Name Unknown
+{20:15:55} CANCEL:81.174.151.145:55533 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x7 } 'Wake' 1:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:15:55} CANCEL:81.174.151.145:55533 x 29 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:15:55} CANCEL:81.174.151.145:55533 x 27 Name Unknown|SESRQSession 0x000004e6ff3c1a7c { x122 } 'Island' 0:0:1 members(0x000004e6ff3c1a7c,0x000004e707c6c000)|
+{20:15:55}  JoinSession:Wake: 0x000004e6ff34e92b: 81.174.151.145:55533 x 26 Name Unknown
+{20:15:55} CANCEL:81.174.151.145:55533 x 26 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:15:55} CANCEL:81.174.151.145:55533 x 24 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x9 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:16:02} System:5(Oluf) Body:14 Pos:(1.15559e+008,-7486.14,-7.11274e+007) 
+{20:16:05} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:16:05} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:16:05} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:16:10} Machine 83.97.221.133:57942 x 4 Name Unknown disconnected: Unable to establish connection with SYNC
+{20:16:10} FailToJoinSession1: 0x000004e6ff34e92b: at 15.1s : 83.97.221.133:57942 x 3 Name Unknown
+{20:16:10} CANCEL:83.97.221.133:57942 x 3 Name Unknown|SESRQSession 0x000004e6ff34e92b { x8 } 'Wake' 0:0:3 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:16:10} System:5(Oluf) Body:14 Pos:(1.15561e+008,-5856.3,-7.11287e+007) 
+{20:16:15} Machine going:95.90.246.242:43127 x 0 Name Unknown srtt=1000
+{20:16:17} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:16:19} System:5(Oluf) Body:14 Pos:(1.15563e+008,-4215.9,-7.113e+007) 
+{20:16:20} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:16:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:16:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:16:27} System:5(Oluf) Body:14 Pos:(1.15566e+008,-2886.48,-7.11315e+007) 
+{20:16:31} New machine:81.109.94.99:58434 x 0 Name Unknown
+{20:16:32} Create TURN channel for 81.109.94.99:58434 x 2 Name Unknown
+{20:16:32} TurnClient:BindChannel:54.228.114.174:10470 : status=0(Success)
+{20:16:32} Sync Established
+{20:16:32} Register fingerprint 1e2ad29d for 81.109.94.99:58434 x 4 Name Unknown
+{20:16:32} Connected: 81.109.94.99:58434 x 4 Name Unknown
+{20:16:32} CANCEL:81.109.94.99:58434 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x9 } 'Wake' 1:0:3 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:16:32} CANCEL:81.109.94.99:58434 x 37 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:16:32} CANCEL:81.109.94.99:58434 x 35 Name Unknown|SESRQSession 0x000004e6ff3c1a7c { x166 } 'Island' 0:0:1 members(0x000004e6ff3c1a7c,0x000004e707c6c000)|
+{20:16:32}  JoinSession:Wake: 0x000004e6ff34e92b: 81.109.94.99:58434 x 34 Name Unknown
+{20:16:32} CANCEL:81.109.94.99:58434 x 34 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:16:32} CANCEL:81.109.94.99:58434 x 32 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x9 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:16:35} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:16:35} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:16:35} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:16:37} System:5(Oluf) Body:14 Pos:(1.15569e+008,-3290.53,-7.11319e+007) 
+{20:16:40} Machine going:83.97.221.133:57942 x 0 Name Unknown srtt=1000
+{20:16:47} System:5(Oluf) Body:14 Pos:(1.15571e+008,-3412.06,-7.11326e+007) 
+{20:16:50} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:16:51} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:16:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:17:01} System:5(Oluf) Body:14 Pos:(1.1557e+008,-4609.63,-7.11351e+007) 
+{20:17:02} Machine 2.88.81.181:57349 x 6 Name Unknown disconnected: timeout
+{20:17:02}  LeftSession(2): 0x000004e6ff34e92b: 2.88.81.181:57349 x 7 Name Unknown
+{20:17:06} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:17:06} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:17:06} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:17:13} System:5(Oluf) Body:14 Pos:(1.15568e+008,-3645.44,-7.11361e+007) 
+{20:17:20} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:17:21} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:17:24} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:17:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:17:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:17:31} New machine:83.97.221.133:57942 x 0 Name Unknown
+{20:17:32} Machine going:2.88.81.181:57349 x 0 Name Unknown srtt=177
+{20:17:40} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:17:40} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:17:40} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:17:46} Machine 83.97.221.133:57942 x 2 Name Unknown disconnected: Unable to establish connection with SYNC
+{20:17:48} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{20:17:48} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:17:50} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:17:55} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:17:55} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:18:00} machines=3&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=109&loss=0.118&&jit=0.107&act1=17.418&act2=1.919
+{20:18:06} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:18:10} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:18:10} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:18:10} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:18:13} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{20:18:14} SYNC(0,0) received from 81.174.151.145:55533 - requested disconnect - 1timeout
+{20:18:14} Machine 81.174.151.145:55533 x 5 Name Unknown disconnected: requested:1timeout
+{20:18:14}  LeftSession(2): 0x000004e6ff34e92b: 81.174.151.145:55533 x 6 Name Unknown
+{20:18:16} Machine going:83.97.221.133:57942 x 0 Name Unknown srtt=1000
+{20:18:19} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:18:20} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:18:32} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:18:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:18:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:18:36} System:5(Oluf) Body:14 Pos:(1.15566e+008,-4727.25,-7.11385e+007) 
+{20:18:44} Machine going:81.174.151.145:55533 x 0 Name Unknown srtt=136
+{20:18:47} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:18:47} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:18:47} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:18:48} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{20:18:48} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{20:18:48} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{20:18:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{20:18:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:18:51} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:18:52} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:19:02} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:19:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:19:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:19:21} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:19:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:19:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:19:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:19:36} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:19:36} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:19:36} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:19:37} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:19:46} System:5(Oluf) Body:14 Pos:(1.15567e+008,-2101.67,-7.11397e+007) 
+{20:19:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{20:19:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:19:51} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:19:51} Server resource allocation failed, group:000000000000232b subgroup:Pirates3SW requested:1
+{20:19:51} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:19:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:19:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:20:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:20:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:20:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:20:16} System:5(Oluf) Body:14 Pos:(1.15569e+008,-360.401,-7.11396e+007) 
+{20:20:18} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{20:20:18} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{20:20:18} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{20:20:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:20:21} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:20:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:20:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:20:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:20:28} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:20:46} ILeftSession(3): 0x000004e6ff34e92b: 24.134.52.95:61436 x 327 (192.168.100.10:61436) Name Unknown
+{20:20:46}  LeftSession(6): 0x000004e6ff34e92b: 81.109.94.99:58434 x 6 Name Unknown
+{20:20:46} 2 machines overdue: 
+{20:20:46} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:20:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:20:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:20:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{20:20:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:20:52} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:21:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:21:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:21:06} System:5(Oluf) Body:14 Pos:(1.15567e+008,-1867.32,-7.1138e+007) 
+{20:21:13} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:21:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:21:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:21:21} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:21:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:21:22} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:21:23} Machine going:81.109.94.99:58434 x 0 Name Unknown srtt=199
+{20:21:24} System:5(Oluf) Body:14 Pos:(1.15565e+008,-1469.96,-7.11361e+007) 
+{20:21:36} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:21:36} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:21:36} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:21:48} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{20:21:48} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 3 requested:1
+{20:21:49} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{20:21:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{20:21:52} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:21:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:21:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:21:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:21:52} Server resource allocation failed, group:000000000000232b subgroup:Pirates3SW requested:1
+{20:21:52} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:22:07} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:22:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:22:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:22:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:22:20} System:5(Oluf) Body:14 Pos:(1.15564e+008,-529.097,-7.11389e+007) 
+{20:22:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:22:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:22:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:22:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:22:23} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:22:32} System:5(Oluf) Body:14 Pos:(1.15563e+008,825.415,-7.11415e+007) 
+{20:22:38} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:22:38} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:22:38} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:22:45} System:5(Oluf) Body:14 Pos:(1.15562e+008,2448.27,-7.11438e+007) 
+{20:22:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{20:22:52} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{20:22:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{20:22:53} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{20:22:53} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:22:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:22:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:23:01} System:5(Oluf) Body:14 Pos:(1.15563e+008,5393.28,-7.11443e+007) 
+{20:23:06} System:5(Oluf) Body:14 Pos:(1.15564e+008,7273.09,-7.11447e+007) 
+{20:23:14} System:5(Oluf) Body:14 Pos:(1.15565e+008,9777.86,-7.11453e+007) 
+{20:23:14} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{20:23:14} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{20:23:14} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{20:23:16} ILeftSession(3): 0x000004e6ff3c1a7c: 24.134.52.95:61436 x 337 (192.168.100.10:61436) Name Unknown
+{20:23:17} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.02
+{20:23:17} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.02
+{20:23:17} System:5(Oluf) Body:14 Pos:(1.15564e+008,14010.5,-7.11447e+007) cruising
+{20:23:17} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.09
+{20:23:17} New machine:81.109.94.99:58434 x 0 Name Unknown
+{20:23:17} vvv------------ ISLAND 0x00000005 CLAIMED ------------vvv
+{20:23:17} 81.109.94.99:58434 x 2 Name Unknown
+{20:23:17} ^^^------------ island 0x00000005 claimed ------------^^^
+{20:23:17} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6ff34e92a: with 0 players, health=100.000000, friendscore=0, recentplayers=0
+FindBestIsland complete, 0x000004e6ff34e92a best health=100.0
+
+{20:23:17} IJoinSession:Island: 0x000004e6ff34e92a: 24.134.52.95:61436 x 108 (192.168.100.10:61436) Name Unknown
+{20:23:17} IJoinSession:Wake: 0x000004e6ff34e92b: 24.134.52.95:61436 x 109 (192.168.100.10:61436) Name Unknown
+{20:23:17} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=0.12
+{20:23:17} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.12
+{20:23:17} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.15
+{20:23:17} Create TURN channel for 81.109.94.99:58434 x 6 Name Unknown
+{20:23:17} TurnClient:BindChannel:54.228.114.174:10470 : status=0(Success)
+{20:23:17} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.20&Duration=0.28
+{20:23:18} Sync Established
+{20:23:18} Register fingerprint d8ed0dc7 for 81.109.94.99:58434 x 8 Name Unknown
+{20:23:18} Connected: 81.109.94.99:58434 x 8 Name Unknown
+{20:23:18} CANCEL:81.109.94.99:58434 x 14 Name Unknown|SESRQSession 0x000004e6ff34e92a { x43 } 'Island' 0:0:1 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{20:23:18} New machine:71.198.134.237:62586 x 0 Name Unknown
+{20:23:18} CANCEL:81.109.94.99:58434 x 14 Name Unknown|SESRQSession 0x000004e6ff34e92b { x6 } 'Wake' 1:0:1 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:23:18}  JoinSession:Wake: 0x000004e6ff34e92b: 81.109.94.99:58434 x 14 Name Unknown
+{20:23:18} Waiting for Authority Stability on 3 objects
+{20:23:18} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=1.52&Duration=0.00
+{20:23:18} CANCEL:81.109.94.99:58434 x 36 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:23:18} CANCEL:81.109.94.99:58434 x 35 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:23:18} CANCEL:81.109.94.99:58434 x 34 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x6 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:23:19} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.60
+{20:23:19} Create TURN channel for 71.198.134.237:62586 x 4 Name Unknown
+{20:23:19} TurnClient:BindChannel:54.69.194.223:48997 : status=0(Success)
+{20:23:19} Sync Established
+{20:23:19} Register fingerprint fd09fee3 for 71.198.134.237:62586 x 6 Name Unknown
+{20:23:19} Connected: 71.198.134.237:62586 x 6 Name Unknown
+{20:23:19} CANCEL:71.198.134.237:62586 x 15 Name Unknown|SESRQSession 0x000004e6ff34e92b { x9 } 'Wake' 1:0:2 members(0x000004e6ff34e92b,0x000004e707c6c000)|
+{20:23:19}  JoinSession:Wake: 0x000004e6ff34e92b: 71.198.134.237:62586 x 15 Name Unknown
+{20:23:19} CANCEL:71.198.134.237:62586 x 31 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e707c6c000)|
+{20:23:19} CANCEL:71.198.134.237:62586 x 29 Name Unknown|SESRQSession 0x000004e6ff34e92a { x43 } 'Island' 0:0:1 members(0x000004e6ff34e92a,0x000004e707c6c000)|
+{20:23:19} CANCEL:71.198.134.237:62586 x 27 Name Unknown|SESRQSession 0x000004e6ff30413f { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e6ff30413f,0x000004e707c6c000)|
+{20:23:19} CANCEL:71.198.134.237:62586 x 25 Name Unknown|SESRQSession 0x000004e6ff3c1a7d { x6 } 'Wake' 0:0:1 members(0x000004e6ff3c1a7d,0x000004e707c6c000)|
+{20:23:20}  LeftSession(3): 0x000004e6ff34e92b: 81.109.94.99:58434 x 8 Name Unknown
+{20:23:51} Machine going:81.109.94.99:58434 x 0 Name Unknown srtt=201
+{20:24:35} Machine 71.198.134.237:62586 x 4 Name Unknown disconnected: timeout
+{20:24:35}  LeftSession(2): 0x000004e6ff34e92b: 71.198.134.237:62586 x 5 Name Unknown
+{20:25:05} Machine going:71.198.134.237:62586 x 0 Name Unknown srtt=220
+{20:25:51} ILeftSession(3): 0x000004e6ff34e92a: 24.134.52.95:61436 x 246 (192.168.100.10:61436) Name Unknown
+{20:25:51} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{20:25:51} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{20:25:52} System:5(Oluf) Body:60 Pos:(16896.5,-11427.9,3808) 
+{20:25:54} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:25:56} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=4.07
+{20:25:57} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:26:00} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:26:03} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:26:06} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:26:09} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:26:12} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:26:15} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{20:26:16} vvv------------ ISLAND 0x00000003 CLAIMED ------------vvv
+{20:26:16} ^^^------------ island 0x00000003 claimed ------------^^^
+{20:26:16} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e70a2008ae(-) (wake=0x000004e70a2008af)
+FindBestIsland complete, 0x000004e70a2008ae best health=100.0
+
+{20:26:16} IJoinSession:Island: 0x000004e70a2008ae: 24.134.52.95:61436 x 145 (192.168.100.10:61436) Name Unknown
+{20:26:16} IJoinSession:Wake: 0x000004e70a2008af: 24.134.52.95:61436 x 146 (192.168.100.10:61436) Name Unknown
+{20:26:16} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=24.32
+{20:26:16} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=24.34
+{20:26:16} Waiting for Authority Stability on 1 objects
+{20:26:16} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=24.39&Duration=0.00
+{20:26:16} System:5(Oluf) Body:60 Pos:(17064,-11808.9,3203.36) 
+{20:26:16} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=24.36
+{20:26:16} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=24.39&Duration=0.23
+{20:26:17} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=25.70
+{20:26:17} System:5(Oluf) Body:60 Pos:(16888.4,-11422.3,3809.02) 
+{20:26:17} System:5(Oluf) Body:60 Pos:(13845.4,-9259.42,3211.6) 
+{20:26:17} System:5(Oluf) Body:60 Pos:(11159,-7349.95,2684.17) 
+{20:26:18} System:5(Oluf) Body:60 Pos:(8665.14,-5577.42,2194.57) 
+{20:26:24} System:5(Oluf) Body:60 Pos:(6438.27,-3659.03,1586.15) 
+{20:26:25} Dock Permission Received on pad 43
+{20:26:26} We (Viper_0x000004e707c9c33a) own pad 43 but it's state disagrees, remind it
+{20:26:29} System:5(Oluf) Body:60 Pos:(5234.23,-2216.06,1073.11) 
+{20:26:30} Dock Permission Received on pad 39
+{20:26:30} Type9_0x000004e707c9c3bf Attempting to spawn docked but pad not in correct state, poking it
+{20:26:33} Type9_0x000004e707c9c3bf Attempting to spawn docked but pad not in correct state, poking it
+{20:26:36} Type9_0x000004e707c9c3bf Attempting to spawn docked but pad not in correct state, poking it
+{20:26:37} System:5(Oluf) Body:60 Pos:(3644.44,234.354,377.335) 
+{20:26:38} Type9_0x000004e707c9c3bf Attempting to spawn docked but pad not in correct state, poking it
+{20:26:40} Type9_0x000004e707c9c3bf Attempting to spawn docked but pad not in correct state, poking it
+{20:26:43} Type9_0x000004e707c9c3bf Attempting to spawn docked but pad not in correct state, poking it
+{20:26:44} We (Type9_0x000004e707c9c3bf) own pad 39 but it's state disagrees, remind it
+{20:26:46} System:5(Oluf) Body:60 Pos:(1986.3,2728.51,127.155) 
+{20:27:04} System:5(Oluf) Body:60 Pos:(-751.034,1798.23,-679.084) 
+{20:27:08} Dock Permission Received on pad 28
+{20:27:09} We (SideWinder_0x000004e707c9c37d) own pad 28 but it's state disagrees, remind it
+{20:27:18} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_6 requested:1
+{20:27:18} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{20:27:18} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{20:27:20} System:5(Oluf) Body:60 Pos:(421.991,-827.124,183.423) 
+{20:27:27} Dock Permission Received on pad 0
+{20:27:28} We (Eagle_0x000004e707c9c3da) own pad 0 but it's state disagrees, remind it
+{20:27:41} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_4 requested:1
+{20:27:43} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_5 requested:1
+{20:27:50} Dock Permission Received on pad 3
+{20:27:51} We (SideWinder_0x000004e707c9c56b) own pad 3 but it's state disagrees, remind it
+{20:28:00} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{20:28:00} Dock Permission Received on pad 33
+{20:28:00} machines=1&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=140&loss=0.065&&jit=0.069&act1=4.570&act2=0.337
+{20:28:00} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{20:28:01} We (SideWinder_0x000004e707c9c581) own pad 33 but it's state disagrees, remind it
+{20:28:07} Dock Permission Received on pad 13
+{20:28:08} We (Adder_0x000004e707c9c591) own pad 13 but it's state disagrees, remind it
+{20:28:10} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{20:28:13} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{20:28:18} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_6 requested:1
+{20:28:18} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{20:28:18} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{20:28:19} ILeftSession(3): 0x000004e6ff3c1a7d: 24.134.52.95:61436 x 274 (192.168.100.10:61436) Name Unknown
+{20:28:19} ILeftSession(3): 0x000004e6ff3c1a7d: 24.134.52.95:61436 x 274 (192.168.100.10:61436) Name Unknown
+{20:28:42} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_4 requested:1
+{20:28:43} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_5 requested:1
+{20:28:51} ILeftSession(3): 0x000004e70a2008ae: 24.134.52.95:61436 x 254 (192.168.100.10:61436) Name Unknown
+{20:28:51} ILeftSession(3): 0x000004e6ff34e92b: 24.134.52.95:61436 x 252 (192.168.100.10:61436) Name Unknown
+{20:28:51} ILeftSession(3): 0x000004e70a2008af: 24.134.52.95:61436 x 251 (192.168.100.10:61436) Name Unknown
+{20:28:53} CANCEL:54.228.11.66:19364 x 3 EDServer#327|StartServerAdmin(authenticated) (rescue)|
+{20:28:53} ILeftSession(3): 0x000004e6ff30413f: 24.134.52.95:61436 x 3 (192.168.100.10:61436) Name Unknown
+{20:28:53}  LeftSession(6): 0x000004e6ff30413f: 54.246.66.238:19364 x 8 EDServer#363
+{20:28:53} Machine going:54.228.11.66:19364 x 0 EDServer#327 srtt=98
+{20:28:59} ILeftSession(3): 0x000000024bd2ff0b: 24.134.52.95:61436 x 3 (192.168.100.10:61436) Name Unknown
+{20:28:59} Machine 54.246.66.238:19364 x 6 EDServer#363 disconnected: shutdown
+{20:28:59} Machine 24.134.52.95:61436 x 2 (192.168.100.10:61436) Name Unknown disconnected: shutdown
+{20:28:59} Machine going:0.0.0.0:0 x 0 DummyMachine srtt=1000
+{20:28:59} Machine going:54.246.66.238:19364 x 0 EDServer#363 srtt=507
+{20:28:59} Machine going:24.134.52.95:61436 x 0 Name Unknown srtt=1000
+{20:28:59} Turn State: Deallocating
+{20:28:59} TURN Relay shutting down..

@@ -1,0 +1,453 @@
+15-01-17-21:25 Mitteleuropäische Zeit  (20:25 GMT) - part 1
+{21:25:50} GetPortMapping(57280) failed with code 714 (NoSuchEntryInArray)
+{21:25:50} AddPortMapping(57280, 57280, 192.168.100.10) failed with code 403 (UnknownError)
+{21:25:50} failed to initialise upnp
+{21:25:50} Start Log for this machine: 192.168.100.10:58761 - 
+{21:26:31} ConnectToServerActivity: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e37382e3136302e3934</ip><port>19364</port></server></servers><rescueservers><server><ip>35342e3137302e3232352e313330</ip><port>19364</port></server></rescueservers></data>
+{21:26:31} New Primary Server: 54.78.160.94:19364
+{21:26:31} New Rescue Server: 54.170.225.130:19364
+{21:26:31} Now using address 24.134.52.95:58761 for this machine after STUN reply
+{21:26:31} Connected: 54.78.160.94:19364 x 9 EDServer#374
+{21:26:32} Established MTU=1500
+{21:26:32} IJoinSession:MyTalk: 0x000000024bd2ff0b: 24.134.52.95:58761 x 7 (192.168.100.10:58761) Name Unknown
+{21:26:32} IJoinSession:Server (unspecified): 0x000004e6898223fb: 24.134.52.95:58761 x 9 (192.168.100.10:58761) Name Unknown
+{21:26:32}  JoinSession:Server (unspecified): 0x000004e6898223fb: 54.78.160.94:19364 x 10 EDServer#374
+{21:26:33} Connected: 54.170.225.130:19364 x 8 EDServer#326
+{21:26:33} IJoinSession:Server (unspecified): 0x000004e6791093b9: 24.134.52.95:58761 x 11 (192.168.100.10:58761) Name Unknown
+{21:26:33}  JoinSession:Server (unspecified): 0x000004e6791093b9: 54.170.225.130:19364 x 9 EDServer#326
+{21:26:41} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e37382e322e313734</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{21:26:41} EnterLocation: Using UDP server address 54.78.2.174:19364 from webserver
+{21:26:41} Connected: 54.78.2.174:19364 x 10 EDServer#365
+{21:26:41} Established MTU=1500
+{21:26:42} IJoinSession:Server (unspecified): 0x000004e68070f3ba: 24.134.52.95:58761 x 80 (192.168.100.10:58761) Name Unknown
+{21:26:42}  JoinSession:Server (unspecified): 0x000004e68070f3ba: 54.78.2.174:19364 x 10 EDServer#365
+{21:26:42} New Primary Server: 54.78.2.174:19364
+{21:26:42} IJoinSession:Island: 0x000004e68070f3ca: 24.134.52.95:58761 x 85 (192.168.100.10:58761) Name Unknown
+{21:26:42} IJoinSession:Wake: 0x000004e68070f3cb: 24.134.52.95:58761 x 86 (192.168.100.10:58761) Name Unknown
+{21:26:52} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x0000000100000023 is not ready
+{21:26:52} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x0000000100000023 is not ready
+{21:26:52} ModularStationAttachComponent: object kinematic Alli_HabitatRingA_0x0000000100000025 is not ready
+{21:31:19} ILeftSession(3): 0x000004e68070f3ca: 24.134.52.95:58761 x 277 (192.168.100.10:58761) Name Unknown
+{21:31:19} ILeftSession(3): 0x000004e6898223fb: 24.134.52.95:58761 x 39 (192.168.100.10:58761) Name Unknown
+{21:31:19}  LeftSession(6): 0x000004e6898223fb: 54.78.160.94:19364 x 9 EDServer#374
+{21:31:19} Machine 54.78.160.94:19364 x 7 EDServer#374 disconnected: ServerLink::~
+{21:31:20} IJoinSession:Island: 0x000004e68070ffde: 24.134.52.95:58761 x 55 (192.168.100.10:58761) Name Unknown
+{21:31:20} IJoinSession:Wake: 0x000004e68070ffdf: 24.134.52.95:58761 x 56 (192.168.100.10:58761) Name Unknown
+{21:31:20} Connected: 2.29.228.157:52352 x 8 Name Unknown
+{21:31:20}  JoinSession:Island: 0x000004e68070ffde: 2.29.228.157:52352 x 19 Name Unknown
+{21:31:20}  JoinSession:Wake: 0x000004e68070ffdf: 2.29.228.157:52352 x 19 Name Unknown
+{21:32:02} ILeftSession(3): 0x000004e68070ffde: 24.134.52.95:58761 x 156 (192.168.100.10:58761) Name Unknown
+{21:32:02}  LeftSession(6): 0x000004e68070ffde: 2.29.228.157:52352 x 752 Name Unknown
+{21:32:03} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3139352e3230332e323034</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{21:32:03} EnterLocation: Using UDP server address 54.195.203.204:19364 from webserver
+{21:32:03} Connected: 54.195.203.204:19364 x 10 EDServer#377
+{21:32:03} Established MTU=1500
+{21:32:04} IJoinSession:Server (unspecified): 0x000004e688f743d7: 24.134.52.95:58761 x 51 (192.168.100.10:58761) Name Unknown
+{21:32:04}  JoinSession:Server (unspecified): 0x000004e688f743d7: 54.195.203.204:19364 x 10 EDServer#377
+{21:32:04} New Primary Server: 54.195.203.204:19364
+{21:32:04} IJoinSession:Island: 0x000004e6846a695b: 24.134.52.95:58761 x 55 (192.168.100.10:58761) Name Unknown
+{21:32:04} IJoinSession:Wake: 0x000004e6846a695c: 24.134.52.95:58761 x 56 (192.168.100.10:58761) Name Unknown
+{21:32:05} Connected: 78.34.117.12:55064 x 8 Name Unknown
+{21:32:05}  JoinSession:Wake: 0x000004e6846a695c: 78.34.117.12:55064 x 20 Name Unknown
+{21:32:20} Machine 178.162.205.29:64664 x 6 # Name Unknown disconnected: Unable to establish connection with SYNC
+{21:32:20} FailToJoinSession1: 0x000004e6846a695c: at 15.3s : 178.162.205.29:64664 x 5 Name Unknown
+{21:32:20} FailToJoinSession1: 0x000004e6846a695b: at 15.3s : 178.162.205.29:64664 x 4 Name Unknown
+{21:32:20} Connected: 185.17.207.23:38228 x 7 # Name Unknown
+{21:32:20}  JoinSession:Island: 0x000004e6846a695b: 185.17.207.23:38228 x 47 # Name Unknown
+{21:32:20}  JoinSession:Wake: 0x000004e6846a695c: 185.17.207.23:38228 x 48 # Name Unknown
+{21:32:21} NeedToSendAck for 185.17.207.23:38228 x 207 # Name Unknown increased to 2.00, schedvalue=10.71
+{21:32:21} NeedToSendAck for 185.17.207.23:38228 x 207 # Name Unknown increased to 3.00, schedvalue=10.71
+{21:32:34} FailToJoinSession1: 0x000004e6846a695c: at 30.0s : 213.112.56.74:51625 x 5 # Name Unknown
+{21:32:34} FailToJoinSession1: 0x000004e6846a695b: at 30.0s : 213.112.56.74:51625 x 4 # Name Unknown
+{21:32:35} Machine 213.112.56.74:51625 x 2 # Name Unknown disconnected: Unable to establish connection with SYNC
+{21:32:46} ILeftSession(3): 0x000004e6846a695b: 24.134.52.95:58761 x 73 (192.168.100.10:58761) Name Unknown
+{21:32:46}  LeftSession(6): 0x000004e6846a695b: 185.17.207.23:38228 x 125 # Name Unknown
+{21:32:48} NeedToSendAck for 185.17.207.23:38228 x 74 # Name Unknown increased to 1.00, schedvalue=10.00
+{21:32:48} NeedToSendAck for 185.17.207.23:38228 x 74 # Name Unknown increased to 2.00, schedvalue=10.50
+{21:32:50} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3231372e37332e37</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{21:32:50} EnterLocation: Using UDP server address 54.217.73.7:19364 from webserver
+{21:32:51} Connected: 54.217.73.7:19364 x 10 EDServer#350
+{21:32:51} Established MTU=1500
+{21:32:51}  LeftSession(3): 0x000004e6846a695c: 78.34.117.12:55064 x 8 Name Unknown
+{21:32:51} IJoinSession:Server (unspecified): 0x000004e681bf370d: 24.134.52.95:58761 x 64 (192.168.100.10:58761) Name Unknown
+{21:32:51}  JoinSession:Server (unspecified): 0x000004e681bf370d: 54.217.73.7:19364 x 10 EDServer#350
+{21:32:52} New Primary Server: 54.217.73.7:19364
+{21:32:52} IJoinSession:Island: 0x000004e681bf3524: 24.134.52.95:58761 x 65 (192.168.100.10:58761) Name Unknown
+{21:32:52} IJoinSession:Wake: 0x000004e681bf3525: 24.134.52.95:58761 x 66 (192.168.100.10:58761) Name Unknown
+{21:32:52} Connected: 92.30.42.230:57915 x 8 Name Unknown
+{21:32:52}  JoinSession:Island: 0x000004e681bf3524: 92.30.42.230:57915 x 28 Name Unknown
+{21:32:52}  JoinSession:Wake: 0x000004e681bf3525: 92.30.42.230:57915 x 29 Name Unknown
+{21:32:57}  LeftSession(3): 0x000004e681bf3524: 92.30.42.230:57915 x 61 Name Unknown
+{21:34:13} ILeftSession(3): 0x000004e681bf3524: 24.134.52.95:58761 x 180 (192.168.100.10:58761) Name Unknown
+{21:34:13} IJoinSession:Island: 0x000004e681bdbb01: 24.134.52.95:58761 x 67 (192.168.100.10:58761) Name Unknown
+{21:34:13} IJoinSession:Wake: 0x000004e681bdbb02: 24.134.52.95:58761 x 68 (192.168.100.10:58761) Name Unknown
+{21:34:13}  JoinSession:Island: 0x000004e681bdbb01: 92.30.42.230:57915 x 194 Name Unknown
+{21:34:13}  JoinSession:Wake: 0x000004e681bdbb02: 92.30.42.230:57915 x 195 Name Unknown
+{21:34:17} ModularStationAttachComponent: object kinematic Ind_StorageTanks_0x00000001000004b6 is not ready
+{21:34:17} ModularStationAttachComponent: object kinematic Ind_StorageTanks_0x00000001000004b6 is not ready
+{21:34:17} ModularStationAttachComponent: object kinematic Outpost_ComsTower_0x00000001000004bd is not ready
+{21:34:29} Connected: 78.54.132.18:57023 x 7 # Name Unknown
+{21:34:30}  JoinSession:Wake: 0x000004e681bdbb02: 78.54.132.18:57023 x 66 # Name Unknown
+{21:34:30}  JoinSession:Island: 0x000004e681bdbb01: 78.54.132.18:57023 x 66 # Name Unknown
+{21:34:30}  LeftSession(3): 0x000004e681bdbb01: 78.54.132.18:57023 x 308 # Name Unknown
+{21:34:32} NeedToSendAck for 78.54.132.18:57023 x 177 # Name Unknown increased to 1.00, schedvalue=10.00
+{21:34:32} NeedToSendAck for 78.54.132.18:57023 x 177 # Name Unknown increased to 2.00, schedvalue=10.50
+{21:34:32} NeedToSendAck for 78.54.132.18:57023 x 177 # Name Unknown increased to 3.00, schedvalue=10.67
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 1.00, schedvalue=10.00
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 2.00, schedvalue=10.50
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 3.00, schedvalue=10.67
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 4.00, schedvalue=10.75
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 5.00, schedvalue=10.80
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 6.00, schedvalue=10.83
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 7.00, schedvalue=10.86
+{21:34:33} NeedToSendAck for 78.54.132.18:57023 x 122 # Name Unknown increased to 8.00, schedvalue=10.88
+{21:35:07} Machine 185.17.207.23:38228 x 6 # Name Unknown disconnected: timeout
+{21:35:07}  LeftSession(2): 0x000004e6846a695c: 185.17.207.23:38228 x 7 Name Unknown
+{21:35:07} FlowControl:14
+{21:35:27} FlowControl:13
+{21:35:58} machines=7&numturnlinks=1&backlogtotal=0&backlogmax=0&avgsrtt=398&loss=0.171&&jit=0.034&act1=42.725&act2=1.794
+{21:36:02} FlowControl:11
+{21:36:03} Machine 78.54.132.18:57023 x 6 # Name Unknown disconnected: timeout
+{21:36:03}  LeftSession(2): 0x000004e681bdbb02: 78.54.132.18:57023 x 7 Name Unknown
+{21:36:03} fingerprint failure: 2c5cc1c6 from:54.155.250.239
+{21:36:03} Fingerprint error
+{21:36:03} Machine 54.155.250.239:22345 x 2 Name Unknown disconnected: fingerprint
+{21:36:20} ILeftSession(3): 0x000004e68070f3cb: 24.134.52.95:58761 x 120 (192.168.100.10:58761) Name Unknown
+{21:37:14} ILeftSession(3): 0x000004e68070ffdf: 24.134.52.95:58761 x 117 (192.168.100.10:58761) Name Unknown
+{21:37:14}  LeftSession(6): 0x000004e68070ffdf: 2.29.228.157:52352 x 6 Name Unknown
+{21:37:14} ILeftSession(3): 0x000004e68070f3ba: 24.134.52.95:58761 x 116 (192.168.100.10:58761) Name Unknown
+{21:37:14}  LeftSession(6): 0x000004e68070f3ba: 54.78.2.174:19364 x 10 EDServer#365
+{21:37:14} Machine 54.78.2.174:19364 x 6 EDServer#365 disconnected: ServerLink::~
+{21:37:58} ILeftSession(3): 0x000004e6846a695c: 24.134.52.95:58761 x 109 (192.168.100.10:58761) Name Unknown
+{21:37:58} ILeftSession(3): 0x000004e688f743d7: 24.134.52.95:58761 x 108 (192.168.100.10:58761) Name Unknown
+{21:37:58}  LeftSession(6): 0x000004e688f743d7: 54.195.203.204:19364 x 10 EDServer#377
+{21:37:58} Machine 54.195.203.204:19364 x 6 EDServer#377 disconnected: ServerLink::~
+{21:38:04}  LeftSession(3): 0x000004e681bf3525: 92.30.42.230:57915 x 60 Name Unknown
+{21:39:01} soft sync after hard sync - are params ok?
+{21:39:01} Connected: 67.160.192.238:51943 x 4 Name Unknown
+{21:39:02}  JoinSession:Wake: 0x000004e681bf3525: 67.160.192.238:51943 x 26 Name Unknown
+{21:39:20} ILeftSession(3): 0x000004e681bf3525: 24.134.52.95:58761 x 107 (192.168.100.10:58761) Name Unknown
+{21:39:20}  LeftSession(6): 0x000004e681bf3525: 67.160.192.238:51943 x 7 Name Unknown
+{21:39:22}  LeftSession(3): 0x000004e681bdbb01: 92.30.42.230:57915 x 87 Name Unknown
+{21:41:38} ILeftSession(3): 0x000004e681bdbb01: 24.134.52.95:58761 x 124 (192.168.100.10:58761) Name Unknown
+{21:41:39} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3139352e3230332e323034</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{21:41:39} EnterLocation: Using UDP server address 54.195.203.204:19364 from webserver
+{21:41:39} Connected: 54.195.203.204:19364 x 10 EDServer#377
+{21:41:39} Established MTU=1500
+{21:41:39} IJoinSession:Server (unspecified): 0x000004e688f8bdb1: 24.134.52.95:58761 x 58 (192.168.100.10:58761) Name Unknown
+{21:41:39}  JoinSession:Server (unspecified): 0x000004e688f8bdb1: 54.195.203.204:19364 x 10 EDServer#377
+{21:41:40} New Primary Server: 54.195.203.204:19364
+{21:41:44} IJoinSession:Island: 0x000004e688f8bdf6: 24.134.52.95:58761 x 65 (192.168.100.10:58761) Name Unknown
+{21:41:44} IJoinSession:Wake: 0x000004e688f8bdf7: 24.134.52.95:58761 x 66 (192.168.100.10:58761) Name Unknown
+{21:42:21} ILeftSession(3): 0x000004e688f8bdf6: 24.134.52.95:58761 x 78 (192.168.100.10:58761) Name Unknown
+{21:42:22} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e37382e3136302e3934</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{21:42:22} EnterLocation: Using UDP server address 54.78.160.94:19364 from webserver
+{21:42:23} Connected: 54.78.160.94:19364 x 10 EDServer#374
+{21:42:23} Established MTU=1500
+{21:42:23} IJoinSession:Server (unspecified): 0x000004e68c7c670b: 24.134.52.95:58761 x 77 (192.168.100.10:58761) Name Unknown
+{21:42:23}  JoinSession:Server (unspecified): 0x000004e68c7c670b: 54.78.160.94:19364 x 10 EDServer#374
+{21:42:24} New Primary Server: 54.78.160.94:19364
+{21:42:24} IJoinSession:Island: 0x000004e68c7c6722: 24.134.52.95:58761 x 78 (192.168.100.10:58761) Name Unknown
+{21:42:24} IJoinSession:Wake: 0x000004e68c7c6723: 24.134.52.95:58761 x 79 (192.168.100.10:58761) Name Unknown
+{21:43:06} Machine 92.30.42.230:57915 x 6 Name Unknown disconnected: timeout
+{21:43:06}  LeftSession(2): 0x000004e681bdbb02: 92.30.42.230:57915 x 7 Name Unknown
+{21:44:45} ILeftSession(3): 0x000004e68c7c6722: 24.134.52.95:58761 x 229 (192.168.100.10:58761) Name Unknown
+{21:44:46} IJoinSession:Island: 0x000004e68cf4358f: 24.134.52.95:58761 x 112 (192.168.100.10:58761) Name Unknown
+{21:44:46} IJoinSession:Wake: 0x000004e68cf43590: 24.134.52.95:58761 x 113 (192.168.100.10:58761) Name Unknown
+{21:44:48} ModularStationAttachComponent: object kinematic Alli_StoragePodA_0x0000000100000740 is not ready
+{21:44:48} ModularStationAttachComponent: object kinematic Alli_StoragePodA_0x0000000100000740 is not ready
+{21:44:48} ModularStationAttachComponent: object kinematic Alli_HeatSinks_0x0000000100000742 is not ready
+{21:45:58} machines=4&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=277&loss=0.000&&jit=0.044&act1=53.035&act2=1.354
+{21:46:51} ILeftSession(3): 0x000004e681bdbb02: 24.134.52.95:58761 x 280 (192.168.100.10:58761) Name Unknown
+{21:46:51} ILeftSession(3): 0x000004e681bf370d: 24.134.52.95:58761 x 279 (192.168.100.10:58761) Name Unknown
+{21:46:51}  LeftSession(6): 0x000004e681bf370d: 54.217.73.7:19364 x 10 EDServer#350
+{21:46:52} Machine 54.217.73.7:19364 x 6 EDServer#350 disconnected: ServerLink::~
+{21:47:35} ILeftSession(3): 0x000004e688f8bdf7: 24.134.52.95:58761 x 274 (192.168.100.10:58761) Name Unknown
+{21:47:35} ILeftSession(3): 0x000004e688f8bdb1: 24.134.52.95:58761 x 273 (192.168.100.10:58761) Name Unknown
+{21:47:35}  LeftSession(6): 0x000004e688f8bdb1: 54.195.203.204:19364 x 10 EDServer#377
+{21:47:36} Machine 54.195.203.204:19364 x 6 EDServer#377 disconnected: ServerLink::~
+{21:48:27} ILeftSession(3): 0x000004e68cf4358f: 24.134.52.95:58761 x 284 (192.168.100.10:58761) Name Unknown
+{21:48:28} IJoinSession:Island: 0x000004e68c7c6722: 24.134.52.95:58761 x 79 (192.168.100.10:58761) Name Unknown
+{21:52:41} state=failed&victim=24.134.52.95:58761
+{21:53:23} ILeftSession(3): 0x000004e68c7c6722: 24.134.52.95:58761 x 290 (192.168.100.10:58761) Name Unknown
+{21:53:24} IJoinSession:Island: 0x000004e68609a7ef: 24.134.52.95:58761 x 123 (192.168.100.10:58761) Name Unknown
+{21:53:24} IJoinSession:Wake: 0x000004e68609a7f0: 24.134.52.95:58761 x 124 (192.168.100.10:58761) Name Unknown
+{21:53:24} soft sync after hard sync - are params ok?
+{21:53:24} Connected: 88.153.62.53:57373 x 8 Name Unknown
+{21:53:24}  JoinSession:Island: 0x000004e68609a7ef: 88.153.62.53:57373 x 28 Name Unknown
+{21:53:24}  JoinSession:Wake: 0x000004e68609a7f0: 88.153.62.53:57373 x 28 Name Unknown
+{21:53:25} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x0000000100000bce is not ready
+{21:53:25} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x0000000100000bce is not ready
+{21:53:25} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x0000000100000bce is not ready
+{21:53:28} NeedToSendAck for 88.153.62.53:57373 x 280 Name Unknown increased to 1.00, schedvalue=10.51
+{21:53:29} ILeftSession(3): 0x000004e68cf43590: 24.134.52.95:58761 x 192 (192.168.100.10:58761) Name Unknown
+{21:54:23} FlowControl:12
+{21:55:28} FlowControl:13
+{21:55:58} machines=3&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=151&loss=0.000&&jit=0.000&act1=58.241&act2=2.457
+{21:56:33} FlowControl:14
+{21:57:38} FlowControl:15
+{21:58:26} ILeftSession(3): 0x000004e68c7c6723: 24.134.52.95:58761 x 176 (192.168.100.10:58761) Name Unknown
+{21:58:26} ILeftSession(3): 0x000004e68c7c6723: 24.134.52.95:58761 x 176 (192.168.100.10:58761) Name Unknown
+{21:58:43} FlowControl:16
+{21:59:48} FlowControl:17
+{22:00:52} FlowControl:18
+{22:01:07} FlowControl:17
+{22:02:28} FlowControl:18
+{22:03:32} FlowControl:19
+{22:03:40} ILeftSession(3): 0x000004e68609a7ef: 24.134.52.95:58761 x 201 (192.168.100.10:58761) Name Unknown
+{22:03:40}  LeftSession(6): 0x000004e68609a7ef: 88.153.62.53:57373 x 1002 Name Unknown
+{22:03:43} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3231372e37332e37</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:03:43} EnterLocation: Using UDP server address 54.217.73.7:19364 from webserver
+{22:03:43} Connected: 54.217.73.7:19364 x 10 EDServer#350
+{22:03:43} Established MTU=1500
+{22:03:44} IJoinSession:Server (unspecified): 0x000004e684a3984d: 24.134.52.95:58761 x 98 (192.168.100.10:58761) Name Unknown
+{22:03:44}  JoinSession:Server (unspecified): 0x000004e684a3984d: 54.217.73.7:19364 x 11 EDServer#350
+{22:03:44} New Primary Server: 54.217.73.7:19364
+{22:03:44} IJoinSession:Island: 0x000004e681bf34dc: 24.134.52.95:58761 x 106 (192.168.100.10:58761) Name Unknown
+{22:03:44} IJoinSession:Wake: 0x000004e681bf34dd: 24.134.52.95:58761 x 107 (192.168.100.10:58761) Name Unknown
+{22:03:45} soft sync after hard sync - are params ok?
+{22:03:45} Connected: 99.111.72.105:51702 x 8 Name Unknown
+{22:03:45} Connected: 122.151.129.148:59884 x 8 Name Unknown
+{22:03:45}  JoinSession:Wake: 0x000004e681bf34dd: 99.111.72.105:51702 x 16 Name Unknown
+{22:03:46}  JoinSession:Island: 0x000004e681bf34dc: 122.151.129.148:59884 x 22 Name Unknown
+{22:03:46}  JoinSession:Wake: 0x000004e681bf34dd: 122.151.129.148:59884 x 23 Name Unknown
+{22:04:08} Connected: 213.122.238.76:58125 x 4 Name Unknown
+{22:04:08}  JoinSession:Island: 0x000004e681bf34dc: 213.122.238.76:58125 x 41 Name Unknown
+{22:04:08}  JoinSession:Wake: 0x000004e681bf34dd: 213.122.238.76:58125 x 42 Name Unknown
+{22:04:09} NeedToSendAck for 213.122.238.76:58125 x 123 Name Unknown increased to 1.00, schedvalue=10.00
+{22:05:08} Machine 88.153.62.53:57373 x 6 Name Unknown disconnected: timeout
+{22:05:08}  LeftSession(2): 0x000004e68609a7f0: 88.153.62.53:57373 x 7 Name Unknown
+{22:05:09} Machine 99.111.72.105:51702 x 6 Name Unknown disconnected: timeout
+{22:05:09}  LeftSession(2): 0x000004e681bf34dd: 99.111.72.105:51702 x 7 Name Unknown
+{22:05:17} FlowControl:20
+{22:05:30}  LeftSession(3): 0x000004e681bf34dc: 122.151.129.148:59884 x 252 Name Unknown
+{22:05:31} NeedToSendAck for 213.122.238.76:58125 x 342 Name Unknown increased to 1.00, schedvalue=10.00
+{22:05:40} ILeftSession(3): 0x000004e681bf34dc: 24.134.52.95:58761 x 290 (192.168.100.10:58761) Name Unknown
+{22:05:40}  LeftSession(6): 0x000004e681bf34dc: 213.122.238.76:58125 x 783 Name Unknown
+{22:05:41} IJoinSession:Island: 0x000004e684a05060: 24.134.52.95:58761 x 139 (192.168.100.10:58761) Name Unknown
+{22:05:41} IJoinSession:Wake: 0x000004e684a05061: 24.134.52.95:58761 x 140 (192.168.100.10:58761) Name Unknown
+{22:05:41} soft sync after hard sync - are params ok?
+{22:05:41} Connected: 99.249.160.206:50634 x 8 Name Unknown
+{22:05:41}  JoinSession:Island: 0x000004e684a05060: 122.151.129.148:59884 x 440 Name Unknown
+{22:05:41}  JoinSession:Wake: 0x000004e684a05061: 122.151.129.148:59884 x 441 Name Unknown
+{22:05:41} Connected: 93.206.50.87:62205 x 7 Name Unknown
+{22:05:42}  JoinSession:Wake: 0x000004e684a05061: 99.249.160.206:50634 x 30 Name Unknown
+{22:05:42}  JoinSession:Island: 0x000004e684a05060: 93.206.50.87:62205 x 30 Name Unknown
+{22:05:42}  JoinSession:Wake: 0x000004e684a05061: 93.206.50.87:62205 x 30 Name Unknown
+{22:05:42} ModularStationAttachComponent: object kinematic Alli_ONeillHabitatRing_0x0000000100000f82 is not ready
+{22:05:42} ModularStationAttachComponent: object kinematic Alli_ONeillHabitatRing_0x0000000100000f82 is not ready
+{22:05:42} ModularStationAttachComponent: object kinematic Alli_ONeillHabitatRing_0x0000000100000f82 is not ready
+{22:06:00} machines=7&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=247&loss=0.000&&jit=0.063&act1=62.216&act2=10.693
+{22:06:02} FlowControl:18
+{22:06:07}  JoinSession:Island: 0x000004e684a05060: 213.122.238.76:58125 x 10 Name Unknown
+{22:06:07}  JoinSession:Wake: 0x000004e684a05061: 213.122.238.76:58125 x 10 Name Unknown
+{22:06:08} NeedToSendAck for 213.122.238.76:58125 x 193 Name Unknown increased to 1.00, schedvalue=10.00
+{22:06:58} Machine 99.249.160.206:50634 x 6 Name Unknown disconnected: timeout
+{22:06:58}  LeftSession(2): 0x000004e684a05061: 99.249.160.206:50634 x 7 Name Unknown
+{22:08:39} Connected: 79.74.195.52:55003 x 4 Name Unknown
+{22:08:40}  JoinSession:Wake: 0x000004e681bf34dd: 79.74.195.52:55003 x 40 Name Unknown
+{22:08:53} ILeftSession(3): 0x000004e68609a7f0: 24.134.52.95:58761 x 234 (192.168.100.10:58761) Name Unknown
+{22:08:53} ILeftSession(3): 0x000004e68c7c670b: 24.134.52.95:58761 x 233 (192.168.100.10:58761) Name Unknown
+{22:08:53}  LeftSession(6): 0x000004e68c7c670b: 54.78.160.94:19364 x 10 EDServer#374
+{22:08:53} Machine 54.78.160.94:19364 x 6 EDServer#374 disconnected: ServerLink::~
+{22:09:42} Machine 82.25.35.229:56860 x 2 # Name Unknown disconnected: Unable to establish connection with SYNC
+{22:09:43} Connected: 82.25.35.229:56860 x 3 Name Unknown
+{22:09:43}  JoinSession:Wake: 0x000004e681bf34dd: 82.25.35.229:56860 x 27 Name Unknown
+{22:09:46} FlowControl:17
+{22:10:08} Machine 79.74.195.52:55003 x 6 Name Unknown disconnected: timeout
+{22:10:08}  LeftSession(2): 0x000004e681bf34dd: 79.74.195.52:55003 x 7 Name Unknown
+{22:10:08} SYNC(0,0) received from 79.74.195.52:55003 - requested disconnect - 1dc-checksum
+{22:10:16} soft sync after hard sync - are params ok?
+{22:10:16} Connected: 79.74.195.52:55003 x 4 Name Unknown
+{22:10:16}  JoinSession:Island: 0x000004e684a05060: 79.74.195.52:55003 x 48 Name Unknown
+{22:10:16}  JoinSession:Wake: 0x000004e684a05061: 79.74.195.52:55003 x 48 Name Unknown
+{22:10:16}  JoinSession:Wake: 0x000004e681bf34dd: 79.74.195.52:55003 x 166 Name Unknown
+{22:10:33}  LeftSession(3): 0x000004e681bf34dd: 122.151.129.148:59884 x 74 Name Unknown
+{22:10:42} ILeftSession(3): 0x000004e681bf34dd: 24.134.52.95:58761 x 202 (192.168.100.10:58761) Name Unknown
+{22:10:42}  LeftSession(6): 0x000004e681bf34dd: 79.74.195.52:55003 x 67 Name Unknown
+{22:10:42}  LeftSession(6): 0x000004e681bf34dd: 213.122.238.76:58125 x 118 Name Unknown
+{22:10:42}  LeftSession(6): 0x000004e681bf34dd: 82.25.35.229:56860 x 6 Name Unknown
+{22:10:58} Machine 82.25.35.229:56860 x 8 Name Unknown disconnected: timeout
+{22:11:01} FlowControl:16
+{22:12:06} FlowControl:17
+{22:12:16}  LeftSession(3): 0x000004e684a05060: 122.151.129.148:59884 x 64 Name Unknown
+{22:12:19} NeedToSendAck for 122.151.129.148:59884 x 8 Name Unknown increased to 1.00, schedvalue=10.00
+{22:12:21} FlowControl:16
+{22:12:57} ILeftSession(3): 0x000004e684a05060: 24.134.52.95:58761 x 209 (192.168.100.10:58761) Name Unknown
+{22:12:57}  LeftSession(6): 0x000004e684a05060: 79.74.195.52:55003 x 123 Name Unknown
+{22:12:57}  LeftSession(6): 0x000004e684a05060: 93.206.50.87:62205 x 195 Name Unknown
+{22:12:57}  LeftSession(6): 0x000004e684a05060: 213.122.238.76:58125 x 966 Name Unknown
+{22:12:58} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3231372e37332e37</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:12:58} EnterLocation: Using UDP server address 54.217.73.7:19364 from webserver
+{22:13:01} IJoinSession:Island: 0x000004e684a4d7cb: 24.134.52.95:58761 x 104 (192.168.100.10:58761) Name Unknown
+{22:13:01} IJoinSession:Wake: 0x000004e684a4d7cc: 24.134.52.95:58761 x 105 (192.168.100.10:58761) Name Unknown
+{22:13:02} NeedToSendAck for 213.122.238.76:58125 x 11 Name Unknown increased to 1.00, schedvalue=10.00
+{22:13:46} ILeftSession(3): 0x000004e684a4d7cb: 24.134.52.95:58761 x 108 (192.168.100.10:58761) Name Unknown
+{22:13:51} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3231372e37332e37</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:13:51} EnterLocation: Using UDP server address 54.217.73.7:19364 from webserver
+{22:13:52} IJoinSession:Island: 0x000004e684a4d939: 24.134.52.95:58761 x 107 (192.168.100.10:58761) Name Unknown
+{22:13:52} IJoinSession:Wake: 0x000004e684a4d93a: 24.134.52.95:58761 x 108 (192.168.100.10:58761) Name Unknown
+{22:14:26} Machine 93.206.50.87:62205 x 7 Name Unknown disconnected: timeout
+{22:14:26}  LeftSession(2): 0x000004e684a05061: 93.206.50.87:62205 x 8 Name Unknown
+{22:14:26} Machine 122.151.129.148:59884 x 6 Name Unknown disconnected: timeout
+{22:14:26}  LeftSession(2): 0x000004e684a05061: 122.151.129.148:59884 x 7 Name Unknown
+{22:14:32} ILeftSession(3): 0x000004e684a4d939: 24.134.52.95:58761 x 119 (192.168.100.10:58761) Name Unknown
+{22:14:33} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3231372e37332e37</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:14:33} EnterLocation: Using UDP server address 54.217.73.7:19364 from webserver
+{22:14:34} IJoinSession:Island: 0x000004e684a4da30: 24.134.52.95:58761 x 106 (192.168.100.10:58761) Name Unknown
+{22:14:34} IJoinSession:Wake: 0x000004e684a4da31: 24.134.52.95:58761 x 107 (192.168.100.10:58761) Name Unknown
+{22:14:47} Machine 213.122.238.76:58125 x 8 Name Unknown disconnected: timeout
+{22:14:47}  LeftSession(2): 0x000004e684a05061: 213.122.238.76:58125 x 9 Name Unknown
+{22:15:05} Machine 79.74.195.52:55003 x 6 Name Unknown disconnected: timeout
+{22:15:05}  LeftSession(2): 0x000004e684a05061: 79.74.195.52:55003 x 7 Name Unknown
+{22:15:16} ILeftSession(3): 0x000004e684a4da30: 24.134.52.95:58761 x 114 (192.168.100.10:58761) Name Unknown
+{22:15:17} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3135352e3136322e313432</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:15:17} EnterLocation: Using UDP server address 54.155.162.142:19364 from webserver
+{22:15:17} Connected: 54.155.162.142:19364 x 10 EDServer#345
+{22:15:17} Established MTU=1500
+{22:15:18} IJoinSession:Server (unspecified): 0x000004e68d6458a0: 24.134.52.95:58761 x 117 (192.168.100.10:58761) Name Unknown
+{22:15:18}  JoinSession:Server (unspecified): 0x000004e68d6458a0: 54.155.162.142:19364 x 10 EDServer#345
+{22:15:18} New Primary Server: 54.155.162.142:19364
+{22:15:18} IJoinSession:Island: 0x000004e68d6286ce: 24.134.52.95:58761 x 118 (192.168.100.10:58761) Name Unknown
+{22:15:18} IJoinSession:Wake: 0x000004e68d6286cf: 24.134.52.95:58761 x 119 (192.168.100.10:58761) Name Unknown
+{22:15:19} soft sync after hard sync - are params ok?
+{22:15:19} Connected: 84.173.107.42:53052 x 8 Name Unknown
+{22:15:19}  JoinSession:Island: 0x000004e68d6286ce: 84.173.107.42:53052 x 45 Name Unknown
+{22:15:19}  JoinSession:Wake: 0x000004e68d6286cf: 84.173.107.42:53052 x 46 Name Unknown
+{22:15:53} Connected: 79.44.202.171:58040 x 4 Name Unknown
+{22:15:53}  JoinSession:Wake: 0x000004e68d6286cf: 79.44.202.171:58040 x 40 Name Unknown
+{22:15:53}  JoinSession:Island: 0x000004e68d6286ce: 79.44.202.171:58040 x 41 Name Unknown
+{22:15:55} NeedToSendAck for 79.44.202.171:58040 x 163 Name Unknown increased to 1.00, schedvalue=10.00
+{22:16:00} machines=5&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=227&loss=0.010&&jit=0.034&act1=56.102&act2=9.923
+{22:16:02} FlowControl:14
+{22:16:03}  LeftSession(3): 0x000004e68d6286ce: 84.173.107.42:53052 x 142 Name Unknown
+{22:17:33}  LeftSession(3): 0x000004e68d6286ce: 79.44.202.171:58040 x 274 Name Unknown
+{22:17:33} ILeftSession(3): 0x000004e68d6286ce: 24.134.52.95:58761 x 299 (192.168.100.10:58761) Name Unknown
+{22:17:34} IJoinSession:Island: 0x000004e68a791f71: 24.134.52.95:58761 x 162 (192.168.100.10:58761) Name Unknown
+{22:17:34} IJoinSession:Wake: 0x000004e68a791f72: 24.134.52.95:58761 x 163 (192.168.100.10:58761) Name Unknown
+{22:17:34}  JoinSession:Island: 0x000004e68a791f71: 84.173.107.42:53052 x 19 Name Unknown
+{22:17:34}  JoinSession:Wake: 0x000004e68a791f72: 84.173.107.42:53052 x 19 Name Unknown
+{22:17:34}  JoinSession:Island: 0x000004e68a791f71: 79.44.202.171:58040 x 428 Name Unknown
+{22:17:34}  JoinSession:Wake: 0x000004e68a791f72: 79.44.202.171:58040 x 429 Name Unknown
+{22:17:35} Connected: 121.217.182.26:51265 x 8 Name Unknown
+{22:17:35}  JoinSession:Island: 0x000004e68a791f71: 121.217.182.26:51265 x 30 Name Unknown
+{22:17:35}  JoinSession:Wake: 0x000004e68a791f72: 121.217.182.26:51265 x 30 Name Unknown
+{22:17:40} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x000000010000152b is not ready
+{22:17:40} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x000000010000152b is not ready
+{22:17:40} ModularStationAttachComponent: object kinematic Alli_HabitatRingA_0x000000010000152c is not ready
+{22:18:10} ILeftSession(3): 0x000004e684a05061: 24.134.52.95:58761 x 317 (192.168.100.10:58761) Name Unknown
+{22:18:22} FlowControl:15
+{22:19:00} ILeftSession(3): 0x000004e684a4d7cc: 24.134.52.95:58761 x 261 (192.168.100.10:58761) Name Unknown
+{22:19:46} ILeftSession(3): 0x000004e684a4d93a: 24.134.52.95:58761 x 298 (192.168.100.10:58761) Name Unknown
+{22:20:30} ILeftSession(3): 0x000004e684a4da31: 24.134.52.95:58761 x 298 (192.168.100.10:58761) Name Unknown
+{22:20:30} ILeftSession(3): 0x000004e684a3984d: 24.134.52.95:58761 x 297 (192.168.100.10:58761) Name Unknown
+{22:20:30}  LeftSession(6): 0x000004e684a3984d: 54.217.73.7:19364 x 10 EDServer#350
+{22:20:30} Machine 54.217.73.7:19364 x 6 EDServer#350 disconnected: ServerLink::~
+{22:21:08}  LeftSession(3): 0x000004e68d6286cf: 84.173.107.42:53052 x 78 Name Unknown
+{22:21:22} FlowControl:16
+{22:22:11} ILeftSession(3): 0x000004e68a791f71: 24.134.52.95:58761 x 284 (192.168.100.10:58761) Name Unknown
+{22:22:11}  LeftSession(6): 0x000004e68a791f71: 79.44.202.171:58040 x 556 Name Unknown
+{22:22:11}  LeftSession(6): 0x000004e68a791f71: 121.217.182.26:51265 x 791 Name Unknown
+{22:22:11}  LeftSession(6): 0x000004e68a791f71: 84.173.107.42:53052 x 455 Name Unknown
+{22:22:11} ILeftSession(3): 0x000004e68a791f72: 24.134.52.95:58761 x 282 (192.168.100.10:58761) Name Unknown
+{22:22:11}  LeftSession(6): 0x000004e68a791f72: 79.44.202.171:58040 x 530 Name Unknown
+{22:22:11}  LeftSession(6): 0x000004e68a791f72: 121.217.182.26:51265 x 765 Name Unknown
+{22:22:11}  LeftSession(6): 0x000004e68a791f72: 84.173.107.42:53052 x 433 Name Unknown
+{22:22:11} ILeftSession(3): 0x000004e68d6286cf: 24.134.52.95:58761 x 281 (192.168.100.10:58761) Name Unknown
+{22:22:11}  LeftSession(6): 0x000004e68d6286cf: 79.44.202.171:58040 x 530 Name Unknown
+{22:24:45} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x000000010000160b is not ready
+{22:24:45} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3135352e3134392e323231</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:24:45} EnterLocation: Using UDP server address 54.155.149.221:19364 from webserver
+{22:24:45} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x000000010000160b is not ready
+{22:24:45} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x000000010000160b is not ready
+{22:24:46} Connected: 54.155.149.221:19364 x 10 EDServer#380
+{22:24:46} Established MTU=1500
+{22:24:49} IJoinSession:Server (unspecified): 0x000004e68f6c3d7f: 24.134.52.95:58761 x 161 (192.168.100.10:58761) Name Unknown
+{22:24:49}  JoinSession:Server (unspecified): 0x000004e68f6c3d7f: 54.155.149.221:19364 x 10 EDServer#380
+{22:24:49} New Primary Server: 54.155.149.221:19364
+{22:24:54} IJoinSession:Island: 0x000004e68f6c3ec5: 24.134.52.95:58761 x 162 (192.168.100.10:58761) Name Unknown
+{22:24:54} IJoinSession:Wake: 0x000004e68f6c3ec6: 24.134.52.95:58761 x 163 (192.168.100.10:58761) Name Unknown
+{22:26:00} machines=3&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=180&loss=0.032&&jit=0.100&act1=62.951&act2=7.580
+{22:36:00} machines=3&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=169&loss=0.000&&jit=0.000&act1=62.967&act2=0.723
+{22:40:39} ILeftSession(3): 0x000004e68f6c3ec5: 24.134.52.95:58761 x 292 (192.168.100.10:58761) Name Unknown
+{22:40:39} ILeftSession(3): 0x000004e68d6458a0: 24.134.52.95:58761 x 111 (192.168.100.10:58761) Name Unknown
+{22:40:39}  LeftSession(6): 0x000004e68d6458a0: 54.155.162.142:19364 x 9 EDServer#345
+{22:40:39} Machine 54.155.162.142:19364 x 7 EDServer#345 disconnected: ServerLink::~
+{22:40:41} IJoinSession:Island: 0x000004e6913db1fa: 24.134.52.95:58761 x 122 (192.168.100.10:58761) Name Unknown
+{22:40:41} IJoinSession:Wake: 0x000004e6913db1fb: 24.134.52.95:58761 x 123 (192.168.100.10:58761) Name Unknown
+{22:41:38} ILeftSession(3): 0x000004e6913db1fa: 24.134.52.95:58761 x 190 (192.168.100.10:58761) Name Unknown
+{22:41:41} IJoinSession:Island: 0x000004e6913dbad8: 24.134.52.95:58761 x 118 (192.168.100.10:58761) Name Unknown
+{22:41:41} IJoinSession:Wake: 0x000004e6913dbad9: 24.134.52.95:58761 x 119 (192.168.100.10:58761) Name Unknown
+{22:42:28} ILeftSession(3): 0x000004e6913dbad8: 24.134.52.95:58761 x 129 (192.168.100.10:58761) Name Unknown
+{22:42:34} IJoinSession:Island: 0x000004e6913fc27f: 24.134.52.95:58761 x 127 (192.168.100.10:58761) Name Unknown
+{22:42:34} IJoinSession:Wake: 0x000004e6913fc280: 24.134.52.95:58761 x 128 (192.168.100.10:58761) Name Unknown
+{22:43:15} ILeftSession(3): 0x000004e6913fc27f: 24.134.52.95:58761 x 140 (192.168.100.10:58761) Name Unknown
+{22:43:16} IJoinSession:Island: 0x000004e6913fc804: 24.134.52.95:58761 x 127 (192.168.100.10:58761) Name Unknown
+{22:43:16} IJoinSession:Wake: 0x000004e6913fc805: 24.134.52.95:58761 x 128 (192.168.100.10:58761) Name Unknown
+{22:44:02} ILeftSession(3): 0x000004e6913fc804: 24.134.52.95:58761 x 147 (192.168.100.10:58761) Name Unknown
+{22:44:04} IJoinSession:Island: 0x000004e6913fcf3e: 24.134.52.95:58761 x 128 (192.168.100.10:58761) Name Unknown
+{22:44:04} IJoinSession:Wake: 0x000004e6913fcf3f: 24.134.52.95:58761 x 129 (192.168.100.10:58761) Name Unknown
+{22:44:54} ILeftSession(3): 0x000004e6913fcf3e: 24.134.52.95:58761 x 144 (192.168.100.10:58761) Name Unknown
+{22:44:57} IJoinSession:Island: 0x000004e69361874e: 24.134.52.95:58761 x 138 (192.168.100.10:58761) Name Unknown
+{22:44:57} IJoinSession:Wake: 0x000004e69361874f: 24.134.52.95:58761 x 139 (192.168.100.10:58761) Name Unknown
+{22:45:52} ILeftSession(3): 0x000004e68f6c3ec6: 24.134.52.95:58761 x 181 (192.168.100.10:58761) Name Unknown
+{22:46:00} machines=2&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=198&loss=0.000&&jit=0.000&act1=60.673&act2=0.289
+{22:46:42} ILeftSession(3): 0x000004e69361874e: 24.134.52.95:58761 x 212 (192.168.100.10:58761) Name Unknown
+{22:46:44} IJoinSession:Island: 0x000004e6936458b3: 24.134.52.95:58761 x 135 (192.168.100.10:58761) Name Unknown
+{22:46:44} IJoinSession:Wake: 0x000004e6936458b4: 24.134.52.95:58761 x 136 (192.168.100.10:58761) Name Unknown
+{22:46:51} ILeftSession(3): 0x000004e6913db1fb: 24.134.52.95:58761 x 153 (192.168.100.10:58761) Name Unknown
+{22:47:42} ILeftSession(3): 0x000004e6913dbad9: 24.134.52.95:58761 x 173 (192.168.100.10:58761) Name Unknown
+{22:48:29} ILeftSession(3): 0x000004e6913fc280: 24.134.52.95:58761 x 224 (192.168.100.10:58761) Name Unknown
+{22:49:04} ILeftSession(3): 0x000004e6936458b3: 24.134.52.95:58761 x 270 (192.168.100.10:58761) Name Unknown
+{22:49:05} IJoinSession:Island: 0x000004e693663e07: 24.134.52.95:58761 x 173 (192.168.100.10:58761) Name Unknown
+{22:49:05} IJoinSession:Wake: 0x000004e693663e08: 24.134.52.95:58761 x 174 (192.168.100.10:58761) Name Unknown
+{22:49:12} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x0000000100001ba6 is not ready
+{22:49:12} ModularStationAttachComponent: object kinematic Alli_SolarArray_0x0000000100001ba6 is not ready
+{22:49:16} ILeftSession(3): 0x000004e6913fc805: 24.134.52.95:58761 x 275 (192.168.100.10:58761) Name Unknown
+{22:50:08} ILeftSession(3): 0x000004e6913fcf3f: 24.134.52.95:58761 x 314 (192.168.100.10:58761) Name Unknown
+{22:51:56} ILeftSession(3): 0x000004e69361874f: 24.134.52.95:58761 x 324 (192.168.100.10:58761) Name Unknown
+{22:54:14} ILeftSession(3): 0x000004e693663e07: 24.134.52.95:58761 x 343 (192.168.100.10:58761) Name Unknown
+{22:54:15} ILeftSession(3): 0x000004e6936458b4: 24.134.52.95:58761 x 125 (192.168.100.10:58761) Name Unknown
+{22:54:16} IJoinSession:Island: 0x000004e6936b6b7e: 24.134.52.95:58761 x 132 (192.168.100.10:58761) Name Unknown
+{22:54:16} IJoinSession:Wake: 0x000004e6936b6b7f: 24.134.52.95:58761 x 133 (192.168.100.10:58761) Name Unknown
+{22:56:01} machines=2&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=177&loss=0.000&&jit=0.000&act1=60.064&act2=0.360
+{22:56:37} ILeftSession(3): 0x000004e6936b6b7e: 24.134.52.95:58761 x 292 (192.168.100.10:58761) Name Unknown
+{22:56:37} IJoinSession:Island: 0x000004e6936e80f4: 24.134.52.95:58761 x 171 (192.168.100.10:58761) Name Unknown
+{22:56:37} IJoinSession:Wake: 0x000004e6936e80f5: 24.134.52.95:58761 x 172 (192.168.100.10:58761) Name Unknown
+{22:59:27} ILeftSession(3): 0x000004e693663e08: 24.134.52.95:58761 x 254 (192.168.100.10:58761) Name Unknown
+{23:01:40} ILeftSession(3): 0x000004e6936b6b7f: 24.134.52.95:58761 x 246 (192.168.100.10:58761) Name Unknown
+{23:06:01} machines=2&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=170&loss=0.000&&jit=0.000&act1=66.441&act2=0.533
+{23:12:46} ILeftSession(3): 0x000004e6936e80f4: 24.134.52.95:58761 x 246 (192.168.100.10:58761) Name Unknown
+{23:12:46} ILeftSession(3): 0x000004e6936e80f5: 24.134.52.95:58761 x 244 (192.168.100.10:58761) Name Unknown
+{23:12:51} ILeftSession(3): 0x000004e6791093b9: 24.134.52.95:58761 x 4 (192.168.100.10:58761) Name Unknown
+{23:12:51}  LeftSession(6): 0x000004e6791093b9: 54.170.225.130:19364 x 7 EDServer#326
+{23:12:51} ILeftSession(3): 0x000004e68f6c3d7f: 24.134.52.95:58761 x 3 (192.168.100.10:58761) Name Unknown
+{23:12:51}  LeftSession(6): 0x000004e68f6c3d7f: 54.155.149.221:19364 x 10 EDServer#380
+{23:13:00} ILeftSession(3): 0x000000024bd2ff0b: 24.134.52.95:58761 x 3 (192.168.100.10:58761) Name Unknown
+{23:13:00} Machine 24.134.52.95:58761 x 2 (192.168.100.10:58761) Name Unknown disconnected: shutdown
+{23:13:00} Machine 54.170.225.130:19364 x 6 EDServer#326 disconnected: shutdown
+{23:13:00} Machine 54.155.149.221:19364 x 7 EDServer#380 disconnected: shutdown

@@ -1,0 +1,712 @@
+15-01-18-22:18 Mitteleuropäische Zeit  (21:18 GMT) - part 1
+{22:18:44} GetPortMapping(63418) failed with code 714 (NoSuchEntryInArray)
+{22:18:44} AddPortMapping(63418, 63418, 192.168.100.10) failed with code 403 (UnknownError)
+{22:18:44} failed to initialise upnp
+{22:18:44} New machine:0.0.0.0:0 x 0 Name Unknown
+{22:18:44} New machine:192.168.100.10:50053 x 0 Name Unknown
+{22:18:44} Start Log for this machine: 192.168.100.10:50053 - 
+{22:19:09} Turn State: Resolving
+{22:19:09} Turn State: Resolved
+{22:19:09} Turn State: Allocating
+{22:19:09} STUN server address is 176.34.194.254:3478
+{22:19:09} peer: STUN mapped address is 24.134.52.95:57058
+{22:19:09} Turn State: Ready
+{22:19:09} TURN relay address is 176.34.194.254:48299
+{22:19:09} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{22:19:15} ConnectToServerActivity: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e37352e37372e3930</ip><port>19364</port></server></servers><rescueservers><server><ip>35342e37332e37372e3339</ip><port>19364</port></server></rescueservers></data>
+{22:19:15} New machine:54.75.77.90:19364 x 0 Name Unknown
+{22:19:15} New Primary Server: 54.75.77.90:19364
+{22:19:15} New machine:54.73.77.39:19364 x 0 Name Unknown
+{22:19:15} New Rescue Server: 54.73.77.39:19364
+{22:19:15} Now using address 24.134.52.95:50053 for this machine after STUN reply
+{22:19:15} Sync Established
+{22:19:15} Register fingerprint 9e9afc88 for 54.75.77.90:19364 x 9 EDServer#367
+{22:19:15} Connected: 54.75.77.90:19364 x 9 EDServer#367
+{22:19:16} IJoinSession:MyTalk: 0x000000024bd2ff0b: 24.134.52.95:50053 x 7 (192.168.100.10:50053) Name Unknown
+{22:19:16} Established MTU=1500
+{22:19:16} IJoinSession:Server (unspecified): 0x000004e71417d7c5: 24.134.52.95:50053 x 10 (192.168.100.10:50053) Name Unknown
+{22:19:16} CANCEL:54.75.77.90:19364 x 11 EDServer#367|SESRQSession 0x000004e71417d7c5 { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e71417d7c5,0x000004e71eca2000)|
+{22:19:16}  JoinSession:Server (unspecified): 0x000004e71417d7c5: 54.75.77.90:19364 x 10 EDServer#367
+{22:19:17} Sync Established
+{22:19:17} Register fingerprint 9f44231e for 54.73.77.39:19364 x 8 EDServer#373
+{22:19:17} Connected: 54.73.77.39:19364 x 8 EDServer#373
+{22:19:17} CANCEL:54.73.77.39:19364 x 11 EDServer#373|SESRQSession 0x000004e71417d7c5 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e71417d7c5,0x000004e71eca2000)|
+{22:19:17} CANCEL:54.73.77.39:19364 x 9 EDServer#373|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e71eca2000)|
+{22:19:17} IJoinSession:Server (unspecified): 0x000004e7169c52f7: 24.134.52.95:50053 x 12 (192.168.100.10:50053) Name Unknown
+{22:19:17} CANCEL:54.73.77.39:19364 x 10 EDServer#373|SESRQSession 0x000004e7169c52f7 { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e7169c52f7,0x000004e71eca2000)|
+{22:19:17}  JoinSession:Server (unspecified): 0x000004e7169c52f7: 54.73.77.39:19364 x 9 EDServer#373
+{22:19:23} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.02
+{22:19:23} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.02
+{22:19:23} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3137302e39392e313034</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:19:23} EnterLocation: Using UDP server address 54.170.99.104:19364 from webserver
+{22:19:23} New machine:54.170.99.104:19364 x 0 Name Unknown
+{22:19:23} Sync Established
+{22:19:23} Register fingerprint a5ce39c3 for 54.170.99.104:19364 x 10 EDServer#376
+{22:19:23} Connected: 54.170.99.104:19364 x 10 EDServer#376
+{22:19:23} Established MTU=1500
+{22:19:23} IJoinSession:Server (unspecified): 0x000004e71cd6ab07: 24.134.52.95:50053 x 81 (192.168.100.10:50053) Name Unknown
+{22:19:24} CANCEL:54.170.99.104:19364 x 11 EDServer#376|SESRQSession 0x000004e71cd6ab07 { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e71cd6ab07,0x000004e71eca2000)|
+{22:19:24}  JoinSession:Server (unspecified): 0x000004e71cd6ab07: 54.170.99.104:19364 x 10 EDServer#376
+{22:19:24} New Primary Server: 54.170.99.104:19364
+{22:19:24} EnterLocation: Activity=EstablishServers&note=complete&Start=0.00&Duration=1.24
+{22:19:24} EnterLocation: Activity=WaitForEDServer&note=complete&Start=1.26&Duration=0.00
+{22:19:24} System:5(Oluf) Body:60 Pos:(386.411,899.255,205.004) 
+{22:19:24} New machine:188.251.55.9:49500 x 0 Name Unknown
+{22:19:24} vvv------------ ISLAND 0x00000001 CLAIMED ------------vvv
+{22:19:24} 188.251.55.9:49500 x 2 Name Unknown
+{22:19:24} ^^^------------ island 0x00000001 claimed ------------^^^
+{22:19:24} FindBestIsland:Bozan:18446744073709551615
+  Accept 0x000004e6dd7e6a35: with 1 players, health=96.299629, friendscore=0, recentplayers=0
+FindBestIsland complete, 0x000004e6dd7e6a35 best health=96.3
+
+{22:19:24} IJoinSession:Island: 0x000004e6dd7e6a35: 24.134.52.95:50053 x 86 (192.168.100.10:50053) Name Unknown
+{22:19:24} IJoinSession:Wake: 0x000004e6dd7e6a36: 24.134.52.95:50053 x 87 (192.168.100.10:50053) Name Unknown
+{22:19:24} Recording preallocation #000004e71cd6ab10, 20
+{22:19:24} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=1.28&Duration=0.10
+{22:19:24} System:5(Oluf) Body:60 Pos:(386.411,899.255,205.004) 
+{22:19:24} Create TURN channel for 188.251.55.9:49500 x 6 Name Unknown
+{22:19:24} TurnClient:BindChannel:79.125.72.13:20959 : status=0(Success)
+{22:19:24} Sync Established
+{22:19:24} Register fingerprint cb7e92cb for 188.251.55.9:49500 x 8 Name Unknown
+{22:19:24} Connected: 188.251.55.9:49500 x 8 Name Unknown
+{22:19:24} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:19:24} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.04&Duration=3.52
+{22:19:25} CANCEL:188.251.55.9:49500 x 17 Name Unknown|SESRQSession 0x000004e6dd7e6a35 { x146 } 'Island' 1:0:1 members(0x000004e6dd7e6a35,0x000004e71eca2000)|
+{22:19:25}  JoinSession:Island: 0x000004e6dd7e6a35: 188.251.55.9:49500 x 20 Name Unknown
+{22:19:25} CANCEL:188.251.55.9:49500 x 21 Name Unknown|SESRQSession 0x000004e6dd7e6a36 { x6 } 'Wake' 1:0:1 members(0x000004e6dd7e6a36,0x000004e71eca2000)|
+{22:19:25}  JoinSession:Wake: 0x000004e6dd7e6a36: 188.251.55.9:49500 x 20 Name Unknown
+{22:19:25} Waiting for Authority Stability on 1 objects
+{22:19:25} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=3.59&Duration=0.00
+{22:19:25} CANCEL:188.251.55.9:49500 x 41 Name Unknown|SESRQSession 0x000004e71417d7c5 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e71417d7c5,0x000004e71eca2000)|
+{22:19:25} CANCEL:188.251.55.9:49500 x 40 Name Unknown|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e71eca2000)|
+{22:19:25} CANCEL:188.251.55.9:49500 x 39 Name Unknown|SESRQSession 0x000004e71cd6ab07 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e71cd6ab07,0x000004e71eca2000)|
+{22:19:25} CANCEL:188.251.55.9:49500 x 38 Name Unknown|SESRQSession 0x000004e7169c52f7 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e7169c52f7,0x000004e71eca2000)|
+{22:19:26} Low flow,-613, 188.251.55.9:49500 x 574 Name Unknown: should send something to re-establish link
+{22:19:26} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:19:29} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:19:32} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:19:33} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.04&Duration=13.05
+{22:19:43} Dock Permission Received on pad 5
+{22:19:43} Viper_0x000004e71eca2003 Attempting to spawn docked but pad not in correct state, poking it
+{22:19:54} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=1.39&Duration=32.84
+{22:20:09} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=49.92
+{22:20:10} System:5(Oluf) Body:60 Pos:(-377.885,334.9,205.429) 
+{22:20:10} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{22:20:10} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{22:20:10} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{22:20:11} We (Viper_0x000004e71eca2003) own pad 5 but it's state disagrees, remind it
+{22:20:17} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{22:20:27} FlowControl:15
+{22:21:09} System:5(Oluf) Body:60 Pos:(-1568.78,2245.38,-1778.49) 
+{22:21:11} Ship Hauler_0x000004e709944d93 clearing docking state
+{22:21:11} Ship Viper_0x000004e71eca2003 clearing docking state
+{22:21:18} System:5(Oluf) Body:60 Pos:(-2814.97,4169.04,-3460.6) 
+{22:21:28} System:5(Oluf) Body:60 Pos:(-4891.43,5072.12,-5438.27) 
+{22:21:28} ILeftSession(3): 0x000004e6dd7e6a35: 24.134.52.95:50053 x 121 (192.168.100.10:50053) Name Unknown
+{22:21:28}  LeftSession(6): 0x000004e6dd7e6a35: 188.251.55.9:49500 x 891 Name Unknown
+{22:21:28} ILeftSession(3): 0x000004e71417d7c5: 24.134.52.95:50053 x 39 (192.168.100.10:50053) Name Unknown
+{22:21:28}  LeftSession(6): 0x000004e71417d7c5: 54.75.77.90:19364 x 9 EDServer#367
+{22:21:28} Machine 54.75.77.90:19364 x 7 EDServer#367 disconnected: ServerLink::~
+{22:21:29} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.04
+{22:21:29} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.04
+{22:21:29} System:5(Oluf) Body:60 Pos:(-2801.55,4152.51,-3446.54) cruising
+{22:21:29} vvv------------ ISLAND 0x00000002 CLAIMED ------------vvv
+{22:21:29} ^^^------------ island 0x00000002 claimed ------------^^^
+{22:21:29} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e71cda22c9(+) (wake=0x000004e71cda22ca)
+FindBestIsland complete, 0x000004e71cda22c9 best health=100.0
+
+{22:21:29} IJoinSession:Island: 0x000004e71cda22c9: 24.134.52.95:50053 x 49 (192.168.100.10:50053) Name Unknown
+{22:21:29} IJoinSession:Wake: 0x000004e71cda22ca: 24.134.52.95:50053 x 50 (192.168.100.10:50053) Name Unknown
+{22:21:29} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.06&Duration=0.12
+{22:21:29} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.06&Duration=0.15
+{22:21:29} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.06&Duration=0.15
+{22:21:29} Waiting for Authority Stability on 3 objects
+{22:21:29} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.21&Duration=0.00
+{22:21:29} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.43
+{22:21:29} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.21&Duration=0.28
+{22:21:30} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.61
+{22:21:32} FlowControl:14
+{22:21:58} Machine going:54.75.77.90:19364 x 0 EDServer#367 srtt=82
+{22:22:47} Machine 188.251.55.9:49500 x 6 Name Unknown disconnected: timeout
+{22:22:47}  LeftSession(2): 0x000004e6dd7e6a36: 188.251.55.9:49500 x 7 Name Unknown
+{22:23:11} ILeftSession(3): 0x000004e71cda22c9: 24.134.52.95:50053 x 188 (192.168.100.10:50053) Name Unknown
+{22:23:12} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.03
+{22:23:12} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{22:23:12} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.06&Duration=0.00
+{22:23:12} System:5(Oluf) Body:14 Pos:(-1.04217e+008,-15266.1,8.93265e+007) 
+{22:23:12} vvv------------ ISLAND 0x00000003 CLAIMED ------------vvv
+{22:23:12} ^^^------------ island 0x00000003 claimed ------------^^^
+{22:23:12} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e71cda2959(-) (wake=0x000004e71cda295a)
+FindBestIsland complete, 0x000004e71cda2959 best health=100.0
+
+{22:23:12} IJoinSession:Island: 0x000004e71cda2959: 24.134.52.95:50053 x 46 (192.168.100.10:50053) Name Unknown
+{22:23:12} IJoinSession:Wake: 0x000004e71cda295a: 24.134.52.95:50053 x 47 (192.168.100.10:50053) Name Unknown
+{22:23:12} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.06&Duration=0.10
+{22:23:12} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.06&Duration=0.13
+{22:23:12} Waiting for Authority Stability on 0 objects
+{22:23:12} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.20&Duration=0.00
+{22:23:12} System:5(Oluf) Body:14 Pos:(-1.04216e+008,-15018.2,8.93265e+007) 
+{22:23:12} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.30
+{22:23:12} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.20&Duration=0.30
+{22:23:13} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.62
+{22:23:13} System:5(Oluf) Body:14 Pos:(-1.04217e+008,-15261,8.93265e+007) 
+{22:23:13} System:5(Oluf) Body:14 Pos:(-1.04219e+008,-12953.8,8.93264e+007) 
+{22:23:14} System:5(Oluf) Body:14 Pos:(-1.04222e+008,-10599.9,8.93263e+007) 
+{22:23:17} Machine going:188.251.55.9:49500 x 0 Name Unknown srtt=585
+{22:23:21} System:5(Oluf) Body:14 Pos:(-1.04224e+008,-8444.13,8.93263e+007) 
+{22:23:29} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:23:29} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:23:29} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:23:30} System:5(Oluf) Body:14 Pos:(-1.04226e+008,-6272.37,8.93263e+007) 
+{22:23:37} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:23:40} System:5(Oluf) Body:14 Pos:(-1.04228e+008,-4099.11,8.93263e+007) 
+{22:23:45} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:23:45} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:23:45} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:23:52} System:5(Oluf) Body:14 Pos:(-1.0423e+008,-2077.47,8.9325e+007) 
+{22:23:56} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:24:00} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:24:00} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:24:00} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:24:00} System:5(Oluf) Body:14 Pos:(-1.04231e+008,-589.682,8.93232e+007) 
+{22:24:11} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:24:15} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:24:15} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:24:15} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:24:15} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:24:15} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:24:26} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:24:26} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:24:31} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:24:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:24:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:24:32} System:5(Oluf) Body:14 Pos:(-1.04234e+008,1271.14,8.93235e+007) 
+{22:24:41} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:24:45} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:24:45} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:24:45} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:24:46} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:24:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:24:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:24:56} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:24:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:24:57} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:25:00} System:5(Oluf) Body:14 Pos:(-1.04236e+008,2290.38,8.93218e+007) 
+{22:25:01} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:25:01} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:25:01} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:25:12} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:25:15} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:25:15} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:25:17} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:25:17} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:25:17} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:25:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:25:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:25:26} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:25:30} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:25:32} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:25:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:25:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:25:43} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:25:46} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:25:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:25:47} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:25:47} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:25:47} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:25:57} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:25:58} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:26:02} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:26:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:26:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:26:13} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:26:14} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:26:15} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:26:16} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:26:16} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:26:18} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:26:18} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:26:18} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:26:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:26:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:26:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:26:27} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:26:29} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:26:30} ILeftSession(3): 0x000004e6dd7e6a36: 24.134.52.95:50053 x 358 (192.168.100.10:50053) Name Unknown
+{22:26:33} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:26:33} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:26:33} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:26:44} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:26:45} System:5(Oluf) Body:14 Pos:(-1.04235e+008,-562.187,8.93215e+007) 
+{22:26:46} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:26:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:26:48} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:26:48} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:26:48} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:26:57} System:5(Oluf) Body:14 Pos:(-1.04235e+008,-3567.33,8.93217e+007) 
+{22:26:57} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:26:59} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:27:00} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:27:03} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:27:03} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:27:03} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:27:06} System:5(Oluf) Body:14 Pos:(-1.04235e+008,-6516.49,8.93211e+007) 
+{22:27:14} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:27:15} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:27:16} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:27:16} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:27:19} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:27:19} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:27:19} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:27:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:27:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:27:26} System:5(Oluf) Body:14 Pos:(-1.04235e+008,-9516,8.93212e+007) 
+{22:27:28} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:27:30} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:27:34} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:27:34} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:27:34} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:27:45} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:27:49} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:27:49} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:27:49} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:27:49} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:27:49} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:27:49} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:27:49} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:27:53} Server resource allocation failed, group:000000000000232b subgroup:Pirates3CO requested:1
+{22:27:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:27:57} System:5(Oluf) Body:14 Pos:(-1.04237e+008,-6987.86,8.93209e+007) 
+{22:27:58} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:28:05} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:28:05} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:28:05} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:28:05} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:28:13} ILeftSession(3): 0x000004e71cda22ca: 24.134.52.95:50053 x 305 (192.168.100.10:50053) Name Unknown
+{22:28:17} System:5(Oluf) Body:14 Pos:(-1.04237e+008,-4106.4,8.9321e+007) 
+{22:28:20} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:28:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:28:20} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:28:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:28:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:28:20} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:28:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:28:29} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:28:30} System:5(Oluf) Body:14 Pos:(-1.04237e+008,-1668.16,8.93226e+007) 
+{22:28:34} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:28:35} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:28:35} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:28:35} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:28:35} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:28:43} System:5(Oluf) Body:14 Pos:(-1.04235e+008,-1931.71,8.93254e+007) 
+{22:28:50} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:28:50} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:28:51} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:28:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:28:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:28:51} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:28:54} machines=2&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=155&loss=0.023&&jit=0.024&act1=34.289&act2=2.558
+{22:28:57} System:5(Oluf) Body:14 Pos:(-1.04235e+008,-2895.23,8.93282e+007) 
+{22:28:59} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:29:06} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{22:29:06} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:29:06} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:29:06} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:29:06} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:29:15} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:29:15} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:29:20} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:29:20} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:29:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:29:21} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:29:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:29:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:29:21} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:29:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:29:24} System:5(Oluf) Body:14 Pos:(-1.04234e+008,-746.961,8.93268e+007) 
+{22:29:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:29:29} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:29:35} System:5(Oluf) Body:14 Pos:(-1.04233e+008,1484.28,8.93251e+007) 
+{22:29:37} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:29:37} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:29:37} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:29:37} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:29:50} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:29:50} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:29:52} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:29:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:29:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:29:52} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:30:00} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:30:05} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:30:07} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:30:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:30:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:30:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:30:21} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:30:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:30:22} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:30:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:30:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:30:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:30:22} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:30:24} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:30:30} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:30:36} System:5(Oluf) Body:14 Pos:(-1.04233e+008,3561.54,8.93272e+007) 
+{22:30:38} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:30:38} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:30:38} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:30:38} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:30:45} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:30:50} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:30:51} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:30:51} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:30:53} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:30:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:30:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:30:53} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:30:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:31:00} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:31:08} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:31:08} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:31:08} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:31:08} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:31:15} System:5(Oluf) Body:14 Pos:(-1.04233e+008,631.463,8.93279e+007) 
+{22:31:15} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:31:21} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:31:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:31:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:31:24} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:31:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:31:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:31:24} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:31:27} System:5(Oluf) Body:14 Pos:(-1.04233e+008,-1541.36,8.93259e+007) 
+{22:31:30} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:31:35} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:31:39} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:31:39} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:31:39} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:31:39} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:31:40} System:5(Oluf) Body:14 Pos:(-1.04234e+008,972.56,8.93247e+007) 
+{22:31:52} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:31:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:31:52} System:5(Oluf) Body:14 Pos:(-1.04235e+008,3873.08,8.93241e+007) 
+{22:31:54} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:31:54} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:31:54} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:31:54} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:32:10} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:32:10} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:32:10} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:32:10} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:32:16} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:32:20} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:32:22} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:32:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:32:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:32:24} System:5(Oluf) Body:14 Pos:(-1.04235e+008,2323.27,8.93267e+007) 
+{22:32:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates3CO requested:1
+{22:32:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:32:25} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:32:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:32:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:32:25} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:32:28} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:32:32} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:32:39} System:5(Oluf) Body:14 Pos:(-1.04237e+008,3709.5,8.93285e+007) 
+{22:32:41} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:32:41} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:32:41} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:32:52} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:32:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:32:56} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:32:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:32:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:32:56} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:33:02} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:33:06} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:33:11} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:33:11} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:33:11} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:33:12} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:33:14} System:5(Oluf) Body:14 Pos:(-1.0424e+008,3073.95,8.93289e+007) 
+{22:33:16} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:33:23} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:33:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:33:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:33:27} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:33:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:33:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:33:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:33:39} System:5(Oluf) Body:14 Pos:(-1.04238e+008,2564.26,8.93269e+007) 
+{22:33:42} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:33:42} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:33:42} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:33:42} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:33:46} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:33:48} System:5(Oluf) Body:14 Pos:(-1.04236e+008,2457.34,8.93245e+007) 
+{22:33:51} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:33:53} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:33:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:33:56} Server resource allocation failed, group:000000000000232b subgroup:Pirates3CO requested:1
+{22:33:57} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:33:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:33:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:33:58} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:33:58} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:34:03} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:34:13} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:34:13} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:34:13} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:34:13} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:34:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:34:23} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:34:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:34:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:34:28} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:34:28} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:34:28} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:34:28} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:34:33} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:34:36} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:34:40} System:5(Oluf) Body:14 Pos:(-1.04236e+008,5087.62,8.93231e+007) 
+{22:34:44} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:34:44} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:34:44} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:34:44} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:34:54} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:34:54} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:34:59} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:34:59} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:34:59} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:34:59} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:35:03} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:35:12} System:5(Oluf) Body:14 Pos:(-1.04234e+008,4114.58,8.93244e+007) 
+{22:35:14} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:35:14} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:35:14} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:35:14} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:35:16} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:35:17} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:35:20} System:5(Oluf) Body:14 Pos:(-1.04231e+008,3568.54,8.93234e+007) 
+{22:35:22} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:35:23} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:35:24} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:35:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:35:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:35:28} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:35:30} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:35:30} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:35:30} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:35:30} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:35:30} System:5(Oluf) Body:14 Pos:(-1.04228e+008,2568.7,8.93228e+007) 
+{22:35:34} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:35:45} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:35:45} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:35:45} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:35:45} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:35:54} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:35:54} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:36:00} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:36:00} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:36:00} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:36:00} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:36:04} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:36:07} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:36:16} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:36:16} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:36:16} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:36:16} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:36:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:36:25} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:36:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:36:30} System:5(Oluf) Body:14 Pos:(-1.04226e+008,65.0394,8.93227e+007) 
+{22:36:31} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:36:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:36:31} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:36:31} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:36:35} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:36:46} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:36:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:36:46} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:36:46} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:36:47} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:36:52} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:36:55} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:36:55} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:36:59} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:37:02} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:37:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:37:02} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:37:02} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:37:05} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:37:17} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:37:17} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:37:17} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:37:17} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:37:17} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:37:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:37:25} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:37:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:37:28} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:37:32} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:37:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:37:32} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:37:32} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:37:35} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:37:38} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:37:48} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:37:48} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:37:48} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:37:48} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:37:56} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:37:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:38:03} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:38:03} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:38:03} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:38:03} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:38:05} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:38:17} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:38:18} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:38:18} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:38:18} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:38:18} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:38:23} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:38:24} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:38:26} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:38:26} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:38:27} Server resource allocation failed, group:000000000000232b subgroup:Pirates3CO requested:1
+{22:38:28} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:38:29} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:38:33} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:38:33} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:38:33} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:38:33} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:38:36} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:38:49} System:5(Oluf) Body:14 Pos:(-1.04229e+008,30.73,8.93247e+007) 
+{22:38:49} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:38:49} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:38:49} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:38:49} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:38:54} machines=2&numturnlinks=0&backlogtotal=0&backlogmax=0&avgsrtt=186&loss=0.012&&jit=0.012&act1=32.959&act2=0.915
+{22:38:56} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:38:56} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:39:04} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:39:04} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:39:04} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:39:04} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:39:05} System:5(Oluf) Body:14 Pos:(-1.0423e+008,1509.62,8.93267e+007) 
+{22:39:06} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{22:39:06} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:39:09} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:39:17} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:39:20} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:39:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:39:20} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:39:20} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:39:21} System:5(Oluf) Body:14 Pos:(-1.04228e+008,3293.94,8.93254e+007) 
+{22:39:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:39:27} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:39:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:39:29} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:39:34} System:5(Oluf) Body:14 Pos:(-1.04228e+008,3526.78,8.93224e+007) 
+{22:39:35} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:39:35} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:39:35} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:39:35} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:39:37} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:39:48} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:39:48} System:5(Oluf) Body:14 Pos:(-1.04228e+008,2453.95,8.93197e+007) 
+{22:39:50} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:39:50} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:39:50} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:39:50} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:39:54} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:39:57} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:39:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:39:57} Server resource allocation failed, group:000000000000232b subgroup:Pirates3CO requested:1
+{22:39:59} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:40:06} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:40:06} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:40:06} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:40:06} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:40:07} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:40:18} System:5(Oluf) Body:14 Pos:(-1.04229e+008,4513.56,8.93217e+007) 
+{22:40:21} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:40:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:40:21} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:40:21} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:40:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:40:27} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:40:27} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:40:29} Server resource allocation failed, group:000000000000232b subgroup:Pirates2CO requested:1
+{22:40:36} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:40:36} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:40:36} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:40:36} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:40:37} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:40:39} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:40:52} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:40:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:40:52} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:40:57} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:40:57} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:41:07} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:41:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:41:07} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:41:07} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:41:08} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:41:18} Server resource allocation failed, group:000000000000232a subgroup:Police Passthrough 2 requested:1
+{22:41:18} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners B requested:1
+{22:41:22} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:41:22} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:41:23} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:41:25} Server resource allocation failed, group:0000000000002329 subgroup:Miners2CO requested:1
+{22:41:28} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:41:28} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:41:28} Server resource allocation failed, group:000000000000232b subgroup:Pirates3CO requested:1
+{22:41:29} Server resource allocation failed, group:0000000000002329 subgroup:Miners1AN requested:1
+{22:41:38} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:41:38} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:41:38} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:41:38} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:41:38} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:41:53} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:41:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:41:53} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:41:53} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:41:58} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority2EA requested:1
+{22:41:58} Server resource allocation failed, group:0000000000002329 subgroup:Miners2SW requested:1
+{22:41:59} System:5(Oluf) Body:14 Pos:(-1.04231e+008,6436.03,8.93224e+007) 
+{22:42:02} System:5(Oluf) Body:14 Pos:(-1.04231e+008,7296.59,8.93226e+007) 
+{22:42:08} Server resource allocation failed, group:000000000000232a subgroup:SysAuthority1EA requested:1
+{22:42:08} Server resource allocation failed, group:0000000000002329 subgroup:Miners1CO requested:1
+{22:42:08} Server resource allocation failed, group:0000000000002329 subgroup:FedAuthority2FF requested:1
+{22:42:08} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:42:08} Server resource allocation failed, group:000000000000232b subgroup:Pirates1CO requested:1
+{22:42:10} Server resource allocation failed, group:0000000000002329 subgroup:2extra Miners A requested:1
+{22:42:12} ILeftSession(3): 0x000004e71cda2959: 24.134.52.95:50053 x 377 (192.168.100.10:50053) Name Unknown

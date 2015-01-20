@@ -1,0 +1,205 @@
+15-01-18-22:51 Mitteleuropäische Zeit  (21:51 GMT) - part 1
+{22:51:50} GetPortMapping(51997) failed with code 714 (NoSuchEntryInArray)
+{22:51:50} GetPortMapping(51997) failed with code 714 (NoSuchEntryInArray)
+{22:51:50} New machine:0.0.0.0:0 x 0 Name Unknown
+{22:51:51} New machine:255.255.255.255:51997 x 0 Name Unknown
+{22:51:51} Start Log for this machine: 255.255.255.255:51997 - 
+{22:51:51} LAN connection: 192.168.0.14:51997
+{22:52:09} Turn State: Resolving
+{22:52:09} Turn State: Resolved
+{22:52:09} Turn State: Allocating
+{22:52:09} STUN server address is 54.155.250.239:3478
+{22:52:09} peer: STUN mapped address is 95.91.248.240:46527
+{22:52:10} Turn State: Ready
+{22:52:10} TURN relay address is 54.155.250.239:42242
+{22:52:10} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>62054</user_id><commander_id></commander_id><name>43726176656e6f72</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>94574</user_id><commander_id></commander_id><name>536574687a</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Jera</lastLocation><presence>auto</presence><solo>1</solo><privateGroup_id>0</privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>169785</user_id><commander_id></commander_id><name>4e6f6c613436</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>55075</user_id><commander_id></commander_id><name>5265642053616d75726169</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>61762</user_id><commander_id></commander_id><name>4472697a7a74204461726e6f6b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>131176</user_id><commander_id></commander_id><name>4c65746963726f6e</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>148405</user_id><commander_id></commander_id><name>4d6572696e696561</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>149903</user_id><commander_id></commander_id><name>5b5547435d546865446161446565</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>170473</user_id><commander_id></commander_id><name>4861707079536e6f77</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>180990</user_id><commander_id></commander_id><name>53616e646dc3a46e6e6368656e</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>193821</user_id><commander_id></commander_id><name>546865204372696d65</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>220415</user_id><commander_id></commander_id><name>616b616d6f7269747a</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>190870</user_id><commander_id></commander_id><name>4d7973746572696f</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>198717</user_id><commander_id></commander_id><name>5265616c20466c617368792044756465</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>204559</user_id><commander_id></commander_id><name>5b5547435d476830737472696433725b4745525d</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>217331</user_id><commander_id></commander_id><name>4f6b656b65</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>219209</user_id><commander_id></commander_id><name>416c61626f727573</name><isDocked>0</isDocked><pending>1</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>1</canAccept><ignored>0</ignored></item><item><user_id>219837</user_id><commander_id></commander_id><name>4745522d4372757368737479</name><isDocked>1</isDocked><pending>0</pending><lastLocation>Kaliki - Oren City</lastLocation><presence>auto</presence><solo>1</solo><privateGroup_id>0</privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>228978</user_id><commander_id></commander_id><name>436f6e6e6572204d636b6179</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>289533</user_id><commander_id></commander_id><name>46696e616c4d61646e657373</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>290224</user_id><commander_id></commander_id><name>5547432d53492d556e7265616c</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>298479</user_id><commander_id></commander_id><name>417a757269656c</name><isDocked>0</isDocked><pending>1</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>1</canAccept><ignored>0</ignored></item><item><user_id>305864</user_id><commander_id></commander_id><name>47616c6477796e</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>309294</user_id><commander_id></commander_id><name>44494e474f2d474552</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{22:52:25} ConnectToServerActivity: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3139352e3230332e323034</ip><port>19364</port></server></servers><rescueservers><server><ip>35342e3232382e36322e3739</ip><port>19364</port></server></rescueservers></data>
+{22:52:25} New machine:54.195.203.204:19364 x 0 Name Unknown
+{22:52:25} New Primary Server: 54.195.203.204:19364
+{22:52:25} New machine:54.228.62.79:19364 x 0 Name Unknown
+{22:52:25} New Rescue Server: 54.228.62.79:19364
+{22:52:26} Now using address 95.91.248.240:46535 for this machine after STUN reply
+{22:52:26} Sync Established
+{22:52:26} Register fingerprint 6df577e1 for 54.195.203.204:19364 x 9 EDServer#377
+{22:52:26} Connected: 54.195.203.204:19364 x 9 EDServer#377
+{22:52:26} IJoinSession:MyTalk: 0x000000024bd2df6d: 95.91.248.240:46535 x 6 (255.255.255.255:51997) Name Unknown
+{22:52:26} Message too large (MTU)
+{22:52:27} Message too large (MTU)
+{22:52:27} Established MTU=1452
+{22:52:28} IJoinSession:Server (unspecified): 0x000004e721ccc959: 95.91.248.240:46535 x 9 (255.255.255.255:51997) Name Unknown
+{22:52:28} CANCEL:54.195.203.204:19364 x 11 EDServer#377|SESRQSession 0x000004e721ccc959 { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e721ccc959,0x000004e722d9a000)|
+{22:52:28}  JoinSession:Server (unspecified): 0x000004e721ccc959: 54.195.203.204:19364 x 10 EDServer#377
+{22:52:28} Sync Established
+{22:52:28} Register fingerprint 6ee32e06 for 54.228.62.79:19364 x 8 EDServer#295
+{22:52:28} Connected: 54.228.62.79:19364 x 8 EDServer#295
+{22:52:29} CANCEL:54.228.62.79:19364 x 11 EDServer#295|SESRQSession 0x000004e721ccc959 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e721ccc959,0x000004e722d9a000)|
+{22:52:29} CANCEL:54.228.62.79:19364 x 9 EDServer#295|SESRQSession 0x000000024bd2df6d { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2df6d,0x000004e722d9a000)|
+{22:52:29} IJoinSession:Server (unspecified): 0x000004e717db6cc4: 95.91.248.240:46535 x 11 (255.255.255.255:51997) Name Unknown
+{22:52:29} CANCEL:54.228.62.79:19364 x 10 EDServer#295|SESRQSession 0x000004e717db6cc4 { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e717db6cc4,0x000004e722d9a000)|
+{22:52:29}  JoinSession:Server (unspecified): 0x000004e717db6cc4: 54.228.62.79:19364 x 9 EDServer#295
+{22:52:40} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.03
+{22:52:40} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.03
+{22:52:40} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3135352e3136322e313432</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:52:40} EnterLocation: Using UDP server address 54.155.162.142:19364 from webserver
+{22:52:40} New machine:54.155.162.142:19364 x 0 Name Unknown
+{22:52:40} Sync Established
+{22:52:40} Register fingerprint ffd19aaf for 54.155.162.142:19364 x 10 EDServer#345
+{22:52:40} Connected: 54.155.162.142:19364 x 10 EDServer#345
+{22:52:40} Established MTU=1452
+{22:52:41} IJoinSession:Server (unspecified): 0x000004e71dd4a72a: 95.91.248.240:46535 x 80 (255.255.255.255:51997) Name Unknown
+{22:52:41} CANCEL:54.155.162.142:19364 x 11 EDServer#345|SESRQSession 0x000004e71dd4a72a { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e71dd4a72a,0x000004e722d9a000)|
+{22:52:41}  JoinSession:Server (unspecified): 0x000004e71dd4a72a: 54.155.162.142:19364 x 10 EDServer#345
+{22:52:41} New Primary Server: 54.155.162.142:19364
+{22:52:41} EnterLocation: Activity=EstablishServers&note=complete&Start=0.00&Duration=1.45
+{22:52:41} EnterLocation: Activity=WaitForEDServer&note=complete&Start=1.47&Duration=0.00
+{22:52:41} System:3(Coquim) Body:53 Pos:(-551.346,-749.34,-366.752) 
+{22:52:41} New machine:79.20.173.199:64284 x 0 Name Unknown
+{22:52:41} vvv------------ ISLAND 0x00000001 CLAIMED ------------vvv
+{22:52:41} 79.20.173.199:64284 x 2 Name Unknown
+{22:52:41} ^^^------------ island 0x00000001 claimed ------------^^^
+{22:52:41} FindBestIsland:Goschkin:18446744073709551615
+  Accept 0x000004e71dd4a0de: with 0 players, health=100.000000, friendscore=0, recentplayers=0
+FindBestIsland complete, 0x000004e71dd4a0de best health=100.0
+
+{22:52:41} IJoinSession:Island: 0x000004e71dd4a0de: 95.91.248.240:46535 x 85 (255.255.255.255:51997) Name Unknown
+{22:52:41} IJoinSession:Wake: 0x000004e71dd4a0df: 95.91.248.240:46535 x 86 (255.255.255.255:51997) Name Unknown
+{22:52:41} Recording preallocation #000004e71dd4a738, 26
+{22:52:41} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=1.49&Duration=0.09
+{22:52:41} System:3(Coquim) Body:53 Pos:(-551.346,-749.34,-366.752) 
+{22:52:41} Create TURN channel for 79.20.173.199:64284 x 6 Name Unknown
+{22:52:41} TurnClient:BindChannel:46.137.46.167:54627 : status=0(Success)
+{22:52:41} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.03&Duration=1.67
+{22:52:42} Sync mismatch & sent
+{22:52:42} Register fingerprint e52dc9de for 79.20.173.199:64284 x 7 Name Unknown
+{22:52:42} Connected: 79.20.173.199:64284 x 7 Name Unknown
+{22:52:42} CANCEL:79.20.173.199:64284 x 20 Name Unknown|SESRQSession 0x000004e71dd4a0df { x6 } 'Wake' 1:0:1 members(0x000004e71dd4a0df,0x000004e722d9a000)|
+{22:52:42} CANCEL:79.20.173.199:64284 x 27 Name Unknown|SESRQSession 0x000004e71dd4a0de { x103 } 'Island' 0:0:1 members(0x000004e71dd4a0de,0x000004e722d9a000)|
+{22:52:42}  JoinSession:Wake: 0x000004e71dd4a0df: 79.20.173.199:64284 x 26 Name Unknown
+{22:52:42} CANCEL:79.20.173.199:64284 x 30 Name Unknown|SESRQSession 0x000004e721ccc959 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e721ccc959,0x000004e722d9a000)|
+{22:52:42} CANCEL:79.20.173.199:64284 x 29 Name Unknown|SESRQSession 0x000004e71dd4a72a { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e71dd4a72a,0x000004e722d9a000)|
+{22:52:42} CANCEL:79.20.173.199:64284 x 28 Name Unknown|SESRQSession 0x000000024bd2df6d { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2df6d,0x000004e722d9a000)|
+{22:52:42} CANCEL:79.20.173.199:64284 x 27 Name Unknown|SESRQSession 0x000004e717db6cc4 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e717db6cc4,0x000004e722d9a000)|
+{22:52:42} Waiting for Authority Stability on 1 objects
+{22:52:42} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=2.09&Duration=0.00
+{22:52:43} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ BernalIndMedium01Empire 0x00000000c027c800 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:52:46} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ BernalIndMedium01Empire 0x00000000c027c800 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:52:49} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ BernalIndMedium01Empire 0x00000000c027c800 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:52:51} ModularStationAttachComponent: object kinematic Alli_StoragePodA_0x000000010000002f is not ready
+{22:52:51} ModularStationAttachComponent: object kinematic Alli_StoragePodA_0x000000010000002f is not ready
+{22:52:51} ModularStationAttachComponent: object kinematic Alli_StoragePodA_0x000000010000002f is not ready
+{22:52:51} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.03&Duration=10.97
+{22:53:00} Dock Permission Received on pad 42
+{22:53:00} CobraMkIII_0x000004e722d9a003 Attempting to spawn docked but pad not in correct state, poking it
+{22:53:02} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=1.59&Duration=20.66
+{22:53:19} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=39.29
+{22:53:19} System:3(Coquim) Body:53 Pos:(295.348,-112.923,230.65) 
+{22:53:20} Server resource allocation failed, group:00000000c027c800 subgroup:PatrolTraffic_0 requested:1
+{22:53:20} Server resource allocation failed, group:00000000c027c800 subgroup:PatrolTraffic_2 requested:1
+{22:53:20} Server resource allocation failed, group:00000000c027c800 subgroup:AmbientTraffic_2 requested:1
+{22:53:20} We (CobraMkIII_0x000004e722d9a003) own pad 42 but it's state disagrees, remind it
+{22:53:33} Server resource allocation failed, group:00000000c027c800 subgroup:AmbientTraffic_1 requested:1
+{22:53:41} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>62054</user_id><commander_id></commander_id><name>43726176656e6f72</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>94574</user_id><commander_id></commander_id><name>536574687a</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Jera</lastLocation><presence>auto</presence><solo>1</solo><privateGroup_id>0</privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>169785</user_id><commander_id></commander_id><name>4e6f6c613436</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>55075</user_id><commander_id></commander_id><name>5265642053616d75726169</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>61762</user_id><commander_id></commander_id><name>4472697a7a74204461726e6f6b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>131176</user_id><commander_id></commander_id><name>4c65746963726f6e</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>148405</user_id><commander_id></commander_id><name>4d6572696e696561</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>149903</user_id><commander_id></commander_id><name>5b5547435d546865446161446565</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>170473</user_id><commander_id></commander_id><name>4861707079536e6f77</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>180990</user_id><commander_id></commander_id><name>53616e646dc3a46e6e6368656e</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>193821</user_id><commander_id></commander_id><name>546865204372696d65</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>220415</user_id><commander_id></commander_id><name>616b616d6f7269747a</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>190870</user_id><commander_id></commander_id><name>4d7973746572696f</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>198717</user_id><commander_id></commander_id><name>5265616c20466c617368792044756465</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>204559</user_id><commander_id></commander_id><name>5b5547435d476830737472696433725b4745525d</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>217331</user_id><commander_id></commander_id><name>4f6b656b65</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>219209</user_id><commander_id></commander_id><name>416c61626f727573</name><isDocked>0</isDocked><pending>1</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>1</canAccept><ignored>0</ignored></item><item><user_id>219837</user_id><commander_id></commander_id><name>4745522d4372757368737479</name><isDocked>1</isDocked><pending>0</pending><lastLocation>Kaliki - Oren City</lastLocation><presence>auto</presence><solo>1</solo><privateGroup_id>0</privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>228978</user_id><commander_id></commander_id><name>436f6e6e6572204d636b6179</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>289533</user_id><commander_id></commander_id><name>46696e616c4d61646e657373</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>290224</user_id><commander_id></commander_id><name>5547432d53492d556e7265616c</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>298479</user_id><commander_id></commander_id><name>417a757269656c</name><isDocked>0</isDocked><pending>1</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>1</canAccept><ignored>0</ignored></item><item><user_id>305864</user_id><commander_id></commander_id><name>47616c6477796e</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>309294</user_id><commander_id></commander_id><name>44494e474f2d474552</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{22:53:44} New machine:87.115.126.213:56543 x 0 Name Unknown
+{22:53:44} New Sync
+{22:53:44} Create TURN channel for 87.115.126.213:56543 x 2 Name Unknown
+{22:53:44} TurnClient:BindChannel:54.228.114.174:7003 : status=0(Success)
+{22:53:44} Register fingerprint 206fb243 for 87.115.126.213:56543 x 3 Name Unknown
+{22:53:44} Connected: 87.115.126.213:56543 x 3 Name Unknown
+{22:53:44}  JoinSession:Island: 0x000004e71dd4a0de: 87.115.126.213:56543 x 27 Name Unknown
+{22:53:44}  JoinSession:Wake: 0x000004e71dd4a0df: 87.115.126.213:56543 x 27 Name Unknown
+{22:53:44} CANCEL:87.115.126.213:56543 x 27 Name Unknown|SESRQSession 0x000004e721ccc959 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e721ccc959,0x000004e722d9a000)|
+{22:53:44} CANCEL:87.115.126.213:56543 x 25 Name Unknown|SESRQSession 0x000004e71dd4a72a { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e71dd4a72a,0x000004e722d9a000)|
+{22:53:44} CANCEL:87.115.126.213:56543 x 23 Name Unknown|SESRQSession 0x000000024bd2df6d { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2df6d,0x000004e722d9a000)|
+{22:53:44} CANCEL:87.115.126.213:56543 x 21 Name Unknown|SESRQSession 0x000004e717db6cc4 { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e717db6cc4,0x000004e722d9a000)|
+{22:53:46} We (CobraMkIII_0x000004e722d9a003) own pad 42 but it's state disagrees, remind it
+{22:53:59} 2 machines overdue: 
+{22:54:10} System:3(Coquim) Body:53 Pos:(-238.546,1611.97,1624.36) 
+{22:54:14} Ship CobraMkIII_0x000004e722d9a003 clearing docking state
+{22:54:21} System:3(Coquim) Body:53 Pos:(-52.4817,2790.23,4381.51) 
+{22:54:29} 2 machines overdue: 
+{22:54:35} Machine 79.20.173.199:64284 x 6 Name Unknown disconnected: timeout
+{22:54:35}  LeftSession(2): 0x000004e71dd4a0df: 79.20.173.199:64284 x 7 Name Unknown
+{22:54:37} Dock Permission Received on pad 29
+{22:54:38} We (Python_0x000004e71d65290a) own pad 29 but it's state disagrees, remind it
+{22:54:59} 2 machines overdue: 
+{22:55:02} Dock Permission Received on pad 42
+{22:55:03} We (CobraMkIII_0x000004e722d9a003) own pad 42 but it's state disagrees, remind it
+{22:55:05} Machine going:79.20.173.199:64284 x 0 Name Unknown srtt=107
+{22:55:05} Dock Permission Received on pad 33
+{22:55:06} We (CobraMkIII_0x000004e71d652978) own pad 33 but it's state disagrees, remind it
+{22:55:15} FlowControl:17
+{22:55:29} 2 machines overdue: 
+{22:55:35} Ship Asp_0x000004e71d652948 clearing docking state
+{22:55:49} System:3(Coquim) Body:53 Pos:(-184.509,1687.77,1592.73) 
+{22:55:56} Server resource allocation failed, group:00000000c027c800 subgroup:PatrolTraffic_0 requested:1
+{22:55:56} Server resource allocation failed, group:00000000c027c800 subgroup:PatrolTraffic_2 requested:1
+{22:55:56} Server resource allocation failed, group:00000000c027c800 subgroup:AmbientTraffic_2 requested:1
+{22:55:57} Ship Hauler_0x000004e71d652935 clearing docking state
+{22:56:09} Server resource allocation failed, group:00000000c027c800 subgroup:AmbientTraffic_1 requested:1
+{22:56:20} 2 machines overdue: 
+{22:56:20} FlowControl:18
+{22:56:57} Server resource allocation failed, group:00000000c027c800 subgroup:PatrolTraffic_0 requested:1
+{22:56:57} Server resource allocation failed, group:00000000c027c800 subgroup:PatrolTraffic_2 requested:1
+{22:56:57} Server resource allocation failed, group:00000000c027c800 subgroup:AmbientTraffic_2 requested:1
+{22:57:10} Server resource allocation failed, group:00000000c027c800 subgroup:AmbientTraffic_1 requested:1
+{22:57:16} System:3(Coquim) Body:53 Pos:(-294.333,184.986,-96.6536) 
+{22:57:16} ILeftSession(3): 0x000004e71dd4a0de: 95.91.248.240:46535 x 147 (255.255.255.255:51997) Name Unknown
+{22:57:16}  LeftSession(6): 0x000004e71dd4a0de: 87.115.126.213:56543 x 890 Name Unknown
+{22:57:16} Cloning dying object #000004e71d6529ff
+{22:57:16} Cloning dying object #000004e71d652a23
+{22:57:16} Cloning dying object #000004e71d652a3f
+{22:57:16} Cloning dying object #000004e71d652a0d
+{22:57:16} Cloning dying object #000004e71d6529e9
+{22:57:16} Cloning dying object #000004e71d652978
+{22:57:16} Cloning dying object #000004e71d65290a
+{22:57:16} Cloning dying object #00000000c027c800
+{22:57:16} ILeftSession(3): 0x000004e71dd4a0df: 95.91.248.240:46535 x 145 (255.255.255.255:51997) Name Unknown
+{22:57:16}  LeftSession(6): 0x000004e71dd4a0df: 87.115.126.213:56543 x 868 Name Unknown
+{22:57:17} 2 machines overdue: 
+{22:57:18} Deleting original dying object after clone  #000004e71d65290a
+{22:57:18} Deleting original dying object after clone  #000004e71d6529ff
+{22:57:18} Deleting original dying object after clone  #000004e71d652a3f
+{22:57:18} Deleting original dying object after clone  #000004e71d652978
+{22:57:18} Deleting original dying object after clone  #000004e71d652a0d
+{22:57:18} Deleting original dying object after clone  #000004e71d652a23
+{22:57:18} ILeftSession(3): 0x000004e721ccc959: 95.91.248.240:46535 x 12 (255.255.255.255:51997) Name Unknown
+{22:57:18}  LeftSession(6): 0x000004e721ccc959: 54.195.203.204:19364 x 8 EDServer#377
+{22:57:18} Machine 54.195.203.204:19364 x 6 EDServer#377 disconnected: ServerLink::~
+{22:57:18} Deleting original dying object after clone  #00000000c027c800
+{22:57:18} CANCEL:54.228.62.79:19364 x 7 EDServer#295|StartServerAdmin(authenticated) (rescue)|
+{22:57:18} ILeftSession(3): 0x000004e717db6cc4: 95.91.248.240:46535 x 4 (255.255.255.255:51997) Name Unknown
+{22:57:18}  LeftSession(6): 0x000004e717db6cc4: 54.228.62.79:19364 x 8 EDServer#295
+{22:57:18} ILeftSession(3): 0x000004e71dd4a72a: 95.91.248.240:46535 x 3 (255.255.255.255:51997) Name Unknown
+{22:57:18}  LeftSession(6): 0x000004e71dd4a72a: 54.155.162.142:19364 x 11 EDServer#345
+{22:57:20} ILeftSession(3): 0x000000024bd2df6d: 95.91.248.240:46535 x 3 (255.255.255.255:51997) Name Unknown
+{22:57:20} Machine 87.115.126.213:56543 x 35 Name Unknown disconnected: shutdown
+{22:57:20} Machine 54.228.62.79:19364 x 7 EDServer#295 disconnected: shutdown
+{22:57:20} Machine 95.91.248.240:46535 x 2 (255.255.255.255:51997) Name Unknown disconnected: shutdown
+{22:57:20} Machine 54.155.162.142:19364 x 9 EDServer#345 disconnected: shutdown
+{22:57:20} Deleting original dying object after clone  #000004e71d6529e9
+{22:57:20} Machine going:0.0.0.0:0 x 0 DummyMachine srtt=1000
+{22:57:20} Machine going:87.115.126.213:56543 x 0 Name Unknown srtt=174
+{22:57:20} Machine going:54.228.62.79:19364 x 0 EDServer#295 srtt=124
+{22:57:20} Machine going:54.195.203.204:19364 x 0 EDServer#377 srtt=189
+{22:57:20} Machine going:95.91.248.240:46535 x 0 Name Unknown srtt=1000
+{22:57:20} Machine going:54.155.162.142:19364 x 0 EDServer#345 srtt=510
+{22:57:20} Turn State: Deallocating
+{22:57:20} TURN Relay shutting down..
+{22:57:21} DeletePortMapping(51997) failed with code 714 (NoSuchEntryInArray)

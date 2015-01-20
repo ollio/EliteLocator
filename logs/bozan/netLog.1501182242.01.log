@@ -1,0 +1,199 @@
+15-01-18-22:42 Mitteleuropäische Zeit  (21:42 GMT) - part 1
+{22:42:29} GetPortMapping(61402) failed with code 714 (NoSuchEntryInArray)
+{22:42:29} AddPortMapping(61402, 61402, 192.168.100.10) failed with code 403 (UnknownError)
+{22:42:29} failed to initialise upnp
+{22:42:29} New machine:0.0.0.0:0 x 0 Name Unknown
+{22:42:29} New machine:192.168.100.10:51585 x 0 Name Unknown
+{22:42:29} Start Log for this machine: 192.168.100.10:51585 - 
+{22:42:53} Turn State: Resolving
+{22:42:53} Turn State: Resolved
+{22:42:53} Turn State: Allocating
+{22:42:53} STUN server address is 54.78.4.44:3478
+{22:42:53} peer: STUN mapped address is 24.134.52.95:56901
+{22:42:53} Turn State: Ready
+{22:42:53} TURN relay address is 54.78.4.44:54869
+{22:42:53} FriendsRequest:
+<?xml version="1.0" encoding="utf-8"?>
+<data><users><item><user_id>196213</user_id><commander_id></commander_id><name>47617264696f73</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>141831</user_id><commander_id></commander_id><name>50726f66204f6b6f7265</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item><item><user_id>284636</user_id><commander_id></commander_id><name>5374657665204b6f6a65636b</name><isDocked>0</isDocked><pending>0</pending><lastLocation>Offline</lastLocation><presence>offline</presence><solo></solo><privateGroup_id></privateGroup_id><canAccept>0</canAccept><ignored>0</ignored></item></users></data>
+{22:43:02} ConnectToServerActivity: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e37352e3136392e3531</ip><port>19364</port></server></servers><rescueservers><server><ip>35342e37342e3234382e3733</ip><port>19364</port></server></rescueservers></data>
+{22:43:02} New machine:54.75.169.51:19364 x 0 Name Unknown
+{22:43:02} New Primary Server: 54.75.169.51:19364
+{22:43:02} New machine:54.74.248.73:19364 x 0 Name Unknown
+{22:43:02} New Rescue Server: 54.74.248.73:19364
+{22:43:02} Now using address 24.134.52.95:51585 for this machine after STUN reply
+{22:43:02} Sync Established
+{22:43:02} Register fingerprint deb1c58a for 54.75.169.51:19364 x 9 EDServer#299
+{22:43:02} Connected: 54.75.169.51:19364 x 9 EDServer#299
+{22:43:02} Established MTU=1500
+{22:43:02} IJoinSession:MyTalk: 0x000000024bd2ff0b: 24.134.52.95:51585 x 7 (192.168.100.10:51585) Name Unknown
+{22:43:02} IJoinSession:Server (unspecified): 0x000004e721db529c: 24.134.52.95:51585 x 10 (192.168.100.10:51585) Name Unknown
+{22:43:03} CANCEL:54.75.169.51:19364 x 11 EDServer#299|SESRQSession 0x000004e721db529c { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e721db529c,0x000004e721de2000)|
+{22:43:03}  JoinSession:Server (unspecified): 0x000004e721db529c: 54.75.169.51:19364 x 10 EDServer#299
+{22:43:03} Sync Established
+{22:43:03} Register fingerprint df6c5fb5 for 54.74.248.73:19364 x 8 EDServer#343
+{22:43:03} Connected: 54.74.248.73:19364 x 8 EDServer#343
+{22:43:03} CANCEL:54.74.248.73:19364 x 11 EDServer#343|SESRQSession 0x000004e721db529c { x6 } 'Server (unspecified)' 0:0:2 members(0x000004e721db529c,0x000004e721de2000)|
+{22:43:03} CANCEL:54.74.248.73:19364 x 9 EDServer#343|SESRQSession 0x000000024bd2ff0b { x5 } 'MyTalk' 0:0:1 members(0x000000024bd2ff0b,0x000004e721de2000)|
+{22:43:03} IJoinSession:Server (unspecified): 0x000004e71e816258: 24.134.52.95:51585 x 12 (192.168.100.10:51585) Name Unknown
+{22:43:04} CANCEL:54.74.248.73:19364 x 10 EDServer#343|SESRQSession 0x000004e71e816258 { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e71e816258,0x000004e721de2000)|
+{22:43:04}  JoinSession:Server (unspecified): 0x000004e71e816258: 54.74.248.73:19364 x 9 EDServer#343
+{22:43:10} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.18
+{22:43:10} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.18
+{22:43:10} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.20&Duration=0.00
+{22:43:10} EnterLocation: response
+<?xml version="1.0" encoding="utf-8"?>
+<data><servers><server><ip>35342e3137302e3130342e313130</ip><port>19364</port></server></servers><rescueservers></rescueservers></data>
+{22:43:10} EnterLocation: Using UDP server address 54.170.104.110:19364 from webserver
+{22:43:10} New machine:54.170.104.110:19364 x 0 Name Unknown
+{22:43:11} Sync Established
+{22:43:11} Register fingerprint 2e993498 for 54.170.104.110:19364 x 10 EDServer#352
+{22:43:11} Connected: 54.170.104.110:19364 x 10 EDServer#352
+{22:43:11} Established MTU=1500
+{22:43:11} IJoinSession:Server (unspecified): 0x000004e718a94d5e: 24.134.52.95:51585 x 31 (192.168.100.10:51585) Name Unknown
+{22:43:11} CANCEL:54.170.104.110:19364 x 11 EDServer#352|SESRQSession 0x000004e718a94d5e { x4 } 'Server (unspecified)' 1:0:1 members(0x000004e718a94d5e,0x000004e721de2000)|
+{22:43:11}  JoinSession:Server (unspecified): 0x000004e718a94d5e: 54.170.104.110:19364 x 10 EDServer#352
+{22:43:11} New Primary Server: 54.170.104.110:19364
+{22:43:11} EnterLocation: Activity=EstablishServers&note=complete&Start=0.00&Duration=2.15
+{22:43:11} EnterLocation: Activity=WaitForEDServer&note=complete&Start=2.18&Duration=0.00
+{22:43:11} System:5(Oluf) Body:14 Pos:(-1.04227e+008,-866.082,8.93232e+007) 
+{22:43:12} vvv------------ ISLAND 0x00000001 CLAIMED ------------vvv
+{22:43:12} ^^^------------ island 0x00000001 claimed ------------^^^
+{22:43:12} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e718a94d68(-) (wake=0x000004e718a94d69)
+FindBestIsland complete, 0x000004e718a94d68 best health=100.0
+
+{22:43:12} IJoinSession:Island: 0x000004e718a94d68: 24.134.52.95:51585 x 35 (192.168.100.10:51585) Name Unknown
+{22:43:12} IJoinSession:Wake: 0x000004e718a94d69: 24.134.52.95:51585 x 36 (192.168.100.10:51585) Name Unknown
+{22:43:12} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=2.20&Duration=0.08
+{22:43:12} Waiting for Authority Stability on 0 objects
+{22:43:12} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=2.31&Duration=0.00
+{22:43:12} System:5(Oluf) Body:14 Pos:(-1.04227e+008,-866.082,8.93232e+007) 
+{22:43:14} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.20&Duration=3.88
+{22:43:27} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=2.31&Duration=15.59
+{22:43:35} 2 machines overdue: 
+{22:43:36} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=26.32
+{22:43:36} System:5(Oluf) Body:14 Pos:(-1.04227e+008,-874.104,8.93232e+007) 
+{22:43:55} System:5(Oluf) Body:14 Pos:(-1.04226e+008,-3440.08,8.93217e+007) 
+{22:44:02} System:5(Oluf) Body:14 Pos:(-1.04226e+008,-5777.57,8.93204e+007) 
+{22:44:05} 2 machines overdue: 
+{22:44:08} Server resource allocation failed, group:000000000000232b subgroup:Pirates1SW requested:1
+{22:44:11} Server resource allocation failed, group:0000000000002329 subgroup:Miners1SW requested:1
+{22:44:12} System:5(Oluf) Body:14 Pos:(-1.04225e+008,-8340.24,8.9319e+007) 
+{22:44:13} ILeftSession(3): 0x000004e718a94d68: 24.134.52.95:51585 x 162 (192.168.100.10:51585) Name Unknown
+{22:44:13} ILeftSession(3): 0x000004e721db529c: 24.134.52.95:51585 x 34 (192.168.100.10:51585) Name Unknown
+{22:44:13}  LeftSession(6): 0x000004e721db529c: 54.75.169.51:19364 x 9 EDServer#299
+{22:44:13} Machine 54.75.169.51:19364 x 7 EDServer#299 disconnected: ServerLink::~
+{22:44:13} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.02
+{22:44:13} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.02
+{22:44:13} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.02
+{22:44:13} System:5(Oluf) Body:14 Pos:(-1.04226e+008,-14010.5,8.93204e+007) cruising
+{22:44:13} vvv------------ ISLAND 0x00000002 CLAIMED ------------vvv
+{22:44:13} ^^^------------ island 0x00000002 claimed ------------^^^
+{22:44:13} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e718a94f5d(+) (wake=0x000004e718a94f5e)
+FindBestIsland complete, 0x000004e718a94f5d best health=100.0
+
+{22:44:13} IJoinSession:Island: 0x000004e718a94f5d: 24.134.52.95:51585 x 47 (192.168.100.10:51585) Name Unknown
+{22:44:13} IJoinSession:Wake: 0x000004e718a94f5e: 24.134.52.95:51585 x 48 (192.168.100.10:51585) Name Unknown
+{22:44:13} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.04&Duration=0.11
+{22:44:13} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.04&Duration=0.13
+{22:44:13} Waiting for Authority Stability on 3 objects
+{22:44:13} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.17&Duration=0.00
+{22:44:13} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.04&Duration=0.17
+{22:44:14} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.17&Duration=0.27
+{22:44:15} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=1.53
+{22:44:43} Machine going:54.75.169.51:19364 x 0 EDServer#299 srtt=206
+{22:47:12} ILeftSession(3): 0x000004e718a94f5d: 24.134.52.95:51585 x 217 (192.168.100.10:51585) Name Unknown
+{22:47:13} EnterLocation: Activity=WaitForEDServer&note=complete&Start=0.00&Duration=0.02
+{22:47:13} EnterLocation: Activity=PreviousLocationShutdown&note=complete&Start=0.00&Duration=0.02
+{22:47:13} EnterLocation: Activity=DestinationLocationFailure&note=complete&Start=0.00&Duration=0.02
+{22:47:13} System:5(Oluf) Body:60 Pos:(9515.43,-18959.8,603.465) 
+{22:47:13} vvv------------ ISLAND 0x00000003 CLAIMED ------------vvv
+{22:47:13} ^^^------------ island 0x00000003 claimed ------------^^^
+{22:47:13} FindBestIsland:Bozan:18446744073709551615
+None found - create new 0x000004e718ab351b(-) (wake=0x000004e718ab351c)
+FindBestIsland complete, 0x000004e718ab351b best health=100.0
+
+{22:47:13} IJoinSession:Island: 0x000004e718ab351b: 24.134.52.95:51585 x 98 (192.168.100.10:51585) Name Unknown
+{22:47:13} IJoinSession:Wake: 0x000004e718ab351c: 24.134.52.95:51585 x 99 (192.168.100.10:51585) Name Unknown
+{22:47:13} EnterLocation: Activity=CreatePointOfFocus&note=complete&Start=0.05&Duration=0.10
+{22:47:13} EnterLocation: Activity=UpdateSkyBox&note=complete&Start=0.05&Duration=0.12
+{22:47:13} Waiting for Authority Stability on 1 objects
+{22:47:13} EnterLocation: Activity=WaitForRemoteMachines&note=complete&Start=0.17&Duration=0.00
+{22:47:13} System:5(Oluf) Body:60 Pos:(9375.52,-18691.7,1511.61) 
+{22:47:13} EnterLocation: Activity=CreatePlayerShip&note=complete&Start=0.17&Duration=0.23
+{22:47:16} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:47:19} Took over 0.000000 seconds waiting for
+[ 1 ] Shared Objects that still are not live
+ Coriolis 0x00000000c0286000 State=AwaitingReadyToGoLive
+Carrying on bravely in the hope that nothing breaks
+{22:47:20} EnterLocation: Activity=CreateLocationObjects&note=complete&Start=0.05&Duration=6.86
+{22:47:21} EnterLocation: Activity=EnterLocationFinalStep&note=aborted&Start=0.00&Duration=7.98
+{22:47:21} System:5(Oluf) Body:60 Pos:(9509.38,-18952.1,601.949) 
+{22:47:21} System:5(Oluf) Body:60 Pos:(7937.06,-15571.1,480.522) 
+{22:47:21} System:5(Oluf) Body:60 Pos:(6410.79,-12289,362.652) 
+{22:47:21} System:5(Oluf) Body:60 Pos:(5136.74,-9549.36,264.261) 
+{22:47:30} System:5(Oluf) Body:60 Pos:(3871.69,-6829.04,166.566) 
+{22:47:32} Dock Permission Received on pad 5
+{22:47:32} Viper_0x000004e721de246e Attempting to spawn docked but pad not in correct state, poking it
+{22:47:35} Viper_0x000004e721de246e Attempting to spawn docked but pad not in correct state, poking it
+{22:47:37} Viper_0x000004e721de246e Attempting to spawn docked but pad not in correct state, poking it
+{22:47:40} Viper_0x000004e721de246e Attempting to spawn docked but pad not in correct state, poking it
+{22:47:40} System:5(Oluf) Body:60 Pos:(2477.63,-4187.16,-175.493) 
+{22:47:42} Viper_0x000004e721de246e Attempting to spawn docked but pad not in correct state, poking it
+{22:47:45} Viper_0x000004e721de246e Attempting to spawn docked but pad not in correct state, poking it
+{22:47:46} We (Viper_0x000004e721de246e) own pad 5 but it's state disagrees, remind it
+{22:47:48} Dock Permission Received on pad 38
+{22:47:49} We (Orca_0x000004e721de242c) own pad 38 but it's state disagrees, remind it
+{22:47:49} System:5(Oluf) Body:60 Pos:(1410.57,-1867.3,1408.83) 
+{22:48:00} System:5(Oluf) Body:60 Pos:(878.52,956.002,2279.19) 
+{22:48:05} 2 machines overdue: 
+{22:48:22} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_5 requested:1
+{22:48:22} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{22:48:22} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{22:48:37} System:5(Oluf) Body:60 Pos:(1439.21,2844.24,15.9652) 
+{22:48:42} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{22:48:45} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_4 requested:1
+{22:48:51} Dock Permission Received on pad 13
+{22:48:52} We (Viper_0x000004e721de23e9) own pad 13 but it's state disagrees, remind it
+{22:48:56} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_2 requested:1
+{22:49:01} Dock Permission Received on pad 27
+{22:49:02} We (SideWinder_0x000004e721de251d) own pad 27 but it's state disagrees, remind it
+{22:49:03} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{22:49:15} ILeftSession(3): 0x000004e718a94d69: 24.134.52.95:51585 x 182 (192.168.100.10:51585) Name Unknown
+{22:49:19} System:5(Oluf) Body:60 Pos:(-354.639,455.741,-299.331) 
+{22:49:22} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_5 requested:1
+{22:49:22} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{22:49:22} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{22:49:45} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_4 requested:1
+{22:50:03} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_1 requested:1
+{22:50:22} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_5 requested:1
+{22:50:23} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_0 requested:1
+{22:50:23} Server resource allocation failed, group:00000000c0286000 subgroup:PatrolTraffic_2 requested:1
+{22:50:43} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_3 requested:1
+{22:50:44} Ship Viper_0x000004e721de246e clearing docking state
+{22:50:45} Server resource allocation failed, group:00000000c0286000 subgroup:AmbientTraffic_4 requested:1
+{22:50:51} ILeftSession(3): 0x000004e718ab351b: 24.134.52.95:51585 x 212 (192.168.100.10:51585) Name Unknown
+{22:50:51} ILeftSession(3): 0x000004e718a94f5e: 24.134.52.95:51585 x 210 (192.168.100.10:51585) Name Unknown
+{22:50:51} ILeftSession(3): 0x000004e718ab351c: 24.134.52.95:51585 x 209 (192.168.100.10:51585) Name Unknown
+{22:50:52} Server resource allocation failed, group:00000000c0286001 subgroup:DockingBays requested:1
+{22:50:53} CANCEL:54.74.248.73:19364 x 6 EDServer#343|StartServerAdmin(authenticated) (rescue)|
+{22:50:53} ILeftSession(3): 0x000004e71e816258: 24.134.52.95:51585 x 4 (192.168.100.10:51585) Name Unknown
+{22:50:53}  LeftSession(6): 0x000004e71e816258: 54.74.248.73:19364 x 7 EDServer#343
+{22:50:53} ILeftSession(3): 0x000004e718a94d5e: 24.134.52.95:51585 x 3 (192.168.100.10:51585) Name Unknown
+{22:50:53}  LeftSession(6): 0x000004e718a94d5e: 54.170.104.110:19364 x 11 EDServer#352
+{22:50:56} ILeftSession(3): 0x000000024bd2ff0b: 24.134.52.95:51585 x 3 (192.168.100.10:51585) Name Unknown
+{22:50:56} Machine 24.134.52.95:51585 x 2 (192.168.100.10:51585) Name Unknown disconnected: shutdown
+{22:50:56} Machine 54.74.248.73:19364 x 6 EDServer#343 disconnected: shutdown
+{22:50:56} Machine 54.170.104.110:19364 x 7 EDServer#352 disconnected: shutdown
+{22:50:56} Machine going:0.0.0.0:0 x 0 DummyMachine srtt=1000
+{22:50:56} Machine going:24.134.52.95:51585 x 0 Name Unknown srtt=1000
+{22:50:56} Machine going:54.74.248.73:19364 x 0 EDServer#343 srtt=174
+{22:50:56} Machine going:54.170.104.110:19364 x 0 EDServer#352 srtt=338
+{22:50:56} Turn State: Deallocating
+{22:50:56} TURN Relay shutting down..
