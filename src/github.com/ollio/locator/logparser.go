@@ -18,28 +18,11 @@ type LogfileData struct {
 }
 
 func GetPlayer(path string) *Player {
-
 	fmt.Println("Parsing " + path)
 
-	/*
-		files, _ := ioutil.ReadDir(path)
-
-		for _, f := range files {
-			fmt.Println(f.Name())
-		}
-	*/
-
 	files, _ := filepath.Glob(path + "/netLog.*.log")
-
-	/*
-		for _, f := range files {
-			fmt.Println("File: ", f)
-		}
-	*/
-
 	var logfileData = parse(files[len(files) - 1])
 	//	fmt.Println("Last: ", files[len(files)-1])
-
 
 	player := new(Player)
 	player.Name = logfileData.PlayerName
