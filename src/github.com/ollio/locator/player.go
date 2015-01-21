@@ -1,4 +1,4 @@
-package locator
+package main
 
 type Player struct {
 	Name string
