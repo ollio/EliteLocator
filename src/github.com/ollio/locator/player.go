@@ -1,11 +1,11 @@
 package main
 
 type Player struct {
-	Name string
-	System string
-	LastUpdate string
-	Online bool
-	Health float64
+	Name string      	`json:"name"`
+	System string       `json:"system"`
+	LastUpdate string   `json:"lastUpdate"`
+	Online bool         `json:"online"`
+	Health float64      `json:"health"`
 }
 
 

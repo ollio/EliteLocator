@@ -2,20 +2,21 @@ package main
 
 import (
 	"os"
-	"fmt"
+	"log"
+	"time"
 )
 
 func main() {
-	fmt.Printf("Elite Locator \n")
+	log.Println("Elite Locator")
 
-	var player = GetPlayer(logPath())
+	logpath := logPath()
 
+	for {
+		var player = GetPlayer(logpath)
+		PostPlayer(player)
 
-	fmt.Println("Player: ", player.Name)
-	fmt.Println("System: ", player.System)
-	fmt.Println("Online: ", player.Online)
-	fmt.Println("Health: ", player.Health)
-
+		time.Sleep(1*time.Minute)
+	}
 }
 
 func logPath() string {

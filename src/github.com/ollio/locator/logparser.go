@@ -2,7 +2,6 @@ package main
 
 import (
 	"os"
-	"fmt"
 	"log"
 	"time"
 	"bufio"
@@ -13,7 +12,7 @@ import (
 )
 
 func GetPlayer(path string) *Player {
-	fmt.Println("Parsing " + path)
+	log.Println("Parsing " + path)
 
 	files, _ := filepath.Glob(path + "/netLog.*.log")
 	return parse(files[len(files) - 1])
