@@ -1,4 +1,4 @@
 #!/bin/bash
-export GOPATH=/C/IdeaProjects/EliteLocator
+export GOPATH=/C/IdeaProjects/EliteLocatorClient
 rm bin/*
 go install github.com/ollio/locator/

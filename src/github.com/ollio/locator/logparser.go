@@ -9,29 +9,18 @@ import (
 	"path/filepath"
 	"regexp"
 	"strings"
+	"strconv"
 )
-
-type LogfileData struct {
-	LogDate    time.Time
-	PlayerName string
-	System     string
-}
 
 func GetPlayer(path string) *Player {
 	fmt.Println("Parsing " + path)
 
 	files, _ := filepath.Glob(path + "/netLog.*.log")
-	var logfileData = parse(files[len(files) - 1])
+	return parse(files[len(files) - 1])
 	//	fmt.Println("Last: ", files[len(files)-1])
-
-	player := new(Player)
-	player.Name = logfileData.PlayerName
-	player.System = logfileData.System
-
-	return player
 }
 
-func parse(fileName string) *LogfileData {
+func parse(fileName string) *Player {
 	file, err := os.Open(fileName)
 
 	if err != nil {
@@ -41,26 +30,39 @@ func parse(fileName string) *LogfileData {
 
 	scanner := bufio.NewScanner(file)
 	var lineNumeber uint32
-	ld := new(LogfileData)
+
+	p := new(Player)
+	p.Online = true
+
+//	logDate := new(time.Time)
+
 	reSystem := regexp.MustCompile("^.*\\sSystem:[0-9].(.*)\\)\\sBody.*$")
 	reFindBestIsland := regexp.MustCompile("^.*\\sFindBestIsland:(.*):.*$")
+	reFindHealth := regexp.MustCompile("^.*\\shealth=([0-9\\.]*).*$")
 
 	for scanner.Scan() {
 		//		fmt.Printf("%d : %s \n", lineNumeber, scanner.Text())
 
 		line := scanner.Text()
 		if lineNumeber == 0 {
-			ld.LogDate = getDate(line)
+//			logDate := getDate(line)
 		} else if strings.Contains(line, "System") {
 			match := reSystem.FindStringSubmatch(line)
 			if len(match) > 1 {
-				ld.System = match[1]
+				p.System = match[1]
 			}
 		} else if strings.Contains(line, "FindBestIsland") {
 			match := reFindBestIsland.FindStringSubmatch(line)
 			if len(match) > 1 {
-				ld.PlayerName = match[1]
+				p.Name = match[1]
 			}
+
+			match2 := reFindHealth.FindStringSubmatch(line)
+			if len(match2) > 1 {
+				p.Health, err = strconv.ParseFloat(match2[1], 32)
+			}
+		} else if strings.Contains(line, "shutting down") {
+			p.Online = false
 		}
 
 		lineNumeber++
@@ -70,7 +72,7 @@ func parse(fileName string) *LogfileData {
 		log.Fatal(err)
 	}
 
-	return ld
+	return p
 }
 
 func getDate(line string) time.Time {

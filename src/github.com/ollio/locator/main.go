@@ -11,7 +11,10 @@ func main() {
 	var player = GetPlayer(logPath())
 
 
-	fmt.Printf("Player: " + player.Name + " in system: " + player.System)
+	fmt.Println("Player: ", player.Name)
+	fmt.Println("System: ", player.System)
+	fmt.Println("Online: ", player.Online)
+	fmt.Println("Health: ", player.Health)
 
 }
 
