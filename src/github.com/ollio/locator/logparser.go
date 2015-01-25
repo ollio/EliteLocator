@@ -35,8 +35,8 @@ func parse(fileName string) *Player {
 
 //	logDate := new(time.Time)
 
-	reSystem := regexp.MustCompile("^.*\\sSystem:[0-9].(.*)\\)\\sBody.*$")
-	reFindBestIsland := regexp.MustCompile("^.*\\sFindBestIsland:(.*):.*$")
+	reSystem := regexp.MustCompile("^.*\\sSystem:\\d+\\((.*)\\)\\sBody.*$")
+	reFindBestIsland := regexp.MustCompile("^.*\\sFindBestIsland:(FRESH:)?(.*):.*$")
 	reFindHealth := regexp.MustCompile("^.*\\shealth=([0-9\\.]*).*$")
 
 	for scanner.Scan() {
@@ -46,14 +46,18 @@ func parse(fileName string) *Player {
 		if lineNumeber == 0 {
 //			logDate := getDate(line)
 		} else if strings.Contains(line, "System") {
+			// "cruising" -> SuperCruse
 			match := reSystem.FindStringSubmatch(line)
 			if len(match) > 1 {
 				p.System = match[1]
 			}
 		} else if strings.Contains(line, "FindBestIsland") {
+			// FindBestIsland:FRESH:Bozan:18446744073709551615
+			// "FRESH" -> Respawn
+			// "id" -> current id
 			match := reFindBestIsland.FindStringSubmatch(line)
-			if len(match) > 1 {
-				p.Name = match[1]
+			if len(match) > 2 {
+				p.Name = match[2]
 			}
 
 			match2 := reFindHealth.FindStringSubmatch(line)

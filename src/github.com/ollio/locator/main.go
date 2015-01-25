@@ -15,7 +15,7 @@ func main() {
 		var player = GetPlayer(logpath)
 		PostPlayer(player)
 
-		time.Sleep(1*time.Minute)
+		time.Sleep(30*time.Second)
 	}
 }
 
