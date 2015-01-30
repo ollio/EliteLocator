@@ -24,11 +24,24 @@ func patchAppConfig() {
 	}
 
 	reNetwork := regexp.MustCompile("(<Network[\\s\\S]*?<\\/Network>)")
-
 	index := reNetwork.FindStringSubmatchIndex(string(b))
+
+	if len(index) <=1 {
+		reNetwork := regexp.MustCompile("(<Network[\\s\\S]*?\\/>)")
+		index = reNetwork.FindStringSubmatchIndex(string(b))
+
+		if len(index) <=1 {
+			log.Fatal("AppConfig.xml is wrong!")
+		}
+	}
 
 	begin:=b[:index[0]]
 	end:=b[index[1]:]
+
+/*
+	log.Println("Begin: " + string(begin))
+	log.Println("End: " + string(end))
+*/
 
 	// open output file
 	fo, err := os.Create("AppConfig.xml")
@@ -50,7 +63,5 @@ func patchAppConfig() {
 	if err = w.Flush(); err != nil {
 		log.Fatal(err)
 	}
-
-
 }
 
