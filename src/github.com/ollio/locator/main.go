@@ -9,6 +9,8 @@ import (
 func main() {
 	log.Println("Elite Locator")
 
+	patchAppConfig()
+
 	logpath := logPath()
 
 	for {

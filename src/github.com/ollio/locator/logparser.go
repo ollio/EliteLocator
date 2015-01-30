@@ -12,6 +12,8 @@ import (
 )
 
 func GetPlayer(path string) *Player {
+
+
 	log.Println("Parsing " + path)
 
 	files, _ := filepath.Glob(path + "/netLog.*.log")
