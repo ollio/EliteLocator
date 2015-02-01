@@ -34,7 +34,7 @@ func parse(fileName string) *Player {
 //	logDate := new(time.Time)
 
 	reSystem := regexp.MustCompile("^.*\\sSystem:\\d+\\((.*)\\)\\sBody.*$")
-	reFindBestIsland := regexp.MustCompile("^.*\\sFindBestIsland:(FRESH:)?(.*):.*$")
+	reFindBestIsland := regexp.MustCompile("^.*\\sFindBestIsland:(FRESH:)?(.*):(.*)$")
 	reFindHealth := regexp.MustCompile("^.*\\shealth=([0-9\\.]*).*$")
 
 	for scanner.Scan() {
@@ -50,20 +50,28 @@ func parse(fileName string) *Player {
 				p.System = match[1]
 			}
 		} else if strings.Contains(line, "FindBestIsland") {
-			// FindBestIsland:FRESH:Bozan:18446744073709551615
+			// FindBestIsland:FRESH:Bozan:18446744073709551615 << Channel of Player with ID
 			// "FRESH" -> Respawn
 			// "id" -> current id
 			match := reFindBestIsland.FindStringSubmatch(line)
-			if len(match) > 2 {
+			switch len(match) {
+			case 3:
 				p.Name = match[2]
-			}
-
-			match2 := reFindHealth.FindStringSubmatch(line)
-			if len(match2) > 1 {
-				p.Health, err = strconv.ParseFloat(match2[1], 32)
+				break;
+			case 4:
+				p.Name = match[2]
+				p.Channel = match[3]
+				break;
+			default:
+				match2 := reFindHealth.FindStringSubmatch(line)
+				if len(match2) > 1 {
+					p.Health, err = strconv.ParseFloat(match2[1], 32)
+				}
 			}
 		} else if strings.Contains(line, "shutting down") {
 			p.Online = false
+		} else if strings.Contains(line, "<data>") {
+			p.Data = line
 		}
 
 		lineNumeber++

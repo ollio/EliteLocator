@@ -8,10 +8,11 @@ import (
 
 func PostPlayer(player *Player) {
 	url := "http://elitelocator.herokuapp.com/locate/player/"
+//	url := "http://localhost:8080/locate/player/"
 //	log.Println("URL: ", url)
 
 	json, _ := json.Marshal(player)
-	log.Println("json: " + string(json))
+//	log.Println("json: " + string(json))
 
 	request := gorequest.New()
 	_, _, errs := request.Post(url).

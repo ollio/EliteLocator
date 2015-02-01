@@ -18,9 +18,10 @@ func main() {
 	for {
 		var updated = GetPlayer(logpath)
 
-		if !compare(player, updated) {
+		if !equals(player, updated) && len(updated.Name) > 0 {
 			player = updated
 			PostPlayer(player)
+			log.Println("update sent for "+player.Name + " -> " + player.System)
 		}
 
 		time.Sleep(30*time.Second)
@@ -34,7 +35,7 @@ func logPath() string {
 	return "logs"
 }
 
-func compare(a, b *Player) bool {
+func equals(a, b *Player) bool {
 	if &a == &b {
 		return true
 	}
@@ -48,6 +49,12 @@ func compare(a, b *Player) bool {
 		return false
 	}
 	if a.Online != b.Online {
+		return false
+	}
+	if a.Channel != b.Channel {
+		return false
+	}
+	if a.Data != b.Data {
 		return false
 	}
 	return true
