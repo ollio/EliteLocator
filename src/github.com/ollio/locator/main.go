@@ -7,9 +7,9 @@ import (
 )
 
 func main() {
-	log.Println("Elite Locator")
+	log.Println("Elite Locator v1.01")
 
-	patchAppConfig()
+//	patchAppConfig()
 
 	logpath := logPath()
 
@@ -22,6 +22,9 @@ func main() {
 			player = updated
 			PostPlayer(player)
 			log.Println("update sent for "+player.Name + " -> " + player.System)
+//			log.Println("Entry Date: " + player.UserData.EntryDate)
+//			log.Println("Entry Data: " + player.UserData.Data)
+//			log.Println("Entry Data: " + player.LogDate)
 		}
 
 		time.Sleep(30*time.Second)
@@ -54,7 +57,7 @@ func equals(a, b *Player) bool {
 	if a.Channel != b.Channel {
 		return false
 	}
-	if a.Data != b.Data {
+	if a.UserData.EntryTime != b.UserData.EntryTime {
 		return false
 	}
 	return true

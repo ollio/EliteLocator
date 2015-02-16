@@ -3,7 +3,6 @@ package main
 import (
 	"os"
 	"log"
-	"time"
 	"bufio"
 	"path/filepath"
 	"regexp"
@@ -36,13 +35,14 @@ func parse(fileName string) *Player {
 	reSystem := regexp.MustCompile("^.*\\sSystem:\\d+\\((.*)\\)\\sBody.*$")
 	reFindBestIsland := regexp.MustCompile("^.*\\sFindBestIsland:(FRESH:)?(.*):(.*)$")
 	reFindHealth := regexp.MustCompile("^.*\\shealth=([0-9\\.]*).*$")
+	reEntryTime := regexp.MustCompile("^\\{(\\d{2}:\\d{2}:\\d{2})\\}\\s.*$")
 
 	for scanner.Scan() {
 		//		fmt.Printf("%d : %s \n", lineNumeber, scanner.Text())
 
 		line := scanner.Text()
 		if lineNumeber == 0 {
-//			logDate := getDate(line)
+			p.LogDate = getDate(line)
 		} else if strings.Contains(line, "System") {
 			// "cruising" -> SuperCruse
 			match := reSystem.FindStringSubmatch(line)
@@ -70,8 +70,13 @@ func parse(fileName string) *Player {
 			}
 		} else if strings.Contains(line, "shutting down") {
 			p.Online = false
-		} else if strings.Contains(line, "<data>") {
-			p.Data = line
+		} else if strings.Contains(line, "<data><users>") {
+			p.UserData.Data = line
+		} else if strings.Contains(line, "FriendsRequest") {
+			match := reEntryTime.FindStringSubmatch(line)
+			if len(match) > 1 {
+				p.UserData.EntryTime = match[1]
+			}
 		}
 
 		lineNumeber++
@@ -84,13 +89,13 @@ func parse(fileName string) *Player {
 	return p
 }
 
-func getDate(line string) time.Time {
-	const layout = "06-01-02-15:04"
-	date, err := time.Parse(layout, line[:14])
-	if err != nil {
-		log.Fatal(err)
+func getDate(line string) string {
+	reLogDate := regexp.MustCompile("^(\\d{2}-\\d{2}-\\d{2}-\\d{2}:\\d{2})\\s.*$")
+	match := reLogDate.FindStringSubmatch(line)
+	if len(match) > 1 {
+		return match[1]
 	}
-	return date
+	return ""
 }
 
 

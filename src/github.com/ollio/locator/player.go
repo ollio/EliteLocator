@@ -6,7 +6,8 @@ type Player struct {
 	Online bool         `json:"online"`
 	Health float64      `json:"health"`
 	Channel string 	    `json:"channel"`
-	Data string 	    `json:"data"`
+	UserData UserData   `json:"userData"`
+	LogDate string      `json:"logDate"`
 }
 
 
