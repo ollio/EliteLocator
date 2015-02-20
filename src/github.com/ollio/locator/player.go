@@ -8,6 +8,7 @@ type Player struct {
 	Channel string 	    `json:"channel"`
 	UserData UserData   `json:"userData"`
 	LogDate string      `json:"logDate"`
+	Version string		`json:"clientVersion"`
 }
 
 

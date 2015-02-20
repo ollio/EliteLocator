@@ -12,8 +12,11 @@ import (
 
 func GetPlayer(path string) *Player {
 	files, _ := filepath.Glob(path + "/netLog.*.log")
-	return parse(files[len(files) - 1])
-	//	fmt.Println("Last: ", files[len(files)-1])
+	if(len(files) > 0) {
+		return parse(files[len(files) - 1])
+	}
+	log.Println("No Logfiles found !")
+	return nil
 }
 
 func parse(fileName string) *Player {
@@ -29,6 +32,7 @@ func parse(fileName string) *Player {
 
 	p := new(Player)
 	p.Online = true
+	p.Version = VERSION
 
 //	logDate := new(time.Time)
 

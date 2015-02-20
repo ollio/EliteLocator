@@ -17,8 +17,8 @@ const network =
 		VerboseLogging="1"
 	/>`
 
-func patchAppConfig() {
-	b, err := ioutil.ReadFile("AppConfig.xml")
+func patchAppConfig(path string) {
+	b, err := ioutil.ReadFile(path + "/AppConfig.xml")
 	if err != nil {
 		log.Fatal(err)
 	}
