@@ -18,7 +18,9 @@ const network =
 	/>`
 
 func patchAppConfig(path string) {
-	b, err := ioutil.ReadFile(path + "/AppConfig.xml")
+	appConfig := path + "/AppConfig.xml"
+
+	b, err := ioutil.ReadFile(appConfig)
 	if err != nil {
 		log.Fatal(err)
 	}
@@ -44,7 +46,7 @@ func patchAppConfig(path string) {
 */
 
 	// open output file
-	fo, err := os.Create("AppConfig.xml")
+	fo, err := os.Create(appConfig)
 	if err != nil {
 		log.Fatal(err)
 	}

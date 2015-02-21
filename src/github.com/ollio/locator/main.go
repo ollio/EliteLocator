@@ -7,7 +7,7 @@ import (
 	"path/filepath"
 )
 
-const VERSION = "v1.02"
+const VERSION = "v1.03"
 
 func main() {
 	log.Println("Elite Locator " + VERSION)
