@@ -25,4 +25,19 @@ func PostPlayer(player *Player) {
 	}
 }
 
+func PostCommoditiesReport(commodities *OcrResult) {
+	url := "http://elitelocator.herokuapp.com/commodities/"
+
+	request := gorequest.New()
+	_, _, errs := request.Post(url).
+	Set("Content-Type","text/xml").
+	// Evtl. Player Name / System
+	Send(commodities).
+	End()
+
+	if errs != nil {
+		log.Println(errs)
+	}
+}
+
 

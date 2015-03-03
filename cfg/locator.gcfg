@@ -1,0 +1,11 @@
+; Comment line
+[EliteDangerous]
+path = e:/Games/Elite          # Elite Dangerous Path
+lang = ger                     # Elite Language (ger/eng)
+
+[EliteOCR]
+enable                         # remove or comment to disable
+path = E:/Games/Elite_OCR      # EliteOCR Path
+; screenShotPath = C:/Users/bozan/Pictures/Frontier Developments/Elite Dangerous
+
+
